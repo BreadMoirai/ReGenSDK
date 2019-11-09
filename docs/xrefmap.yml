@@ -1,0 +1,2045 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: ReGenSDK
+  name: ReGenSDK
+  href: api/ReGenSDK.html
+  commentId: N:ReGenSDK
+  fullName: ReGenSDK
+  nameWithType: ReGenSDK
+- uid: ReGenSDK.Exceptions
+  name: ReGenSDK.Exceptions
+  href: api/ReGenSDK.Exceptions.html
+  commentId: N:ReGenSDK.Exceptions
+  fullName: ReGenSDK.Exceptions
+  nameWithType: ReGenSDK.Exceptions
+- uid: ReGenSDK.Exceptions.RegenApiException
+  name: RegenApiException
+  href: api/ReGenSDK.Exceptions.RegenApiException.html
+  commentId: T:ReGenSDK.Exceptions.RegenApiException
+  fullName: ReGenSDK.Exceptions.RegenApiException
+  nameWithType: RegenApiException
+- uid: ReGenSDK.Exceptions.RegenApiException.#ctor
+  name: RegenApiException()
+  href: api/ReGenSDK.Exceptions.RegenApiException.html#ReGenSDK_Exceptions_RegenApiException__ctor
+  commentId: M:ReGenSDK.Exceptions.RegenApiException.#ctor
+  fullName: ReGenSDK.Exceptions.RegenApiException.RegenApiException()
+  nameWithType: RegenApiException.RegenApiException()
+- uid: ReGenSDK.Exceptions.RegenApiException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: RegenApiException(SerializationInfo, StreamingContext)
+  href: api/ReGenSDK.Exceptions.RegenApiException.html#ReGenSDK_Exceptions_RegenApiException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:ReGenSDK.Exceptions.RegenApiException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: ReGenSDK.Exceptions.RegenApiException.RegenApiException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: RegenApiException.RegenApiException(SerializationInfo, StreamingContext)
+- uid: ReGenSDK.Exceptions.RegenApiException.#ctor(System.String)
+  name: RegenApiException(String)
+  href: api/ReGenSDK.Exceptions.RegenApiException.html#ReGenSDK_Exceptions_RegenApiException__ctor_System_String_
+  commentId: M:ReGenSDK.Exceptions.RegenApiException.#ctor(System.String)
+  fullName: ReGenSDK.Exceptions.RegenApiException.RegenApiException(System.String)
+  nameWithType: RegenApiException.RegenApiException(String)
+- uid: ReGenSDK.Exceptions.RegenApiException.#ctor(System.String,System.Exception)
+  name: RegenApiException(String, Exception)
+  href: api/ReGenSDK.Exceptions.RegenApiException.html#ReGenSDK_Exceptions_RegenApiException__ctor_System_String_System_Exception_
+  commentId: M:ReGenSDK.Exceptions.RegenApiException.#ctor(System.String,System.Exception)
+  fullName: ReGenSDK.Exceptions.RegenApiException.RegenApiException(System.String, System.Exception)
+  nameWithType: RegenApiException.RegenApiException(String, Exception)
+- uid: ReGenSDK.Exceptions.RegenApiException.#ctor*
+  name: RegenApiException
+  href: api/ReGenSDK.Exceptions.RegenApiException.html#ReGenSDK_Exceptions_RegenApiException__ctor_
+  commentId: Overload:ReGenSDK.Exceptions.RegenApiException.#ctor
+  isSpec: "True"
+  fullName: ReGenSDK.Exceptions.RegenApiException.RegenApiException
+  nameWithType: RegenApiException.RegenApiException
+- uid: ReGenSDK.Exceptions.RegenAuthenticationException
+  name: RegenAuthenticationException
+  href: api/ReGenSDK.Exceptions.RegenAuthenticationException.html
+  commentId: T:ReGenSDK.Exceptions.RegenAuthenticationException
+  fullName: ReGenSDK.Exceptions.RegenAuthenticationException
+  nameWithType: RegenAuthenticationException
+- uid: ReGenSDK.Exceptions.RegenAuthenticationException.#ctor
+  name: RegenAuthenticationException()
+  href: api/ReGenSDK.Exceptions.RegenAuthenticationException.html#ReGenSDK_Exceptions_RegenAuthenticationException__ctor
+  commentId: M:ReGenSDK.Exceptions.RegenAuthenticationException.#ctor
+  fullName: ReGenSDK.Exceptions.RegenAuthenticationException.RegenAuthenticationException()
+  nameWithType: RegenAuthenticationException.RegenAuthenticationException()
+- uid: ReGenSDK.Exceptions.RegenAuthenticationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: RegenAuthenticationException(SerializationInfo, StreamingContext)
+  href: api/ReGenSDK.Exceptions.RegenAuthenticationException.html#ReGenSDK_Exceptions_RegenAuthenticationException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:ReGenSDK.Exceptions.RegenAuthenticationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: ReGenSDK.Exceptions.RegenAuthenticationException.RegenAuthenticationException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: RegenAuthenticationException.RegenAuthenticationException(SerializationInfo, StreamingContext)
+- uid: ReGenSDK.Exceptions.RegenAuthenticationException.#ctor(System.String)
+  name: RegenAuthenticationException(String)
+  href: api/ReGenSDK.Exceptions.RegenAuthenticationException.html#ReGenSDK_Exceptions_RegenAuthenticationException__ctor_System_String_
+  commentId: M:ReGenSDK.Exceptions.RegenAuthenticationException.#ctor(System.String)
+  fullName: ReGenSDK.Exceptions.RegenAuthenticationException.RegenAuthenticationException(System.String)
+  nameWithType: RegenAuthenticationException.RegenAuthenticationException(String)
+- uid: ReGenSDK.Exceptions.RegenAuthenticationException.#ctor(System.String,System.Exception)
+  name: RegenAuthenticationException(String, Exception)
+  href: api/ReGenSDK.Exceptions.RegenAuthenticationException.html#ReGenSDK_Exceptions_RegenAuthenticationException__ctor_System_String_System_Exception_
+  commentId: M:ReGenSDK.Exceptions.RegenAuthenticationException.#ctor(System.String,System.Exception)
+  fullName: ReGenSDK.Exceptions.RegenAuthenticationException.RegenAuthenticationException(System.String, System.Exception)
+  nameWithType: RegenAuthenticationException.RegenAuthenticationException(String, Exception)
+- uid: ReGenSDK.Exceptions.RegenAuthenticationException.#ctor*
+  name: RegenAuthenticationException
+  href: api/ReGenSDK.Exceptions.RegenAuthenticationException.html#ReGenSDK_Exceptions_RegenAuthenticationException__ctor_
+  commentId: Overload:ReGenSDK.Exceptions.RegenAuthenticationException.#ctor
+  isSpec: "True"
+  fullName: ReGenSDK.Exceptions.RegenAuthenticationException.RegenAuthenticationException
+  nameWithType: RegenAuthenticationException.RegenAuthenticationException
+- uid: ReGenSDK.Exceptions.RegenException
+  name: RegenException
+  href: api/ReGenSDK.Exceptions.RegenException.html
+  commentId: T:ReGenSDK.Exceptions.RegenException
+  fullName: ReGenSDK.Exceptions.RegenException
+  nameWithType: RegenException
+- uid: ReGenSDK.Exceptions.RegenException.#ctor
+  name: RegenException()
+  href: api/ReGenSDK.Exceptions.RegenException.html#ReGenSDK_Exceptions_RegenException__ctor
+  commentId: M:ReGenSDK.Exceptions.RegenException.#ctor
+  fullName: ReGenSDK.Exceptions.RegenException.RegenException()
+  nameWithType: RegenException.RegenException()
+- uid: ReGenSDK.Exceptions.RegenException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: RegenException(SerializationInfo, StreamingContext)
+  href: api/ReGenSDK.Exceptions.RegenException.html#ReGenSDK_Exceptions_RegenException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:ReGenSDK.Exceptions.RegenException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: ReGenSDK.Exceptions.RegenException.RegenException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: RegenException.RegenException(SerializationInfo, StreamingContext)
+- uid: ReGenSDK.Exceptions.RegenException.#ctor(System.String)
+  name: RegenException(String)
+  href: api/ReGenSDK.Exceptions.RegenException.html#ReGenSDK_Exceptions_RegenException__ctor_System_String_
+  commentId: M:ReGenSDK.Exceptions.RegenException.#ctor(System.String)
+  fullName: ReGenSDK.Exceptions.RegenException.RegenException(System.String)
+  nameWithType: RegenException.RegenException(String)
+- uid: ReGenSDK.Exceptions.RegenException.#ctor(System.String,System.Exception)
+  name: RegenException(String, Exception)
+  href: api/ReGenSDK.Exceptions.RegenException.html#ReGenSDK_Exceptions_RegenException__ctor_System_String_System_Exception_
+  commentId: M:ReGenSDK.Exceptions.RegenException.#ctor(System.String,System.Exception)
+  fullName: ReGenSDK.Exceptions.RegenException.RegenException(System.String, System.Exception)
+  nameWithType: RegenException.RegenException(String, Exception)
+- uid: ReGenSDK.Exceptions.RegenException.#ctor*
+  name: RegenException
+  href: api/ReGenSDK.Exceptions.RegenException.html#ReGenSDK_Exceptions_RegenException__ctor_
+  commentId: Overload:ReGenSDK.Exceptions.RegenException.#ctor
+  isSpec: "True"
+  fullName: ReGenSDK.Exceptions.RegenException.RegenException
+  nameWithType: RegenException.RegenException
+- uid: ReGenSDK.Firebase
+  name: ReGenSDK.Firebase
+  href: api/ReGenSDK.Firebase.html
+  commentId: N:ReGenSDK.Firebase
+  fullName: ReGenSDK.Firebase
+  nameWithType: ReGenSDK.Firebase
+- uid: ReGenSDK.Firebase.AuthenticationService
+  name: AuthenticationService
+  href: api/ReGenSDK.Firebase.AuthenticationService.html
+  commentId: T:ReGenSDK.Firebase.AuthenticationService
+  fullName: ReGenSDK.Firebase.AuthenticationService
+  nameWithType: AuthenticationService
+- uid: ReGenSDK.Firebase.AuthenticationService.#ctor
+  name: AuthenticationService()
+  href: api/ReGenSDK.Firebase.AuthenticationService.html#ReGenSDK_Firebase_AuthenticationService__ctor
+  commentId: M:ReGenSDK.Firebase.AuthenticationService.#ctor
+  fullName: ReGenSDK.Firebase.AuthenticationService.AuthenticationService()
+  nameWithType: AuthenticationService.AuthenticationService()
+- uid: ReGenSDK.Firebase.AuthenticationService.#ctor*
+  name: AuthenticationService
+  href: api/ReGenSDK.Firebase.AuthenticationService.html#ReGenSDK_Firebase_AuthenticationService__ctor_
+  commentId: Overload:ReGenSDK.Firebase.AuthenticationService.#ctor
+  isSpec: "True"
+  fullName: ReGenSDK.Firebase.AuthenticationService.AuthenticationService
+  nameWithType: AuthenticationService.AuthenticationService
+- uid: ReGenSDK.Firebase.AuthenticationService.RegisterUserWithEmail(System.String,System.String)
+  name: RegisterUserWithEmail(String, String)
+  href: api/ReGenSDK.Firebase.AuthenticationService.html#ReGenSDK_Firebase_AuthenticationService_RegisterUserWithEmail_System_String_System_String_
+  commentId: M:ReGenSDK.Firebase.AuthenticationService.RegisterUserWithEmail(System.String,System.String)
+  fullName: ReGenSDK.Firebase.AuthenticationService.RegisterUserWithEmail(System.String, System.String)
+  nameWithType: AuthenticationService.RegisterUserWithEmail(String, String)
+- uid: ReGenSDK.Firebase.AuthenticationService.RegisterUserWithEmail*
+  name: RegisterUserWithEmail
+  href: api/ReGenSDK.Firebase.AuthenticationService.html#ReGenSDK_Firebase_AuthenticationService_RegisterUserWithEmail_
+  commentId: Overload:ReGenSDK.Firebase.AuthenticationService.RegisterUserWithEmail
+  isSpec: "True"
+  fullName: ReGenSDK.Firebase.AuthenticationService.RegisterUserWithEmail
+  nameWithType: AuthenticationService.RegisterUserWithEmail
+- uid: ReGenSDK.Firebase.AuthenticationService.SendRecoverPasswordEmail(System.String)
+  name: SendRecoverPasswordEmail(String)
+  href: api/ReGenSDK.Firebase.AuthenticationService.html#ReGenSDK_Firebase_AuthenticationService_SendRecoverPasswordEmail_System_String_
+  commentId: M:ReGenSDK.Firebase.AuthenticationService.SendRecoverPasswordEmail(System.String)
+  fullName: ReGenSDK.Firebase.AuthenticationService.SendRecoverPasswordEmail(System.String)
+  nameWithType: AuthenticationService.SendRecoverPasswordEmail(String)
+- uid: ReGenSDK.Firebase.AuthenticationService.SendRecoverPasswordEmail*
+  name: SendRecoverPasswordEmail
+  href: api/ReGenSDK.Firebase.AuthenticationService.html#ReGenSDK_Firebase_AuthenticationService_SendRecoverPasswordEmail_
+  commentId: Overload:ReGenSDK.Firebase.AuthenticationService.SendRecoverPasswordEmail
+  isSpec: "True"
+  fullName: ReGenSDK.Firebase.AuthenticationService.SendRecoverPasswordEmail
+  nameWithType: AuthenticationService.SendRecoverPasswordEmail
+- uid: ReGenSDK.Firebase.AuthenticationService.SignInUserWithEmail(System.String,System.String)
+  name: SignInUserWithEmail(String, String)
+  href: api/ReGenSDK.Firebase.AuthenticationService.html#ReGenSDK_Firebase_AuthenticationService_SignInUserWithEmail_System_String_System_String_
+  commentId: M:ReGenSDK.Firebase.AuthenticationService.SignInUserWithEmail(System.String,System.String)
+  fullName: ReGenSDK.Firebase.AuthenticationService.SignInUserWithEmail(System.String, System.String)
+  nameWithType: AuthenticationService.SignInUserWithEmail(String, String)
+- uid: ReGenSDK.Firebase.AuthenticationService.SignInUserWithEmail*
+  name: SignInUserWithEmail
+  href: api/ReGenSDK.Firebase.AuthenticationService.html#ReGenSDK_Firebase_AuthenticationService_SignInUserWithEmail_
+  commentId: Overload:ReGenSDK.Firebase.AuthenticationService.SignInUserWithEmail
+  isSpec: "True"
+  fullName: ReGenSDK.Firebase.AuthenticationService.SignInUserWithEmail
+  nameWithType: AuthenticationService.SignInUserWithEmail
+- uid: ReGenSDK.Firebase.AuthenticationService.SignInUserWithFacebook(System.String)
+  name: SignInUserWithFacebook(String)
+  href: api/ReGenSDK.Firebase.AuthenticationService.html#ReGenSDK_Firebase_AuthenticationService_SignInUserWithFacebook_System_String_
+  commentId: M:ReGenSDK.Firebase.AuthenticationService.SignInUserWithFacebook(System.String)
+  fullName: ReGenSDK.Firebase.AuthenticationService.SignInUserWithFacebook(System.String)
+  nameWithType: AuthenticationService.SignInUserWithFacebook(String)
+- uid: ReGenSDK.Firebase.AuthenticationService.SignInUserWithFacebook*
+  name: SignInUserWithFacebook
+  href: api/ReGenSDK.Firebase.AuthenticationService.html#ReGenSDK_Firebase_AuthenticationService_SignInUserWithFacebook_
+  commentId: Overload:ReGenSDK.Firebase.AuthenticationService.SignInUserWithFacebook
+  isSpec: "True"
+  fullName: ReGenSDK.Firebase.AuthenticationService.SignInUserWithFacebook
+  nameWithType: AuthenticationService.SignInUserWithFacebook
+- uid: ReGenSDK.Firebase.AuthenticationService.SignOut
+  name: SignOut()
+  href: api/ReGenSDK.Firebase.AuthenticationService.html#ReGenSDK_Firebase_AuthenticationService_SignOut
+  commentId: M:ReGenSDK.Firebase.AuthenticationService.SignOut
+  fullName: ReGenSDK.Firebase.AuthenticationService.SignOut()
+  nameWithType: AuthenticationService.SignOut()
+- uid: ReGenSDK.Firebase.AuthenticationService.SignOut*
+  name: SignOut
+  href: api/ReGenSDK.Firebase.AuthenticationService.html#ReGenSDK_Firebase_AuthenticationService_SignOut_
+  commentId: Overload:ReGenSDK.Firebase.AuthenticationService.SignOut
+  isSpec: "True"
+  fullName: ReGenSDK.Firebase.AuthenticationService.SignOut
+  nameWithType: AuthenticationService.SignOut
+- uid: ReGenSDK.Firebase.AuthenticationService.User
+  name: User
+  href: api/ReGenSDK.Firebase.AuthenticationService.html#ReGenSDK_Firebase_AuthenticationService_User
+  commentId: P:ReGenSDK.Firebase.AuthenticationService.User
+  fullName: ReGenSDK.Firebase.AuthenticationService.User
+  nameWithType: AuthenticationService.User
+- uid: ReGenSDK.Firebase.AuthenticationService.User*
+  name: User
+  href: api/ReGenSDK.Firebase.AuthenticationService.html#ReGenSDK_Firebase_AuthenticationService_User_
+  commentId: Overload:ReGenSDK.Firebase.AuthenticationService.User
+  isSpec: "True"
+  fullName: ReGenSDK.Firebase.AuthenticationService.User
+  nameWithType: AuthenticationService.User
+- uid: ReGenSDK.Firebase.IAuthenticationService
+  name: IAuthenticationService
+  href: api/ReGenSDK.Firebase.IAuthenticationService.html
+  commentId: T:ReGenSDK.Firebase.IAuthenticationService
+  fullName: ReGenSDK.Firebase.IAuthenticationService
+  nameWithType: IAuthenticationService
+- uid: ReGenSDK.Firebase.IAuthenticationService.RegisterUserWithEmail(System.String,System.String)
+  name: RegisterUserWithEmail(String, String)
+  href: api/ReGenSDK.Firebase.IAuthenticationService.html#ReGenSDK_Firebase_IAuthenticationService_RegisterUserWithEmail_System_String_System_String_
+  commentId: M:ReGenSDK.Firebase.IAuthenticationService.RegisterUserWithEmail(System.String,System.String)
+  fullName: ReGenSDK.Firebase.IAuthenticationService.RegisterUserWithEmail(System.String, System.String)
+  nameWithType: IAuthenticationService.RegisterUserWithEmail(String, String)
+- uid: ReGenSDK.Firebase.IAuthenticationService.RegisterUserWithEmail*
+  name: RegisterUserWithEmail
+  href: api/ReGenSDK.Firebase.IAuthenticationService.html#ReGenSDK_Firebase_IAuthenticationService_RegisterUserWithEmail_
+  commentId: Overload:ReGenSDK.Firebase.IAuthenticationService.RegisterUserWithEmail
+  isSpec: "True"
+  fullName: ReGenSDK.Firebase.IAuthenticationService.RegisterUserWithEmail
+  nameWithType: IAuthenticationService.RegisterUserWithEmail
+- uid: ReGenSDK.Firebase.IAuthenticationService.SendRecoverPasswordEmail(System.String)
+  name: SendRecoverPasswordEmail(String)
+  href: api/ReGenSDK.Firebase.IAuthenticationService.html#ReGenSDK_Firebase_IAuthenticationService_SendRecoverPasswordEmail_System_String_
+  commentId: M:ReGenSDK.Firebase.IAuthenticationService.SendRecoverPasswordEmail(System.String)
+  fullName: ReGenSDK.Firebase.IAuthenticationService.SendRecoverPasswordEmail(System.String)
+  nameWithType: IAuthenticationService.SendRecoverPasswordEmail(String)
+- uid: ReGenSDK.Firebase.IAuthenticationService.SendRecoverPasswordEmail*
+  name: SendRecoverPasswordEmail
+  href: api/ReGenSDK.Firebase.IAuthenticationService.html#ReGenSDK_Firebase_IAuthenticationService_SendRecoverPasswordEmail_
+  commentId: Overload:ReGenSDK.Firebase.IAuthenticationService.SendRecoverPasswordEmail
+  isSpec: "True"
+  fullName: ReGenSDK.Firebase.IAuthenticationService.SendRecoverPasswordEmail
+  nameWithType: IAuthenticationService.SendRecoverPasswordEmail
+- uid: ReGenSDK.Firebase.IAuthenticationService.SignInUserWithEmail(System.String,System.String)
+  name: SignInUserWithEmail(String, String)
+  href: api/ReGenSDK.Firebase.IAuthenticationService.html#ReGenSDK_Firebase_IAuthenticationService_SignInUserWithEmail_System_String_System_String_
+  commentId: M:ReGenSDK.Firebase.IAuthenticationService.SignInUserWithEmail(System.String,System.String)
+  fullName: ReGenSDK.Firebase.IAuthenticationService.SignInUserWithEmail(System.String, System.String)
+  nameWithType: IAuthenticationService.SignInUserWithEmail(String, String)
+- uid: ReGenSDK.Firebase.IAuthenticationService.SignInUserWithEmail*
+  name: SignInUserWithEmail
+  href: api/ReGenSDK.Firebase.IAuthenticationService.html#ReGenSDK_Firebase_IAuthenticationService_SignInUserWithEmail_
+  commentId: Overload:ReGenSDK.Firebase.IAuthenticationService.SignInUserWithEmail
+  isSpec: "True"
+  fullName: ReGenSDK.Firebase.IAuthenticationService.SignInUserWithEmail
+  nameWithType: IAuthenticationService.SignInUserWithEmail
+- uid: ReGenSDK.Firebase.IAuthenticationService.SignInUserWithFacebook(System.String)
+  name: SignInUserWithFacebook(String)
+  href: api/ReGenSDK.Firebase.IAuthenticationService.html#ReGenSDK_Firebase_IAuthenticationService_SignInUserWithFacebook_System_String_
+  commentId: M:ReGenSDK.Firebase.IAuthenticationService.SignInUserWithFacebook(System.String)
+  fullName: ReGenSDK.Firebase.IAuthenticationService.SignInUserWithFacebook(System.String)
+  nameWithType: IAuthenticationService.SignInUserWithFacebook(String)
+- uid: ReGenSDK.Firebase.IAuthenticationService.SignInUserWithFacebook*
+  name: SignInUserWithFacebook
+  href: api/ReGenSDK.Firebase.IAuthenticationService.html#ReGenSDK_Firebase_IAuthenticationService_SignInUserWithFacebook_
+  commentId: Overload:ReGenSDK.Firebase.IAuthenticationService.SignInUserWithFacebook
+  isSpec: "True"
+  fullName: ReGenSDK.Firebase.IAuthenticationService.SignInUserWithFacebook
+  nameWithType: IAuthenticationService.SignInUserWithFacebook
+- uid: ReGenSDK.Firebase.IAuthenticationService.SignOut
+  name: SignOut()
+  href: api/ReGenSDK.Firebase.IAuthenticationService.html#ReGenSDK_Firebase_IAuthenticationService_SignOut
+  commentId: M:ReGenSDK.Firebase.IAuthenticationService.SignOut
+  fullName: ReGenSDK.Firebase.IAuthenticationService.SignOut()
+  nameWithType: IAuthenticationService.SignOut()
+- uid: ReGenSDK.Firebase.IAuthenticationService.SignOut*
+  name: SignOut
+  href: api/ReGenSDK.Firebase.IAuthenticationService.html#ReGenSDK_Firebase_IAuthenticationService_SignOut_
+  commentId: Overload:ReGenSDK.Firebase.IAuthenticationService.SignOut
+  isSpec: "True"
+  fullName: ReGenSDK.Firebase.IAuthenticationService.SignOut
+  nameWithType: IAuthenticationService.SignOut
+- uid: ReGenSDK.Firebase.IAuthenticationService.User
+  name: User
+  href: api/ReGenSDK.Firebase.IAuthenticationService.html#ReGenSDK_Firebase_IAuthenticationService_User
+  commentId: P:ReGenSDK.Firebase.IAuthenticationService.User
+  fullName: ReGenSDK.Firebase.IAuthenticationService.User
+  nameWithType: IAuthenticationService.User
+- uid: ReGenSDK.Firebase.IAuthenticationService.User*
+  name: User
+  href: api/ReGenSDK.Firebase.IAuthenticationService.html#ReGenSDK_Firebase_IAuthenticationService_User_
+  commentId: Overload:ReGenSDK.Firebase.IAuthenticationService.User
+  isSpec: "True"
+  fullName: ReGenSDK.Firebase.IAuthenticationService.User
+  nameWithType: IAuthenticationService.User
+- uid: ReGenSDK.Model
+  name: ReGenSDK.Model
+  href: api/ReGenSDK.Model.html
+  commentId: N:ReGenSDK.Model
+  fullName: ReGenSDK.Model
+  nameWithType: ReGenSDK.Model
+- uid: ReGenSDK.Model.Ingredient
+  name: Ingredient
+  href: api/ReGenSDK.Model.Ingredient.html
+  commentId: T:ReGenSDK.Model.Ingredient
+  fullName: ReGenSDK.Model.Ingredient
+  nameWithType: Ingredient
+- uid: ReGenSDK.Model.Ingredient.IngredientAmount
+  name: IngredientAmount
+  href: api/ReGenSDK.Model.Ingredient.html#ReGenSDK_Model_Ingredient_IngredientAmount
+  commentId: P:ReGenSDK.Model.Ingredient.IngredientAmount
+  fullName: ReGenSDK.Model.Ingredient.IngredientAmount
+  nameWithType: Ingredient.IngredientAmount
+- uid: ReGenSDK.Model.Ingredient.IngredientAmount*
+  name: IngredientAmount
+  href: api/ReGenSDK.Model.Ingredient.html#ReGenSDK_Model_Ingredient_IngredientAmount_
+  commentId: Overload:ReGenSDK.Model.Ingredient.IngredientAmount
+  isSpec: "True"
+  fullName: ReGenSDK.Model.Ingredient.IngredientAmount
+  nameWithType: Ingredient.IngredientAmount
+- uid: ReGenSDK.Model.Ingredient.IngredientName
+  name: IngredientName
+  href: api/ReGenSDK.Model.Ingredient.html#ReGenSDK_Model_Ingredient_IngredientName
+  commentId: P:ReGenSDK.Model.Ingredient.IngredientName
+  fullName: ReGenSDK.Model.Ingredient.IngredientName
+  nameWithType: Ingredient.IngredientName
+- uid: ReGenSDK.Model.Ingredient.IngredientName*
+  name: IngredientName
+  href: api/ReGenSDK.Model.Ingredient.html#ReGenSDK_Model_Ingredient_IngredientName_
+  commentId: Overload:ReGenSDK.Model.Ingredient.IngredientName
+  isSpec: "True"
+  fullName: ReGenSDK.Model.Ingredient.IngredientName
+  nameWithType: Ingredient.IngredientName
+- uid: ReGenSDK.Model.Ingredient.ToString
+  name: ToString()
+  href: api/ReGenSDK.Model.Ingredient.html#ReGenSDK_Model_Ingredient_ToString
+  commentId: M:ReGenSDK.Model.Ingredient.ToString
+  fullName: ReGenSDK.Model.Ingredient.ToString()
+  nameWithType: Ingredient.ToString()
+- uid: ReGenSDK.Model.Ingredient.ToString*
+  name: ToString
+  href: api/ReGenSDK.Model.Ingredient.html#ReGenSDK_Model_Ingredient_ToString_
+  commentId: Overload:ReGenSDK.Model.Ingredient.ToString
+  isSpec: "True"
+  fullName: ReGenSDK.Model.Ingredient.ToString
+  nameWithType: Ingredient.ToString
+- uid: ReGenSDK.Model.Rating
+  name: Rating
+  href: api/ReGenSDK.Model.Rating.html
+  commentId: T:ReGenSDK.Model.Rating
+  fullName: ReGenSDK.Model.Rating
+  nameWithType: Rating
+- uid: ReGenSDK.Model.Rating.#ctor
+  name: Rating()
+  href: api/ReGenSDK.Model.Rating.html#ReGenSDK_Model_Rating__ctor
+  commentId: M:ReGenSDK.Model.Rating.#ctor
+  fullName: ReGenSDK.Model.Rating.Rating()
+  nameWithType: Rating.Rating()
+- uid: ReGenSDK.Model.Rating.#ctor*
+  name: Rating
+  href: api/ReGenSDK.Model.Rating.html#ReGenSDK_Model_Rating__ctor_
+  commentId: Overload:ReGenSDK.Model.Rating.#ctor
+  isSpec: "True"
+  fullName: ReGenSDK.Model.Rating.Rating
+  nameWithType: Rating.Rating
+- uid: ReGenSDK.Model.Rating.avgRating
+  name: avgRating
+  href: api/ReGenSDK.Model.Rating.html#ReGenSDK_Model_Rating_avgRating
+  commentId: P:ReGenSDK.Model.Rating.avgRating
+  fullName: ReGenSDK.Model.Rating.avgRating
+  nameWithType: Rating.avgRating
+- uid: ReGenSDK.Model.Rating.avgRating*
+  name: avgRating
+  href: api/ReGenSDK.Model.Rating.html#ReGenSDK_Model_Rating_avgRating_
+  commentId: Overload:ReGenSDK.Model.Rating.avgRating
+  isSpec: "True"
+  fullName: ReGenSDK.Model.Rating.avgRating
+  nameWithType: Rating.avgRating
+- uid: ReGenSDK.Model.Rating.numRatings
+  name: numRatings
+  href: api/ReGenSDK.Model.Rating.html#ReGenSDK_Model_Rating_numRatings
+  commentId: P:ReGenSDK.Model.Rating.numRatings
+  fullName: ReGenSDK.Model.Rating.numRatings
+  nameWithType: Rating.numRatings
+- uid: ReGenSDK.Model.Rating.numRatings*
+  name: numRatings
+  href: api/ReGenSDK.Model.Rating.html#ReGenSDK_Model_Rating_numRatings_
+  commentId: Overload:ReGenSDK.Model.Rating.numRatings
+  isSpec: "True"
+  fullName: ReGenSDK.Model.Rating.numRatings
+  nameWithType: Rating.numRatings
+- uid: ReGenSDK.Model.Rating.users
+  name: users
+  href: api/ReGenSDK.Model.Rating.html#ReGenSDK_Model_Rating_users
+  commentId: P:ReGenSDK.Model.Rating.users
+  fullName: ReGenSDK.Model.Rating.users
+  nameWithType: Rating.users
+- uid: ReGenSDK.Model.Rating.users*
+  name: users
+  href: api/ReGenSDK.Model.Rating.html#ReGenSDK_Model_Rating_users_
+  commentId: Overload:ReGenSDK.Model.Rating.users
+  isSpec: "True"
+  fullName: ReGenSDK.Model.Rating.users
+  nameWithType: Rating.users
+- uid: ReGenSDK.Model.Recipe
+  name: Recipe
+  href: api/ReGenSDK.Model.Recipe.html
+  commentId: T:ReGenSDK.Model.Recipe
+  fullName: ReGenSDK.Model.Recipe
+  nameWithType: Recipe
+- uid: ReGenSDK.Model.Recipe.#ctor(System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Collections.Generic.IEnumerable{ReGenSDK.Model.Ingredient},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String,System.String)
+  name: Recipe(String, String, String, Nullable<Int32>, Nullable<Int32>, IEnumerable<Ingredient>, IEnumerable<String>, IEnumerable<String>, String, String)
+  href: api/ReGenSDK.Model.Recipe.html#ReGenSDK_Model_Recipe__ctor_System_String_System_String_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Collections_Generic_IEnumerable_ReGenSDK_Model_Ingredient__System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__System_String_System_String_
+  commentId: M:ReGenSDK.Model.Recipe.#ctor(System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Collections.Generic.IEnumerable{ReGenSDK.Model.Ingredient},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String,System.String)
+  name.vb: Recipe(String, String, String, Nullable(Of Int32), Nullable(Of Int32), IEnumerable(Of Ingredient), IEnumerable(Of String), IEnumerable(Of String), String, String)
+  fullName: ReGenSDK.Model.Recipe.Recipe(System.String, System.String, System.String, System.Nullable<System.Int32>, System.Nullable<System.Int32>, System.Collections.Generic.IEnumerable<ReGenSDK.Model.Ingredient>, System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>, System.String, System.String)
+  fullName.vb: ReGenSDK.Model.Recipe.Recipe(System.String, System.String, System.String, System.Nullable(Of System.Int32), System.Nullable(Of System.Int32), System.Collections.Generic.IEnumerable(Of ReGenSDK.Model.Ingredient), System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String), System.String, System.String)
+  nameWithType: Recipe.Recipe(String, String, String, Nullable<Int32>, Nullable<Int32>, IEnumerable<Ingredient>, IEnumerable<String>, IEnumerable<String>, String, String)
+  nameWithType.vb: Recipe.Recipe(String, String, String, Nullable(Of Int32), Nullable(Of Int32), IEnumerable(Of Ingredient), IEnumerable(Of String), IEnumerable(Of String), String, String)
+- uid: ReGenSDK.Model.Recipe.#ctor*
+  name: Recipe
+  href: api/ReGenSDK.Model.Recipe.html#ReGenSDK_Model_Recipe__ctor_
+  commentId: Overload:ReGenSDK.Model.Recipe.#ctor
+  isSpec: "True"
+  fullName: ReGenSDK.Model.Recipe.Recipe
+  nameWithType: Recipe.Recipe
+- uid: ReGenSDK.Model.Recipe.AuthorId
+  name: AuthorId
+  href: api/ReGenSDK.Model.Recipe.html#ReGenSDK_Model_Recipe_AuthorId
+  commentId: P:ReGenSDK.Model.Recipe.AuthorId
+  fullName: ReGenSDK.Model.Recipe.AuthorId
+  nameWithType: Recipe.AuthorId
+- uid: ReGenSDK.Model.Recipe.AuthorId*
+  name: AuthorId
+  href: api/ReGenSDK.Model.Recipe.html#ReGenSDK_Model_Recipe_AuthorId_
+  commentId: Overload:ReGenSDK.Model.Recipe.AuthorId
+  isSpec: "True"
+  fullName: ReGenSDK.Model.Recipe.AuthorId
+  nameWithType: Recipe.AuthorId
+- uid: ReGenSDK.Model.Recipe.Calories
+  name: Calories
+  href: api/ReGenSDK.Model.Recipe.html#ReGenSDK_Model_Recipe_Calories
+  commentId: P:ReGenSDK.Model.Recipe.Calories
+  fullName: ReGenSDK.Model.Recipe.Calories
+  nameWithType: Recipe.Calories
+- uid: ReGenSDK.Model.Recipe.Calories*
+  name: Calories
+  href: api/ReGenSDK.Model.Recipe.html#ReGenSDK_Model_Recipe_Calories_
+  commentId: Overload:ReGenSDK.Model.Recipe.Calories
+  isSpec: "True"
+  fullName: ReGenSDK.Model.Recipe.Calories
+  nameWithType: Recipe.Calories
+- uid: ReGenSDK.Model.Recipe.ImageReferencePath
+  name: ImageReferencePath
+  href: api/ReGenSDK.Model.Recipe.html#ReGenSDK_Model_Recipe_ImageReferencePath
+  commentId: P:ReGenSDK.Model.Recipe.ImageReferencePath
+  fullName: ReGenSDK.Model.Recipe.ImageReferencePath
+  nameWithType: Recipe.ImageReferencePath
+- uid: ReGenSDK.Model.Recipe.ImageReferencePath*
+  name: ImageReferencePath
+  href: api/ReGenSDK.Model.Recipe.html#ReGenSDK_Model_Recipe_ImageReferencePath_
+  commentId: Overload:ReGenSDK.Model.Recipe.ImageReferencePath
+  isSpec: "True"
+  fullName: ReGenSDK.Model.Recipe.ImageReferencePath
+  nameWithType: Recipe.ImageReferencePath
+- uid: ReGenSDK.Model.Recipe.PrepTimeMinutes
+  name: PrepTimeMinutes
+  href: api/ReGenSDK.Model.Recipe.html#ReGenSDK_Model_Recipe_PrepTimeMinutes
+  commentId: P:ReGenSDK.Model.Recipe.PrepTimeMinutes
+  fullName: ReGenSDK.Model.Recipe.PrepTimeMinutes
+  nameWithType: Recipe.PrepTimeMinutes
+- uid: ReGenSDK.Model.Recipe.PrepTimeMinutes*
+  name: PrepTimeMinutes
+  href: api/ReGenSDK.Model.Recipe.html#ReGenSDK_Model_Recipe_PrepTimeMinutes_
+  commentId: Overload:ReGenSDK.Model.Recipe.PrepTimeMinutes
+  isSpec: "True"
+  fullName: ReGenSDK.Model.Recipe.PrepTimeMinutes
+  nameWithType: Recipe.PrepTimeMinutes
+- uid: ReGenSDK.Model.Recipe.RootImagePath
+  name: RootImagePath
+  href: api/ReGenSDK.Model.Recipe.html#ReGenSDK_Model_Recipe_RootImagePath
+  commentId: P:ReGenSDK.Model.Recipe.RootImagePath
+  fullName: ReGenSDK.Model.Recipe.RootImagePath
+  nameWithType: Recipe.RootImagePath
+- uid: ReGenSDK.Model.Recipe.RootImagePath*
+  name: RootImagePath
+  href: api/ReGenSDK.Model.Recipe.html#ReGenSDK_Model_Recipe_RootImagePath_
+  commentId: Overload:ReGenSDK.Model.Recipe.RootImagePath
+  isSpec: "True"
+  fullName: ReGenSDK.Model.Recipe.RootImagePath
+  nameWithType: Recipe.RootImagePath
+- uid: ReGenSDK.Model.Recipe.Steps
+  name: Steps
+  href: api/ReGenSDK.Model.Recipe.html#ReGenSDK_Model_Recipe_Steps
+  commentId: P:ReGenSDK.Model.Recipe.Steps
+  fullName: ReGenSDK.Model.Recipe.Steps
+  nameWithType: Recipe.Steps
+- uid: ReGenSDK.Model.Recipe.Steps*
+  name: Steps
+  href: api/ReGenSDK.Model.Recipe.html#ReGenSDK_Model_Recipe_Steps_
+  commentId: Overload:ReGenSDK.Model.Recipe.Steps
+  isSpec: "True"
+  fullName: ReGenSDK.Model.Recipe.Steps
+  nameWithType: Recipe.Steps
+- uid: ReGenSDK.Model.Recipe.ToString
+  name: ToString()
+  href: api/ReGenSDK.Model.Recipe.html#ReGenSDK_Model_Recipe_ToString
+  commentId: M:ReGenSDK.Model.Recipe.ToString
+  fullName: ReGenSDK.Model.Recipe.ToString()
+  nameWithType: Recipe.ToString()
+- uid: ReGenSDK.Model.Recipe.ToString*
+  name: ToString
+  href: api/ReGenSDK.Model.Recipe.html#ReGenSDK_Model_Recipe_ToString_
+  commentId: Overload:ReGenSDK.Model.Recipe.ToString
+  isSpec: "True"
+  fullName: ReGenSDK.Model.Recipe.ToString
+  nameWithType: Recipe.ToString
+- uid: ReGenSDK.Model.RecipeLite
+  name: RecipeLite
+  href: api/ReGenSDK.Model.RecipeLite.html
+  commentId: T:ReGenSDK.Model.RecipeLite
+  fullName: ReGenSDK.Model.RecipeLite
+  nameWithType: RecipeLite
+- uid: ReGenSDK.Model.RecipeLite.Ingredients
+  name: Ingredients
+  href: api/ReGenSDK.Model.RecipeLite.html#ReGenSDK_Model_RecipeLite_Ingredients
+  commentId: P:ReGenSDK.Model.RecipeLite.Ingredients
+  fullName: ReGenSDK.Model.RecipeLite.Ingredients
+  nameWithType: RecipeLite.Ingredients
+- uid: ReGenSDK.Model.RecipeLite.Ingredients*
+  name: Ingredients
+  href: api/ReGenSDK.Model.RecipeLite.html#ReGenSDK_Model_RecipeLite_Ingredients_
+  commentId: Overload:ReGenSDK.Model.RecipeLite.Ingredients
+  isSpec: "True"
+  fullName: ReGenSDK.Model.RecipeLite.Ingredients
+  nameWithType: RecipeLite.Ingredients
+- uid: ReGenSDK.Model.RecipeLite.Key
+  name: Key
+  href: api/ReGenSDK.Model.RecipeLite.html#ReGenSDK_Model_RecipeLite_Key
+  commentId: P:ReGenSDK.Model.RecipeLite.Key
+  fullName: ReGenSDK.Model.RecipeLite.Key
+  nameWithType: RecipeLite.Key
+- uid: ReGenSDK.Model.RecipeLite.Key*
+  name: Key
+  href: api/ReGenSDK.Model.RecipeLite.html#ReGenSDK_Model_RecipeLite_Key_
+  commentId: Overload:ReGenSDK.Model.RecipeLite.Key
+  isSpec: "True"
+  fullName: ReGenSDK.Model.RecipeLite.Key
+  nameWithType: RecipeLite.Key
+- uid: ReGenSDK.Model.RecipeLite.Name
+  name: Name
+  href: api/ReGenSDK.Model.RecipeLite.html#ReGenSDK_Model_RecipeLite_Name
+  commentId: P:ReGenSDK.Model.RecipeLite.Name
+  fullName: ReGenSDK.Model.RecipeLite.Name
+  nameWithType: RecipeLite.Name
+- uid: ReGenSDK.Model.RecipeLite.Name*
+  name: Name
+  href: api/ReGenSDK.Model.RecipeLite.html#ReGenSDK_Model_RecipeLite_Name_
+  commentId: Overload:ReGenSDK.Model.RecipeLite.Name
+  isSpec: "True"
+  fullName: ReGenSDK.Model.RecipeLite.Name
+  nameWithType: RecipeLite.Name
+- uid: ReGenSDK.Model.RecipeLite.Tags
+  name: Tags
+  href: api/ReGenSDK.Model.RecipeLite.html#ReGenSDK_Model_RecipeLite_Tags
+  commentId: P:ReGenSDK.Model.RecipeLite.Tags
+  fullName: ReGenSDK.Model.RecipeLite.Tags
+  nameWithType: RecipeLite.Tags
+- uid: ReGenSDK.Model.RecipeLite.Tags*
+  name: Tags
+  href: api/ReGenSDK.Model.RecipeLite.html#ReGenSDK_Model_RecipeLite_Tags_
+  commentId: Overload:ReGenSDK.Model.RecipeLite.Tags
+  isSpec: "True"
+  fullName: ReGenSDK.Model.RecipeLite.Tags
+  nameWithType: RecipeLite.Tags
+- uid: ReGenSDK.Model.Review
+  name: Review
+  href: api/ReGenSDK.Model.Review.html
+  commentId: T:ReGenSDK.Model.Review
+  fullName: ReGenSDK.Model.Review
+  nameWithType: Review
+- uid: ReGenSDK.Model.Review.#ctor(System.String,System.String,System.String,System.String,System.DateTime,System.Int32)
+  name: Review(String, String, String, String, DateTime, Int32)
+  href: api/ReGenSDK.Model.Review.html#ReGenSDK_Model_Review__ctor_System_String_System_String_System_String_System_String_System_DateTime_System_Int32_
+  commentId: M:ReGenSDK.Model.Review.#ctor(System.String,System.String,System.String,System.String,System.DateTime,System.Int32)
+  fullName: ReGenSDK.Model.Review.Review(System.String, System.String, System.String, System.String, System.DateTime, System.Int32)
+  nameWithType: Review.Review(String, String, String, String, DateTime, Int32)
+- uid: ReGenSDK.Model.Review.#ctor*
+  name: Review
+  href: api/ReGenSDK.Model.Review.html#ReGenSDK_Model_Review__ctor_
+  commentId: Overload:ReGenSDK.Model.Review.#ctor
+  isSpec: "True"
+  fullName: ReGenSDK.Model.Review.Review
+  nameWithType: Review.Review
+- uid: ReGenSDK.Model.Review.Content
+  name: Content
+  href: api/ReGenSDK.Model.Review.html#ReGenSDK_Model_Review_Content
+  commentId: P:ReGenSDK.Model.Review.Content
+  fullName: ReGenSDK.Model.Review.Content
+  nameWithType: Review.Content
+- uid: ReGenSDK.Model.Review.Content*
+  name: Content
+  href: api/ReGenSDK.Model.Review.html#ReGenSDK_Model_Review_Content_
+  commentId: Overload:ReGenSDK.Model.Review.Content
+  isSpec: "True"
+  fullName: ReGenSDK.Model.Review.Content
+  nameWithType: Review.Content
+- uid: ReGenSDK.Model.Review.Rating
+  name: Rating
+  href: api/ReGenSDK.Model.Review.html#ReGenSDK_Model_Review_Rating
+  commentId: P:ReGenSDK.Model.Review.Rating
+  fullName: ReGenSDK.Model.Review.Rating
+  nameWithType: Review.Rating
+- uid: ReGenSDK.Model.Review.Rating*
+  name: Rating
+  href: api/ReGenSDK.Model.Review.html#ReGenSDK_Model_Review_Rating_
+  commentId: Overload:ReGenSDK.Model.Review.Rating
+  isSpec: "True"
+  fullName: ReGenSDK.Model.Review.Rating
+  nameWithType: Review.Rating
+- uid: ReGenSDK.Model.Review.RecipeId
+  name: RecipeId
+  href: api/ReGenSDK.Model.Review.html#ReGenSDK_Model_Review_RecipeId
+  commentId: P:ReGenSDK.Model.Review.RecipeId
+  fullName: ReGenSDK.Model.Review.RecipeId
+  nameWithType: Review.RecipeId
+- uid: ReGenSDK.Model.Review.RecipeId*
+  name: RecipeId
+  href: api/ReGenSDK.Model.Review.html#ReGenSDK_Model_Review_RecipeId_
+  commentId: Overload:ReGenSDK.Model.Review.RecipeId
+  isSpec: "True"
+  fullName: ReGenSDK.Model.Review.RecipeId
+  nameWithType: Review.RecipeId
+- uid: ReGenSDK.Model.Review.ReviewId
+  name: ReviewId
+  href: api/ReGenSDK.Model.Review.html#ReGenSDK_Model_Review_ReviewId
+  commentId: P:ReGenSDK.Model.Review.ReviewId
+  fullName: ReGenSDK.Model.Review.ReviewId
+  nameWithType: Review.ReviewId
+- uid: ReGenSDK.Model.Review.ReviewId*
+  name: ReviewId
+  href: api/ReGenSDK.Model.Review.html#ReGenSDK_Model_Review_ReviewId_
+  commentId: Overload:ReGenSDK.Model.Review.ReviewId
+  isSpec: "True"
+  fullName: ReGenSDK.Model.Review.ReviewId
+  nameWithType: Review.ReviewId
+- uid: ReGenSDK.Model.Review.Timestamp
+  name: Timestamp
+  href: api/ReGenSDK.Model.Review.html#ReGenSDK_Model_Review_Timestamp
+  commentId: P:ReGenSDK.Model.Review.Timestamp
+  fullName: ReGenSDK.Model.Review.Timestamp
+  nameWithType: Review.Timestamp
+- uid: ReGenSDK.Model.Review.Timestamp*
+  name: Timestamp
+  href: api/ReGenSDK.Model.Review.html#ReGenSDK_Model_Review_Timestamp_
+  commentId: Overload:ReGenSDK.Model.Review.Timestamp
+  isSpec: "True"
+  fullName: ReGenSDK.Model.Review.Timestamp
+  nameWithType: Review.Timestamp
+- uid: ReGenSDK.Model.Review.ToString
+  name: ToString()
+  href: api/ReGenSDK.Model.Review.html#ReGenSDK_Model_Review_ToString
+  commentId: M:ReGenSDK.Model.Review.ToString
+  fullName: ReGenSDK.Model.Review.ToString()
+  nameWithType: Review.ToString()
+- uid: ReGenSDK.Model.Review.ToString*
+  name: ToString
+  href: api/ReGenSDK.Model.Review.html#ReGenSDK_Model_Review_ToString_
+  commentId: Overload:ReGenSDK.Model.Review.ToString
+  isSpec: "True"
+  fullName: ReGenSDK.Model.Review.ToString
+  nameWithType: Review.ToString
+- uid: ReGenSDK.Model.Review.UserId
+  name: UserId
+  href: api/ReGenSDK.Model.Review.html#ReGenSDK_Model_Review_UserId
+  commentId: P:ReGenSDK.Model.Review.UserId
+  fullName: ReGenSDK.Model.Review.UserId
+  nameWithType: Review.UserId
+- uid: ReGenSDK.Model.Review.UserId*
+  name: UserId
+  href: api/ReGenSDK.Model.Review.html#ReGenSDK_Model_Review_UserId_
+  commentId: Overload:ReGenSDK.Model.Review.UserId
+  isSpec: "True"
+  fullName: ReGenSDK.Model.Review.UserId
+  nameWithType: Review.UserId
+- uid: ReGenSDK.Model.ReviewsPage
+  name: ReviewsPage
+  href: api/ReGenSDK.Model.ReviewsPage.html
+  commentId: T:ReGenSDK.Model.ReviewsPage
+  fullName: ReGenSDK.Model.ReviewsPage
+  nameWithType: ReviewsPage
+- uid: ReGenSDK.Model.ReviewsPage.NextKey
+  name: NextKey
+  href: api/ReGenSDK.Model.ReviewsPage.html#ReGenSDK_Model_ReviewsPage_NextKey
+  commentId: P:ReGenSDK.Model.ReviewsPage.NextKey
+  fullName: ReGenSDK.Model.ReviewsPage.NextKey
+  nameWithType: ReviewsPage.NextKey
+- uid: ReGenSDK.Model.ReviewsPage.NextKey*
+  name: NextKey
+  href: api/ReGenSDK.Model.ReviewsPage.html#ReGenSDK_Model_ReviewsPage_NextKey_
+  commentId: Overload:ReGenSDK.Model.ReviewsPage.NextKey
+  isSpec: "True"
+  fullName: ReGenSDK.Model.ReviewsPage.NextKey
+  nameWithType: ReviewsPage.NextKey
+- uid: ReGenSDK.Model.ReviewsPage.RecipeId
+  name: RecipeId
+  href: api/ReGenSDK.Model.ReviewsPage.html#ReGenSDK_Model_ReviewsPage_RecipeId
+  commentId: F:ReGenSDK.Model.ReviewsPage.RecipeId
+  fullName: ReGenSDK.Model.ReviewsPage.RecipeId
+  nameWithType: ReviewsPage.RecipeId
+- uid: ReGenSDK.Model.ReviewsPage.Reviews
+  name: Reviews
+  href: api/ReGenSDK.Model.ReviewsPage.html#ReGenSDK_Model_ReviewsPage_Reviews
+  commentId: P:ReGenSDK.Model.ReviewsPage.Reviews
+  fullName: ReGenSDK.Model.ReviewsPage.Reviews
+  nameWithType: ReviewsPage.Reviews
+- uid: ReGenSDK.Model.ReviewsPage.Reviews*
+  name: Reviews
+  href: api/ReGenSDK.Model.ReviewsPage.html#ReGenSDK_Model_ReviewsPage_Reviews_
+  commentId: Overload:ReGenSDK.Model.ReviewsPage.Reviews
+  isSpec: "True"
+  fullName: ReGenSDK.Model.ReviewsPage.Reviews
+  nameWithType: ReviewsPage.Reviews
+- uid: ReGenSDK.ModelExtensions
+  name: ModelExtensions
+  href: api/ReGenSDK.ModelExtensions.html
+  commentId: T:ReGenSDK.ModelExtensions
+  fullName: ReGenSDK.ModelExtensions
+  nameWithType: ModelExtensions
+- uid: ReGenSDK.ModelExtensions.AverageRating(ReGenSDK.Model.RecipeLite)
+  name: AverageRating(RecipeLite)
+  href: api/ReGenSDK.ModelExtensions.html#ReGenSDK_ModelExtensions_AverageRating_ReGenSDK_Model_RecipeLite_
+  commentId: M:ReGenSDK.ModelExtensions.AverageRating(ReGenSDK.Model.RecipeLite)
+  fullName: ReGenSDK.ModelExtensions.AverageRating(ReGenSDK.Model.RecipeLite)
+  nameWithType: ModelExtensions.AverageRating(RecipeLite)
+- uid: ReGenSDK.ModelExtensions.AverageRating*
+  name: AverageRating
+  href: api/ReGenSDK.ModelExtensions.html#ReGenSDK_ModelExtensions_AverageRating_
+  commentId: Overload:ReGenSDK.ModelExtensions.AverageRating
+  isSpec: "True"
+  fullName: ReGenSDK.ModelExtensions.AverageRating
+  nameWithType: ModelExtensions.AverageRating
+- uid: ReGenSDK.ModelExtensions.NextPage(ReGenSDK.Model.ReviewsPage,System.Int32)
+  name: NextPage(ReviewsPage, Int32)
+  href: api/ReGenSDK.ModelExtensions.html#ReGenSDK_ModelExtensions_NextPage_ReGenSDK_Model_ReviewsPage_System_Int32_
+  commentId: M:ReGenSDK.ModelExtensions.NextPage(ReGenSDK.Model.ReviewsPage,System.Int32)
+  fullName: ReGenSDK.ModelExtensions.NextPage(ReGenSDK.Model.ReviewsPage, System.Int32)
+  nameWithType: ModelExtensions.NextPage(ReviewsPage, Int32)
+- uid: ReGenSDK.ModelExtensions.NextPage*
+  name: NextPage
+  href: api/ReGenSDK.ModelExtensions.html#ReGenSDK_ModelExtensions_NextPage_
+  commentId: Overload:ReGenSDK.ModelExtensions.NextPage
+  isSpec: "True"
+  fullName: ReGenSDK.ModelExtensions.NextPage
+  nameWithType: ModelExtensions.NextPage
+- uid: ReGenSDK.ModelExtensions.Rating(ReGenSDK.Model.RecipeLite)
+  name: Rating(RecipeLite)
+  href: api/ReGenSDK.ModelExtensions.html#ReGenSDK_ModelExtensions_Rating_ReGenSDK_Model_RecipeLite_
+  commentId: M:ReGenSDK.ModelExtensions.Rating(ReGenSDK.Model.RecipeLite)
+  fullName: ReGenSDK.ModelExtensions.Rating(ReGenSDK.Model.RecipeLite)
+  nameWithType: ModelExtensions.Rating(RecipeLite)
+- uid: ReGenSDK.ModelExtensions.Rating*
+  name: Rating
+  href: api/ReGenSDK.ModelExtensions.html#ReGenSDK_ModelExtensions_Rating_
+  commentId: Overload:ReGenSDK.ModelExtensions.Rating
+  isSpec: "True"
+  fullName: ReGenSDK.ModelExtensions.Rating
+  nameWithType: ModelExtensions.Rating
+- uid: ReGenSDK.ModelExtensions.Recipe(ReGenSDK.Model.RecipeLite)
+  name: Recipe(RecipeLite)
+  href: api/ReGenSDK.ModelExtensions.html#ReGenSDK_ModelExtensions_Recipe_ReGenSDK_Model_RecipeLite_
+  commentId: M:ReGenSDK.ModelExtensions.Recipe(ReGenSDK.Model.RecipeLite)
+  fullName: ReGenSDK.ModelExtensions.Recipe(ReGenSDK.Model.RecipeLite)
+  nameWithType: ModelExtensions.Recipe(RecipeLite)
+- uid: ReGenSDK.ModelExtensions.Recipe*
+  name: Recipe
+  href: api/ReGenSDK.ModelExtensions.html#ReGenSDK_ModelExtensions_Recipe_
+  commentId: Overload:ReGenSDK.ModelExtensions.Recipe
+  isSpec: "True"
+  fullName: ReGenSDK.ModelExtensions.Recipe
+  nameWithType: ModelExtensions.Recipe
+- uid: ReGenSDK.ModelExtensions.Reviews(ReGenSDK.Model.RecipeLite,System.Int32)
+  name: Reviews(RecipeLite, Int32)
+  href: api/ReGenSDK.ModelExtensions.html#ReGenSDK_ModelExtensions_Reviews_ReGenSDK_Model_RecipeLite_System_Int32_
+  commentId: M:ReGenSDK.ModelExtensions.Reviews(ReGenSDK.Model.RecipeLite,System.Int32)
+  fullName: ReGenSDK.ModelExtensions.Reviews(ReGenSDK.Model.RecipeLite, System.Int32)
+  nameWithType: ModelExtensions.Reviews(RecipeLite, Int32)
+- uid: ReGenSDK.ModelExtensions.Reviews*
+  name: Reviews
+  href: api/ReGenSDK.ModelExtensions.html#ReGenSDK_ModelExtensions_Reviews_
+  commentId: Overload:ReGenSDK.ModelExtensions.Reviews
+  isSpec: "True"
+  fullName: ReGenSDK.ModelExtensions.Reviews
+  nameWithType: ModelExtensions.Reviews
+- uid: ReGenSDK.MonoBehaviorAsync
+  name: MonoBehaviorAsync
+  href: api/ReGenSDK.MonoBehaviorAsync.html
+  commentId: T:ReGenSDK.MonoBehaviorAsync
+  fullName: ReGenSDK.MonoBehaviorAsync
+  nameWithType: MonoBehaviorAsync
+- uid: ReGenSDK.MonoBehaviorAsync.Run(UnityEngine.MonoBehaviour,System.Func{System.Threading.Tasks.Task})
+  name: Run(MonoBehaviour, Func<Task>)
+  href: api/ReGenSDK.MonoBehaviorAsync.html#ReGenSDK_MonoBehaviorAsync_Run_UnityEngine_MonoBehaviour_System_Func_System_Threading_Tasks_Task__
+  commentId: M:ReGenSDK.MonoBehaviorAsync.Run(UnityEngine.MonoBehaviour,System.Func{System.Threading.Tasks.Task})
+  name.vb: Run(MonoBehaviour, Func(Of Task))
+  fullName: ReGenSDK.MonoBehaviorAsync.Run(UnityEngine.MonoBehaviour, System.Func<System.Threading.Tasks.Task>)
+  fullName.vb: ReGenSDK.MonoBehaviorAsync.Run(UnityEngine.MonoBehaviour, System.Func(Of System.Threading.Tasks.Task))
+  nameWithType: MonoBehaviorAsync.Run(MonoBehaviour, Func<Task>)
+  nameWithType.vb: MonoBehaviorAsync.Run(MonoBehaviour, Func(Of Task))
+- uid: ReGenSDK.MonoBehaviorAsync.Run*
+  name: Run
+  href: api/ReGenSDK.MonoBehaviorAsync.html#ReGenSDK_MonoBehaviorAsync_Run_
+  commentId: Overload:ReGenSDK.MonoBehaviorAsync.Run
+  isSpec: "True"
+  fullName: ReGenSDK.MonoBehaviorAsync.Run
+  nameWithType: MonoBehaviorAsync.Run
+- uid: ReGenSDK.ReGenClient
+  name: ReGenClient
+  href: api/ReGenSDK.ReGenClient.html
+  commentId: T:ReGenSDK.ReGenClient
+  fullName: ReGenSDK.ReGenClient
+  nameWithType: ReGenClient
+- uid: ReGenSDK.ReGenClient.#ctor(System.String,System.Func{System.Threading.Tasks.Task{System.String}})
+  name: ReGenClient(String, Func<Task<String>>)
+  href: api/ReGenSDK.ReGenClient.html#ReGenSDK_ReGenClient__ctor_System_String_System_Func_System_Threading_Tasks_Task_System_String___
+  commentId: M:ReGenSDK.ReGenClient.#ctor(System.String,System.Func{System.Threading.Tasks.Task{System.String}})
+  name.vb: ReGenClient(String, Func(Of Task(Of String)))
+  fullName: ReGenSDK.ReGenClient.ReGenClient(System.String, System.Func<System.Threading.Tasks.Task<System.String>>)
+  fullName.vb: ReGenSDK.ReGenClient.ReGenClient(System.String, System.Func(Of System.Threading.Tasks.Task(Of System.String)))
+  nameWithType: ReGenClient.ReGenClient(String, Func<Task<String>>)
+  nameWithType.vb: ReGenClient.ReGenClient(String, Func(Of Task(Of String)))
+- uid: ReGenSDK.ReGenClient.#ctor*
+  name: ReGenClient
+  href: api/ReGenSDK.ReGenClient.html#ReGenSDK_ReGenClient__ctor_
+  commentId: Overload:ReGenSDK.ReGenClient.#ctor
+  isSpec: "True"
+  fullName: ReGenSDK.ReGenClient.ReGenClient
+  nameWithType: ReGenClient.ReGenClient
+- uid: ReGenSDK.ReGenClient.Authentication
+  name: Authentication
+  href: api/ReGenSDK.ReGenClient.html#ReGenSDK_ReGenClient_Authentication
+  commentId: P:ReGenSDK.ReGenClient.Authentication
+  fullName: ReGenSDK.ReGenClient.Authentication
+  nameWithType: ReGenClient.Authentication
+- uid: ReGenSDK.ReGenClient.Authentication*
+  name: Authentication
+  href: api/ReGenSDK.ReGenClient.html#ReGenSDK_ReGenClient_Authentication_
+  commentId: Overload:ReGenSDK.ReGenClient.Authentication
+  isSpec: "True"
+  fullName: ReGenSDK.ReGenClient.Authentication
+  nameWithType: ReGenClient.Authentication
+- uid: ReGenSDK.ReGenClient.Favorites
+  name: Favorites
+  href: api/ReGenSDK.ReGenClient.html#ReGenSDK_ReGenClient_Favorites
+  commentId: P:ReGenSDK.ReGenClient.Favorites
+  fullName: ReGenSDK.ReGenClient.Favorites
+  nameWithType: ReGenClient.Favorites
+- uid: ReGenSDK.ReGenClient.Favorites*
+  name: Favorites
+  href: api/ReGenSDK.ReGenClient.html#ReGenSDK_ReGenClient_Favorites_
+  commentId: Overload:ReGenSDK.ReGenClient.Favorites
+  isSpec: "True"
+  fullName: ReGenSDK.ReGenClient.Favorites
+  nameWithType: ReGenClient.Favorites
+- uid: ReGenSDK.ReGenClient.Initialize(System.String)
+  name: Initialize(String)
+  href: api/ReGenSDK.ReGenClient.html#ReGenSDK_ReGenClient_Initialize_System_String_
+  commentId: M:ReGenSDK.ReGenClient.Initialize(System.String)
+  fullName: ReGenSDK.ReGenClient.Initialize(System.String)
+  nameWithType: ReGenClient.Initialize(String)
+- uid: ReGenSDK.ReGenClient.Initialize(System.String,System.Func{System.Threading.Tasks.Task{System.String}})
+  name: Initialize(String, Func<Task<String>>)
+  href: api/ReGenSDK.ReGenClient.html#ReGenSDK_ReGenClient_Initialize_System_String_System_Func_System_Threading_Tasks_Task_System_String___
+  commentId: M:ReGenSDK.ReGenClient.Initialize(System.String,System.Func{System.Threading.Tasks.Task{System.String}})
+  name.vb: Initialize(String, Func(Of Task(Of String)))
+  fullName: ReGenSDK.ReGenClient.Initialize(System.String, System.Func<System.Threading.Tasks.Task<System.String>>)
+  fullName.vb: ReGenSDK.ReGenClient.Initialize(System.String, System.Func(Of System.Threading.Tasks.Task(Of System.String)))
+  nameWithType: ReGenClient.Initialize(String, Func<Task<String>>)
+  nameWithType.vb: ReGenClient.Initialize(String, Func(Of Task(Of String)))
+- uid: ReGenSDK.ReGenClient.Initialize*
+  name: Initialize
+  href: api/ReGenSDK.ReGenClient.html#ReGenSDK_ReGenClient_Initialize_
+  commentId: Overload:ReGenSDK.ReGenClient.Initialize
+  isSpec: "True"
+  fullName: ReGenSDK.ReGenClient.Initialize
+  nameWithType: ReGenClient.Initialize
+- uid: ReGenSDK.ReGenClient.Instance
+  name: Instance
+  href: api/ReGenSDK.ReGenClient.html#ReGenSDK_ReGenClient_Instance
+  commentId: P:ReGenSDK.ReGenClient.Instance
+  fullName: ReGenSDK.ReGenClient.Instance
+  nameWithType: ReGenClient.Instance
+- uid: ReGenSDK.ReGenClient.Instance*
+  name: Instance
+  href: api/ReGenSDK.ReGenClient.html#ReGenSDK_ReGenClient_Instance_
+  commentId: Overload:ReGenSDK.ReGenClient.Instance
+  isSpec: "True"
+  fullName: ReGenSDK.ReGenClient.Instance
+  nameWithType: ReGenClient.Instance
+- uid: ReGenSDK.ReGenClient.Ratings
+  name: Ratings
+  href: api/ReGenSDK.ReGenClient.html#ReGenSDK_ReGenClient_Ratings
+  commentId: P:ReGenSDK.ReGenClient.Ratings
+  fullName: ReGenSDK.ReGenClient.Ratings
+  nameWithType: ReGenClient.Ratings
+- uid: ReGenSDK.ReGenClient.Ratings*
+  name: Ratings
+  href: api/ReGenSDK.ReGenClient.html#ReGenSDK_ReGenClient_Ratings_
+  commentId: Overload:ReGenSDK.ReGenClient.Ratings
+  isSpec: "True"
+  fullName: ReGenSDK.ReGenClient.Ratings
+  nameWithType: ReGenClient.Ratings
+- uid: ReGenSDK.ReGenClient.Recipes
+  name: Recipes
+  href: api/ReGenSDK.ReGenClient.html#ReGenSDK_ReGenClient_Recipes
+  commentId: P:ReGenSDK.ReGenClient.Recipes
+  fullName: ReGenSDK.ReGenClient.Recipes
+  nameWithType: ReGenClient.Recipes
+- uid: ReGenSDK.ReGenClient.Recipes*
+  name: Recipes
+  href: api/ReGenSDK.ReGenClient.html#ReGenSDK_ReGenClient_Recipes_
+  commentId: Overload:ReGenSDK.ReGenClient.Recipes
+  isSpec: "True"
+  fullName: ReGenSDK.ReGenClient.Recipes
+  nameWithType: ReGenClient.Recipes
+- uid: ReGenSDK.ReGenClient.Reviews
+  name: Reviews
+  href: api/ReGenSDK.ReGenClient.html#ReGenSDK_ReGenClient_Reviews
+  commentId: P:ReGenSDK.ReGenClient.Reviews
+  fullName: ReGenSDK.ReGenClient.Reviews
+  nameWithType: ReGenClient.Reviews
+- uid: ReGenSDK.ReGenClient.Reviews*
+  name: Reviews
+  href: api/ReGenSDK.ReGenClient.html#ReGenSDK_ReGenClient_Reviews_
+  commentId: Overload:ReGenSDK.ReGenClient.Reviews
+  isSpec: "True"
+  fullName: ReGenSDK.ReGenClient.Reviews
+  nameWithType: ReGenClient.Reviews
+- uid: ReGenSDK.ReGenClient.Search
+  name: Search
+  href: api/ReGenSDK.ReGenClient.html#ReGenSDK_ReGenClient_Search
+  commentId: P:ReGenSDK.ReGenClient.Search
+  fullName: ReGenSDK.ReGenClient.Search
+  nameWithType: ReGenClient.Search
+- uid: ReGenSDK.ReGenClient.Search*
+  name: Search
+  href: api/ReGenSDK.ReGenClient.html#ReGenSDK_ReGenClient_Search_
+  commentId: Overload:ReGenSDK.ReGenClient.Search
+  isSpec: "True"
+  fullName: ReGenSDK.ReGenClient.Search
+  nameWithType: ReGenClient.Search
+- uid: ReGenSDK.Service
+  name: ReGenSDK.Service
+  href: api/ReGenSDK.Service.html
+  commentId: N:ReGenSDK.Service
+  fullName: ReGenSDK.Service
+  nameWithType: ReGenSDK.Service
+- uid: ReGenSDK.Service.Api
+  name: ReGenSDK.Service.Api
+  href: api/ReGenSDK.Service.Api.html
+  commentId: N:ReGenSDK.Service.Api
+  fullName: ReGenSDK.Service.Api
+  nameWithType: ReGenSDK.Service.Api
+- uid: ReGenSDK.Service.Api.IFavoriteApi
+  name: IFavoriteApi
+  href: api/ReGenSDK.Service.Api.IFavoriteApi.html
+  commentId: T:ReGenSDK.Service.Api.IFavoriteApi
+  fullName: ReGenSDK.Service.Api.IFavoriteApi
+  nameWithType: IFavoriteApi
+- uid: ReGenSDK.Service.Api.IFavoriteApi.Create(System.String)
+  name: Create(String)
+  href: api/ReGenSDK.Service.Api.IFavoriteApi.html#ReGenSDK_Service_Api_IFavoriteApi_Create_System_String_
+  commentId: M:ReGenSDK.Service.Api.IFavoriteApi.Create(System.String)
+  fullName: ReGenSDK.Service.Api.IFavoriteApi.Create(System.String)
+  nameWithType: IFavoriteApi.Create(String)
+- uid: ReGenSDK.Service.Api.IFavoriteApi.Create*
+  name: Create
+  href: api/ReGenSDK.Service.Api.IFavoriteApi.html#ReGenSDK_Service_Api_IFavoriteApi_Create_
+  commentId: Overload:ReGenSDK.Service.Api.IFavoriteApi.Create
+  isSpec: "True"
+  fullName: ReGenSDK.Service.Api.IFavoriteApi.Create
+  nameWithType: IFavoriteApi.Create
+- uid: ReGenSDK.Service.Api.IFavoriteApi.Delete(System.String)
+  name: Delete(String)
+  href: api/ReGenSDK.Service.Api.IFavoriteApi.html#ReGenSDK_Service_Api_IFavoriteApi_Delete_System_String_
+  commentId: M:ReGenSDK.Service.Api.IFavoriteApi.Delete(System.String)
+  fullName: ReGenSDK.Service.Api.IFavoriteApi.Delete(System.String)
+  nameWithType: IFavoriteApi.Delete(String)
+- uid: ReGenSDK.Service.Api.IFavoriteApi.Delete*
+  name: Delete
+  href: api/ReGenSDK.Service.Api.IFavoriteApi.html#ReGenSDK_Service_Api_IFavoriteApi_Delete_
+  commentId: Overload:ReGenSDK.Service.Api.IFavoriteApi.Delete
+  isSpec: "True"
+  fullName: ReGenSDK.Service.Api.IFavoriteApi.Delete
+  nameWithType: IFavoriteApi.Delete
+- uid: ReGenSDK.Service.Api.IFavoriteApi.Get
+  name: Get()
+  href: api/ReGenSDK.Service.Api.IFavoriteApi.html#ReGenSDK_Service_Api_IFavoriteApi_Get
+  commentId: M:ReGenSDK.Service.Api.IFavoriteApi.Get
+  fullName: ReGenSDK.Service.Api.IFavoriteApi.Get()
+  nameWithType: IFavoriteApi.Get()
+- uid: ReGenSDK.Service.Api.IFavoriteApi.Get*
+  name: Get
+  href: api/ReGenSDK.Service.Api.IFavoriteApi.html#ReGenSDK_Service_Api_IFavoriteApi_Get_
+  commentId: Overload:ReGenSDK.Service.Api.IFavoriteApi.Get
+  isSpec: "True"
+  fullName: ReGenSDK.Service.Api.IFavoriteApi.Get
+  nameWithType: IFavoriteApi.Get
+- uid: ReGenSDK.Service.Api.IRatingApi
+  name: IRatingApi
+  href: api/ReGenSDK.Service.Api.IRatingApi.html
+  commentId: T:ReGenSDK.Service.Api.IRatingApi
+  fullName: ReGenSDK.Service.Api.IRatingApi
+  nameWithType: IRatingApi
+- uid: ReGenSDK.Service.Api.IRatingApi.Create(System.String,System.Int32)
+  name: Create(String, Int32)
+  href: api/ReGenSDK.Service.Api.IRatingApi.html#ReGenSDK_Service_Api_IRatingApi_Create_System_String_System_Int32_
+  commentId: M:ReGenSDK.Service.Api.IRatingApi.Create(System.String,System.Int32)
+  fullName: ReGenSDK.Service.Api.IRatingApi.Create(System.String, System.Int32)
+  nameWithType: IRatingApi.Create(String, Int32)
+- uid: ReGenSDK.Service.Api.IRatingApi.Create*
+  name: Create
+  href: api/ReGenSDK.Service.Api.IRatingApi.html#ReGenSDK_Service_Api_IRatingApi_Create_
+  commentId: Overload:ReGenSDK.Service.Api.IRatingApi.Create
+  isSpec: "True"
+  fullName: ReGenSDK.Service.Api.IRatingApi.Create
+  nameWithType: IRatingApi.Create
+- uid: ReGenSDK.Service.Api.IRatingApi.Get(System.String)
+  name: Get(String)
+  href: api/ReGenSDK.Service.Api.IRatingApi.html#ReGenSDK_Service_Api_IRatingApi_Get_System_String_
+  commentId: M:ReGenSDK.Service.Api.IRatingApi.Get(System.String)
+  fullName: ReGenSDK.Service.Api.IRatingApi.Get(System.String)
+  nameWithType: IRatingApi.Get(String)
+- uid: ReGenSDK.Service.Api.IRatingApi.Get*
+  name: Get
+  href: api/ReGenSDK.Service.Api.IRatingApi.html#ReGenSDK_Service_Api_IRatingApi_Get_
+  commentId: Overload:ReGenSDK.Service.Api.IRatingApi.Get
+  isSpec: "True"
+  fullName: ReGenSDK.Service.Api.IRatingApi.Get
+  nameWithType: IRatingApi.Get
+- uid: ReGenSDK.Service.Api.IRatingApi.GetAverage(System.String)
+  name: GetAverage(String)
+  href: api/ReGenSDK.Service.Api.IRatingApi.html#ReGenSDK_Service_Api_IRatingApi_GetAverage_System_String_
+  commentId: M:ReGenSDK.Service.Api.IRatingApi.GetAverage(System.String)
+  fullName: ReGenSDK.Service.Api.IRatingApi.GetAverage(System.String)
+  nameWithType: IRatingApi.GetAverage(String)
+- uid: ReGenSDK.Service.Api.IRatingApi.GetAverage*
+  name: GetAverage
+  href: api/ReGenSDK.Service.Api.IRatingApi.html#ReGenSDK_Service_Api_IRatingApi_GetAverage_
+  commentId: Overload:ReGenSDK.Service.Api.IRatingApi.GetAverage
+  isSpec: "True"
+  fullName: ReGenSDK.Service.Api.IRatingApi.GetAverage
+  nameWithType: IRatingApi.GetAverage
+- uid: ReGenSDK.Service.Api.IRatingApi.Update(System.String,System.Int32)
+  name: Update(String, Int32)
+  href: api/ReGenSDK.Service.Api.IRatingApi.html#ReGenSDK_Service_Api_IRatingApi_Update_System_String_System_Int32_
+  commentId: M:ReGenSDK.Service.Api.IRatingApi.Update(System.String,System.Int32)
+  fullName: ReGenSDK.Service.Api.IRatingApi.Update(System.String, System.Int32)
+  nameWithType: IRatingApi.Update(String, Int32)
+- uid: ReGenSDK.Service.Api.IRatingApi.Update*
+  name: Update
+  href: api/ReGenSDK.Service.Api.IRatingApi.html#ReGenSDK_Service_Api_IRatingApi_Update_
+  commentId: Overload:ReGenSDK.Service.Api.IRatingApi.Update
+  isSpec: "True"
+  fullName: ReGenSDK.Service.Api.IRatingApi.Update
+  nameWithType: IRatingApi.Update
+- uid: ReGenSDK.Service.Api.IRecipeApi
+  name: IRecipeApi
+  href: api/ReGenSDK.Service.Api.IRecipeApi.html
+  commentId: T:ReGenSDK.Service.Api.IRecipeApi
+  fullName: ReGenSDK.Service.Api.IRecipeApi
+  nameWithType: IRecipeApi
+- uid: ReGenSDK.Service.Api.IRecipeApi.Create(ReGenSDK.Model.Recipe)
+  name: Create(Recipe)
+  href: api/ReGenSDK.Service.Api.IRecipeApi.html#ReGenSDK_Service_Api_IRecipeApi_Create_ReGenSDK_Model_Recipe_
+  commentId: M:ReGenSDK.Service.Api.IRecipeApi.Create(ReGenSDK.Model.Recipe)
+  fullName: ReGenSDK.Service.Api.IRecipeApi.Create(ReGenSDK.Model.Recipe)
+  nameWithType: IRecipeApi.Create(Recipe)
+- uid: ReGenSDK.Service.Api.IRecipeApi.Create*
+  name: Create
+  href: api/ReGenSDK.Service.Api.IRecipeApi.html#ReGenSDK_Service_Api_IRecipeApi_Create_
+  commentId: Overload:ReGenSDK.Service.Api.IRecipeApi.Create
+  isSpec: "True"
+  fullName: ReGenSDK.Service.Api.IRecipeApi.Create
+  nameWithType: IRecipeApi.Create
+- uid: ReGenSDK.Service.Api.IRecipeApi.Delete(System.String)
+  name: Delete(String)
+  href: api/ReGenSDK.Service.Api.IRecipeApi.html#ReGenSDK_Service_Api_IRecipeApi_Delete_System_String_
+  commentId: M:ReGenSDK.Service.Api.IRecipeApi.Delete(System.String)
+  fullName: ReGenSDK.Service.Api.IRecipeApi.Delete(System.String)
+  nameWithType: IRecipeApi.Delete(String)
+- uid: ReGenSDK.Service.Api.IRecipeApi.Delete*
+  name: Delete
+  href: api/ReGenSDK.Service.Api.IRecipeApi.html#ReGenSDK_Service_Api_IRecipeApi_Delete_
+  commentId: Overload:ReGenSDK.Service.Api.IRecipeApi.Delete
+  isSpec: "True"
+  fullName: ReGenSDK.Service.Api.IRecipeApi.Delete
+  nameWithType: IRecipeApi.Delete
+- uid: ReGenSDK.Service.Api.IRecipeApi.Get(System.String)
+  name: Get(String)
+  href: api/ReGenSDK.Service.Api.IRecipeApi.html#ReGenSDK_Service_Api_IRecipeApi_Get_System_String_
+  commentId: M:ReGenSDK.Service.Api.IRecipeApi.Get(System.String)
+  fullName: ReGenSDK.Service.Api.IRecipeApi.Get(System.String)
+  nameWithType: IRecipeApi.Get(String)
+- uid: ReGenSDK.Service.Api.IRecipeApi.Get*
+  name: Get
+  href: api/ReGenSDK.Service.Api.IRecipeApi.html#ReGenSDK_Service_Api_IRecipeApi_Get_
+  commentId: Overload:ReGenSDK.Service.Api.IRecipeApi.Get
+  isSpec: "True"
+  fullName: ReGenSDK.Service.Api.IRecipeApi.Get
+  nameWithType: IRecipeApi.Get
+- uid: ReGenSDK.Service.Api.IRecipeApi.Update(System.String,ReGenSDK.Model.Recipe)
+  name: Update(String, Recipe)
+  href: api/ReGenSDK.Service.Api.IRecipeApi.html#ReGenSDK_Service_Api_IRecipeApi_Update_System_String_ReGenSDK_Model_Recipe_
+  commentId: M:ReGenSDK.Service.Api.IRecipeApi.Update(System.String,ReGenSDK.Model.Recipe)
+  fullName: ReGenSDK.Service.Api.IRecipeApi.Update(System.String, ReGenSDK.Model.Recipe)
+  nameWithType: IRecipeApi.Update(String, Recipe)
+- uid: ReGenSDK.Service.Api.IRecipeApi.Update*
+  name: Update
+  href: api/ReGenSDK.Service.Api.IRecipeApi.html#ReGenSDK_Service_Api_IRecipeApi_Update_
+  commentId: Overload:ReGenSDK.Service.Api.IRecipeApi.Update
+  isSpec: "True"
+  fullName: ReGenSDK.Service.Api.IRecipeApi.Update
+  nameWithType: IRecipeApi.Update
+- uid: ReGenSDK.Service.Api.IReviewApi
+  name: IReviewApi
+  href: api/ReGenSDK.Service.Api.IReviewApi.html
+  commentId: T:ReGenSDK.Service.Api.IReviewApi
+  fullName: ReGenSDK.Service.Api.IReviewApi
+  nameWithType: IReviewApi
+- uid: ReGenSDK.Service.Api.IReviewApi.Create(System.String,ReGenSDK.Model.Review)
+  name: Create(String, Review)
+  href: api/ReGenSDK.Service.Api.IReviewApi.html#ReGenSDK_Service_Api_IReviewApi_Create_System_String_ReGenSDK_Model_Review_
+  commentId: M:ReGenSDK.Service.Api.IReviewApi.Create(System.String,ReGenSDK.Model.Review)
+  fullName: ReGenSDK.Service.Api.IReviewApi.Create(System.String, ReGenSDK.Model.Review)
+  nameWithType: IReviewApi.Create(String, Review)
+- uid: ReGenSDK.Service.Api.IReviewApi.Create*
+  name: Create
+  href: api/ReGenSDK.Service.Api.IReviewApi.html#ReGenSDK_Service_Api_IReviewApi_Create_
+  commentId: Overload:ReGenSDK.Service.Api.IReviewApi.Create
+  isSpec: "True"
+  fullName: ReGenSDK.Service.Api.IReviewApi.Create
+  nameWithType: IReviewApi.Create
+- uid: ReGenSDK.Service.Api.IReviewApi.Delete(System.String)
+  name: Delete(String)
+  href: api/ReGenSDK.Service.Api.IReviewApi.html#ReGenSDK_Service_Api_IReviewApi_Delete_System_String_
+  commentId: M:ReGenSDK.Service.Api.IReviewApi.Delete(System.String)
+  fullName: ReGenSDK.Service.Api.IReviewApi.Delete(System.String)
+  nameWithType: IReviewApi.Delete(String)
+- uid: ReGenSDK.Service.Api.IReviewApi.Delete*
+  name: Delete
+  href: api/ReGenSDK.Service.Api.IReviewApi.html#ReGenSDK_Service_Api_IReviewApi_Delete_
+  commentId: Overload:ReGenSDK.Service.Api.IReviewApi.Delete
+  isSpec: "True"
+  fullName: ReGenSDK.Service.Api.IReviewApi.Delete
+  nameWithType: IReviewApi.Delete
+- uid: ReGenSDK.Service.Api.IReviewApi.Get(System.String,System.String,System.Int32)
+  name: Get(String, String, Int32)
+  href: api/ReGenSDK.Service.Api.IReviewApi.html#ReGenSDK_Service_Api_IReviewApi_Get_System_String_System_String_System_Int32_
+  commentId: M:ReGenSDK.Service.Api.IReviewApi.Get(System.String,System.String,System.Int32)
+  fullName: ReGenSDK.Service.Api.IReviewApi.Get(System.String, System.String, System.Int32)
+  nameWithType: IReviewApi.Get(String, String, Int32)
+- uid: ReGenSDK.Service.Api.IReviewApi.Get*
+  name: Get
+  href: api/ReGenSDK.Service.Api.IReviewApi.html#ReGenSDK_Service_Api_IReviewApi_Get_
+  commentId: Overload:ReGenSDK.Service.Api.IReviewApi.Get
+  isSpec: "True"
+  fullName: ReGenSDK.Service.Api.IReviewApi.Get
+  nameWithType: IReviewApi.Get
+- uid: ReGenSDK.Service.Api.IReviewApi.Update(System.String,ReGenSDK.Model.Review)
+  name: Update(String, Review)
+  href: api/ReGenSDK.Service.Api.IReviewApi.html#ReGenSDK_Service_Api_IReviewApi_Update_System_String_ReGenSDK_Model_Review_
+  commentId: M:ReGenSDK.Service.Api.IReviewApi.Update(System.String,ReGenSDK.Model.Review)
+  fullName: ReGenSDK.Service.Api.IReviewApi.Update(System.String, ReGenSDK.Model.Review)
+  nameWithType: IReviewApi.Update(String, Review)
+- uid: ReGenSDK.Service.Api.IReviewApi.Update*
+  name: Update
+  href: api/ReGenSDK.Service.Api.IReviewApi.html#ReGenSDK_Service_Api_IReviewApi_Update_
+  commentId: Overload:ReGenSDK.Service.Api.IReviewApi.Update
+  isSpec: "True"
+  fullName: ReGenSDK.Service.Api.IReviewApi.Update
+  nameWithType: IReviewApi.Update
+- uid: ReGenSDK.Service.Api.ISearchApi
+  name: ISearchApi
+  href: api/ReGenSDK.Service.Api.ISearchApi.html
+  commentId: T:ReGenSDK.Service.Api.ISearchApi
+  fullName: ReGenSDK.Service.Api.ISearchApi
+  nameWithType: ISearchApi
+- uid: ReGenSDK.Service.Api.ISearchApi.Search(System.String,ReGenSDK.Service.TagFilter)
+  name: Search(String, TagFilter)
+  href: api/ReGenSDK.Service.Api.ISearchApi.html#ReGenSDK_Service_Api_ISearchApi_Search_System_String_ReGenSDK_Service_TagFilter_
+  commentId: M:ReGenSDK.Service.Api.ISearchApi.Search(System.String,ReGenSDK.Service.TagFilter)
+  fullName: ReGenSDK.Service.Api.ISearchApi.Search(System.String, ReGenSDK.Service.TagFilter)
+  nameWithType: ISearchApi.Search(String, TagFilter)
+- uid: ReGenSDK.Service.Api.ISearchApi.Search*
+  name: Search
+  href: api/ReGenSDK.Service.Api.ISearchApi.html#ReGenSDK_Service_Api_ISearchApi_Search_
+  commentId: Overload:ReGenSDK.Service.Api.ISearchApi.Search
+  isSpec: "True"
+  fullName: ReGenSDK.Service.Api.ISearchApi.Search
+  nameWithType: ISearchApi.Search
+- uid: ReGenSDK.Service.FavoriteService
+  name: FavoriteService
+  href: api/ReGenSDK.Service.FavoriteService.html
+  commentId: T:ReGenSDK.Service.FavoriteService
+  fullName: ReGenSDK.Service.FavoriteService
+  nameWithType: FavoriteService
+- uid: ReGenSDK.Service.FavoriteService.#ctor(ReGenSDK.Service.Api.IFavoriteApi)
+  name: FavoriteService(IFavoriteApi)
+  href: api/ReGenSDK.Service.FavoriteService.html#ReGenSDK_Service_FavoriteService__ctor_ReGenSDK_Service_Api_IFavoriteApi_
+  commentId: M:ReGenSDK.Service.FavoriteService.#ctor(ReGenSDK.Service.Api.IFavoriteApi)
+  fullName: ReGenSDK.Service.FavoriteService.FavoriteService(ReGenSDK.Service.Api.IFavoriteApi)
+  nameWithType: FavoriteService.FavoriteService(IFavoriteApi)
+- uid: ReGenSDK.Service.FavoriteService.#ctor*
+  name: FavoriteService
+  href: api/ReGenSDK.Service.FavoriteService.html#ReGenSDK_Service_FavoriteService__ctor_
+  commentId: Overload:ReGenSDK.Service.FavoriteService.#ctor
+  isSpec: "True"
+  fullName: ReGenSDK.Service.FavoriteService.FavoriteService
+  nameWithType: FavoriteService.FavoriteService
+- uid: ReGenSDK.Service.FavoriteService.Create(System.String)
+  name: Create(String)
+  href: api/ReGenSDK.Service.FavoriteService.html#ReGenSDK_Service_FavoriteService_Create_System_String_
+  commentId: M:ReGenSDK.Service.FavoriteService.Create(System.String)
+  fullName: ReGenSDK.Service.FavoriteService.Create(System.String)
+  nameWithType: FavoriteService.Create(String)
+- uid: ReGenSDK.Service.FavoriteService.Create*
+  name: Create
+  href: api/ReGenSDK.Service.FavoriteService.html#ReGenSDK_Service_FavoriteService_Create_
+  commentId: Overload:ReGenSDK.Service.FavoriteService.Create
+  isSpec: "True"
+  fullName: ReGenSDK.Service.FavoriteService.Create
+  nameWithType: FavoriteService.Create
+- uid: ReGenSDK.Service.FavoriteService.Delete(System.String)
+  name: Delete(String)
+  href: api/ReGenSDK.Service.FavoriteService.html#ReGenSDK_Service_FavoriteService_Delete_System_String_
+  commentId: M:ReGenSDK.Service.FavoriteService.Delete(System.String)
+  fullName: ReGenSDK.Service.FavoriteService.Delete(System.String)
+  nameWithType: FavoriteService.Delete(String)
+- uid: ReGenSDK.Service.FavoriteService.Delete*
+  name: Delete
+  href: api/ReGenSDK.Service.FavoriteService.html#ReGenSDK_Service_FavoriteService_Delete_
+  commentId: Overload:ReGenSDK.Service.FavoriteService.Delete
+  isSpec: "True"
+  fullName: ReGenSDK.Service.FavoriteService.Delete
+  nameWithType: FavoriteService.Delete
+- uid: ReGenSDK.Service.FavoriteService.FavoriteApiImplementation
+  name: FavoriteApiImplementation
+  href: api/ReGenSDK.Service.FavoriteService.html#ReGenSDK_Service_FavoriteService_FavoriteApiImplementation
+  commentId: F:ReGenSDK.Service.FavoriteService.FavoriteApiImplementation
+  fullName: ReGenSDK.Service.FavoriteService.FavoriteApiImplementation
+  nameWithType: FavoriteService.FavoriteApiImplementation
+- uid: ReGenSDK.Service.FavoriteService.Get
+  name: Get()
+  href: api/ReGenSDK.Service.FavoriteService.html#ReGenSDK_Service_FavoriteService_Get
+  commentId: M:ReGenSDK.Service.FavoriteService.Get
+  fullName: ReGenSDK.Service.FavoriteService.Get()
+  nameWithType: FavoriteService.Get()
+- uid: ReGenSDK.Service.FavoriteService.Get*
+  name: Get
+  href: api/ReGenSDK.Service.FavoriteService.html#ReGenSDK_Service_FavoriteService_Get_
+  commentId: Overload:ReGenSDK.Service.FavoriteService.Get
+  isSpec: "True"
+  fullName: ReGenSDK.Service.FavoriteService.Get
+  nameWithType: FavoriteService.Get
+- uid: ReGenSDK.Service.FavoriteService.GetList
+  name: GetList()
+  href: api/ReGenSDK.Service.FavoriteService.html#ReGenSDK_Service_FavoriteService_GetList
+  commentId: M:ReGenSDK.Service.FavoriteService.GetList
+  fullName: ReGenSDK.Service.FavoriteService.GetList()
+  nameWithType: FavoriteService.GetList()
+- uid: ReGenSDK.Service.FavoriteService.GetList*
+  name: GetList
+  href: api/ReGenSDK.Service.FavoriteService.html#ReGenSDK_Service_FavoriteService_GetList_
+  commentId: Overload:ReGenSDK.Service.FavoriteService.GetList
+  isSpec: "True"
+  fullName: ReGenSDK.Service.FavoriteService.GetList
+  nameWithType: FavoriteService.GetList
+- uid: ReGenSDK.Service.RatingService
+  name: RatingService
+  href: api/ReGenSDK.Service.RatingService.html
+  commentId: T:ReGenSDK.Service.RatingService
+  fullName: ReGenSDK.Service.RatingService
+  nameWithType: RatingService
+- uid: ReGenSDK.Service.RatingService.#ctor(ReGenSDK.Service.Api.IRatingApi)
+  name: RatingService(IRatingApi)
+  href: api/ReGenSDK.Service.RatingService.html#ReGenSDK_Service_RatingService__ctor_ReGenSDK_Service_Api_IRatingApi_
+  commentId: M:ReGenSDK.Service.RatingService.#ctor(ReGenSDK.Service.Api.IRatingApi)
+  fullName: ReGenSDK.Service.RatingService.RatingService(ReGenSDK.Service.Api.IRatingApi)
+  nameWithType: RatingService.RatingService(IRatingApi)
+- uid: ReGenSDK.Service.RatingService.#ctor*
+  name: RatingService
+  href: api/ReGenSDK.Service.RatingService.html#ReGenSDK_Service_RatingService__ctor_
+  commentId: Overload:ReGenSDK.Service.RatingService.#ctor
+  isSpec: "True"
+  fullName: ReGenSDK.Service.RatingService.RatingService
+  nameWithType: RatingService.RatingService
+- uid: ReGenSDK.Service.RatingService.Create(System.String,System.Int32)
+  name: Create(String, Int32)
+  href: api/ReGenSDK.Service.RatingService.html#ReGenSDK_Service_RatingService_Create_System_String_System_Int32_
+  commentId: M:ReGenSDK.Service.RatingService.Create(System.String,System.Int32)
+  fullName: ReGenSDK.Service.RatingService.Create(System.String, System.Int32)
+  nameWithType: RatingService.Create(String, Int32)
+- uid: ReGenSDK.Service.RatingService.Create*
+  name: Create
+  href: api/ReGenSDK.Service.RatingService.html#ReGenSDK_Service_RatingService_Create_
+  commentId: Overload:ReGenSDK.Service.RatingService.Create
+  isSpec: "True"
+  fullName: ReGenSDK.Service.RatingService.Create
+  nameWithType: RatingService.Create
+- uid: ReGenSDK.Service.RatingService.Get(System.String)
+  name: Get(String)
+  href: api/ReGenSDK.Service.RatingService.html#ReGenSDK_Service_RatingService_Get_System_String_
+  commentId: M:ReGenSDK.Service.RatingService.Get(System.String)
+  fullName: ReGenSDK.Service.RatingService.Get(System.String)
+  nameWithType: RatingService.Get(String)
+- uid: ReGenSDK.Service.RatingService.Get*
+  name: Get
+  href: api/ReGenSDK.Service.RatingService.html#ReGenSDK_Service_RatingService_Get_
+  commentId: Overload:ReGenSDK.Service.RatingService.Get
+  isSpec: "True"
+  fullName: ReGenSDK.Service.RatingService.Get
+  nameWithType: RatingService.Get
+- uid: ReGenSDK.Service.RatingService.GetAverage(System.String)
+  name: GetAverage(String)
+  href: api/ReGenSDK.Service.RatingService.html#ReGenSDK_Service_RatingService_GetAverage_System_String_
+  commentId: M:ReGenSDK.Service.RatingService.GetAverage(System.String)
+  fullName: ReGenSDK.Service.RatingService.GetAverage(System.String)
+  nameWithType: RatingService.GetAverage(String)
+- uid: ReGenSDK.Service.RatingService.GetAverage*
+  name: GetAverage
+  href: api/ReGenSDK.Service.RatingService.html#ReGenSDK_Service_RatingService_GetAverage_
+  commentId: Overload:ReGenSDK.Service.RatingService.GetAverage
+  isSpec: "True"
+  fullName: ReGenSDK.Service.RatingService.GetAverage
+  nameWithType: RatingService.GetAverage
+- uid: ReGenSDK.Service.RatingService.RatingApiImplementation
+  name: RatingApiImplementation
+  href: api/ReGenSDK.Service.RatingService.html#ReGenSDK_Service_RatingService_RatingApiImplementation
+  commentId: F:ReGenSDK.Service.RatingService.RatingApiImplementation
+  fullName: ReGenSDK.Service.RatingService.RatingApiImplementation
+  nameWithType: RatingService.RatingApiImplementation
+- uid: ReGenSDK.Service.RatingService.Update(System.String,System.Int32)
+  name: Update(String, Int32)
+  href: api/ReGenSDK.Service.RatingService.html#ReGenSDK_Service_RatingService_Update_System_String_System_Int32_
+  commentId: M:ReGenSDK.Service.RatingService.Update(System.String,System.Int32)
+  fullName: ReGenSDK.Service.RatingService.Update(System.String, System.Int32)
+  nameWithType: RatingService.Update(String, Int32)
+- uid: ReGenSDK.Service.RatingService.Update*
+  name: Update
+  href: api/ReGenSDK.Service.RatingService.html#ReGenSDK_Service_RatingService_Update_
+  commentId: Overload:ReGenSDK.Service.RatingService.Update
+  isSpec: "True"
+  fullName: ReGenSDK.Service.RatingService.Update
+  nameWithType: RatingService.Update
+- uid: ReGenSDK.Service.RecipeService
+  name: RecipeService
+  href: api/ReGenSDK.Service.RecipeService.html
+  commentId: T:ReGenSDK.Service.RecipeService
+  fullName: ReGenSDK.Service.RecipeService
+  nameWithType: RecipeService
+- uid: ReGenSDK.Service.RecipeService.#ctor(ReGenSDK.Service.Api.IRecipeApi)
+  name: RecipeService(IRecipeApi)
+  href: api/ReGenSDK.Service.RecipeService.html#ReGenSDK_Service_RecipeService__ctor_ReGenSDK_Service_Api_IRecipeApi_
+  commentId: M:ReGenSDK.Service.RecipeService.#ctor(ReGenSDK.Service.Api.IRecipeApi)
+  fullName: ReGenSDK.Service.RecipeService.RecipeService(ReGenSDK.Service.Api.IRecipeApi)
+  nameWithType: RecipeService.RecipeService(IRecipeApi)
+- uid: ReGenSDK.Service.RecipeService.#ctor*
+  name: RecipeService
+  href: api/ReGenSDK.Service.RecipeService.html#ReGenSDK_Service_RecipeService__ctor_
+  commentId: Overload:ReGenSDK.Service.RecipeService.#ctor
+  isSpec: "True"
+  fullName: ReGenSDK.Service.RecipeService.RecipeService
+  nameWithType: RecipeService.RecipeService
+- uid: ReGenSDK.Service.RecipeService.Create(ReGenSDK.Model.Recipe)
+  name: Create(Recipe)
+  href: api/ReGenSDK.Service.RecipeService.html#ReGenSDK_Service_RecipeService_Create_ReGenSDK_Model_Recipe_
+  commentId: M:ReGenSDK.Service.RecipeService.Create(ReGenSDK.Model.Recipe)
+  fullName: ReGenSDK.Service.RecipeService.Create(ReGenSDK.Model.Recipe)
+  nameWithType: RecipeService.Create(Recipe)
+- uid: ReGenSDK.Service.RecipeService.Create*
+  name: Create
+  href: api/ReGenSDK.Service.RecipeService.html#ReGenSDK_Service_RecipeService_Create_
+  commentId: Overload:ReGenSDK.Service.RecipeService.Create
+  isSpec: "True"
+  fullName: ReGenSDK.Service.RecipeService.Create
+  nameWithType: RecipeService.Create
+- uid: ReGenSDK.Service.RecipeService.Delete(System.String)
+  name: Delete(String)
+  href: api/ReGenSDK.Service.RecipeService.html#ReGenSDK_Service_RecipeService_Delete_System_String_
+  commentId: M:ReGenSDK.Service.RecipeService.Delete(System.String)
+  fullName: ReGenSDK.Service.RecipeService.Delete(System.String)
+  nameWithType: RecipeService.Delete(String)
+- uid: ReGenSDK.Service.RecipeService.Delete*
+  name: Delete
+  href: api/ReGenSDK.Service.RecipeService.html#ReGenSDK_Service_RecipeService_Delete_
+  commentId: Overload:ReGenSDK.Service.RecipeService.Delete
+  isSpec: "True"
+  fullName: ReGenSDK.Service.RecipeService.Delete
+  nameWithType: RecipeService.Delete
+- uid: ReGenSDK.Service.RecipeService.Get(System.String)
+  name: Get(String)
+  href: api/ReGenSDK.Service.RecipeService.html#ReGenSDK_Service_RecipeService_Get_System_String_
+  commentId: M:ReGenSDK.Service.RecipeService.Get(System.String)
+  fullName: ReGenSDK.Service.RecipeService.Get(System.String)
+  nameWithType: RecipeService.Get(String)
+- uid: ReGenSDK.Service.RecipeService.Get*
+  name: Get
+  href: api/ReGenSDK.Service.RecipeService.html#ReGenSDK_Service_RecipeService_Get_
+  commentId: Overload:ReGenSDK.Service.RecipeService.Get
+  isSpec: "True"
+  fullName: ReGenSDK.Service.RecipeService.Get
+  nameWithType: RecipeService.Get
+- uid: ReGenSDK.Service.RecipeService.RecipeApiImplementation
+  name: RecipeApiImplementation
+  href: api/ReGenSDK.Service.RecipeService.html#ReGenSDK_Service_RecipeService_RecipeApiImplementation
+  commentId: F:ReGenSDK.Service.RecipeService.RecipeApiImplementation
+  fullName: ReGenSDK.Service.RecipeService.RecipeApiImplementation
+  nameWithType: RecipeService.RecipeApiImplementation
+- uid: ReGenSDK.Service.RecipeService.Update(System.String,ReGenSDK.Model.Recipe)
+  name: Update(String, Recipe)
+  href: api/ReGenSDK.Service.RecipeService.html#ReGenSDK_Service_RecipeService_Update_System_String_ReGenSDK_Model_Recipe_
+  commentId: M:ReGenSDK.Service.RecipeService.Update(System.String,ReGenSDK.Model.Recipe)
+  fullName: ReGenSDK.Service.RecipeService.Update(System.String, ReGenSDK.Model.Recipe)
+  nameWithType: RecipeService.Update(String, Recipe)
+- uid: ReGenSDK.Service.RecipeService.Update*
+  name: Update
+  href: api/ReGenSDK.Service.RecipeService.html#ReGenSDK_Service_RecipeService_Update_
+  commentId: Overload:ReGenSDK.Service.RecipeService.Update
+  isSpec: "True"
+  fullName: ReGenSDK.Service.RecipeService.Update
+  nameWithType: RecipeService.Update
+- uid: ReGenSDK.Service.ReviewService
+  name: ReviewService
+  href: api/ReGenSDK.Service.ReviewService.html
+  commentId: T:ReGenSDK.Service.ReviewService
+  fullName: ReGenSDK.Service.ReviewService
+  nameWithType: ReviewService
+- uid: ReGenSDK.Service.ReviewService.#ctor(ReGenSDK.Service.Api.IReviewApi)
+  name: ReviewService(IReviewApi)
+  href: api/ReGenSDK.Service.ReviewService.html#ReGenSDK_Service_ReviewService__ctor_ReGenSDK_Service_Api_IReviewApi_
+  commentId: M:ReGenSDK.Service.ReviewService.#ctor(ReGenSDK.Service.Api.IReviewApi)
+  fullName: ReGenSDK.Service.ReviewService.ReviewService(ReGenSDK.Service.Api.IReviewApi)
+  nameWithType: ReviewService.ReviewService(IReviewApi)
+- uid: ReGenSDK.Service.ReviewService.#ctor*
+  name: ReviewService
+  href: api/ReGenSDK.Service.ReviewService.html#ReGenSDK_Service_ReviewService__ctor_
+  commentId: Overload:ReGenSDK.Service.ReviewService.#ctor
+  isSpec: "True"
+  fullName: ReGenSDK.Service.ReviewService.ReviewService
+  nameWithType: ReviewService.ReviewService
+- uid: ReGenSDK.Service.ReviewService.Create(System.String,ReGenSDK.Model.Review)
+  name: Create(String, Review)
+  href: api/ReGenSDK.Service.ReviewService.html#ReGenSDK_Service_ReviewService_Create_System_String_ReGenSDK_Model_Review_
+  commentId: M:ReGenSDK.Service.ReviewService.Create(System.String,ReGenSDK.Model.Review)
+  fullName: ReGenSDK.Service.ReviewService.Create(System.String, ReGenSDK.Model.Review)
+  nameWithType: ReviewService.Create(String, Review)
+- uid: ReGenSDK.Service.ReviewService.Create*
+  name: Create
+  href: api/ReGenSDK.Service.ReviewService.html#ReGenSDK_Service_ReviewService_Create_
+  commentId: Overload:ReGenSDK.Service.ReviewService.Create
+  isSpec: "True"
+  fullName: ReGenSDK.Service.ReviewService.Create
+  nameWithType: ReviewService.Create
+- uid: ReGenSDK.Service.ReviewService.Delete(System.String)
+  name: Delete(String)
+  href: api/ReGenSDK.Service.ReviewService.html#ReGenSDK_Service_ReviewService_Delete_System_String_
+  commentId: M:ReGenSDK.Service.ReviewService.Delete(System.String)
+  fullName: ReGenSDK.Service.ReviewService.Delete(System.String)
+  nameWithType: ReviewService.Delete(String)
+- uid: ReGenSDK.Service.ReviewService.Delete*
+  name: Delete
+  href: api/ReGenSDK.Service.ReviewService.html#ReGenSDK_Service_ReviewService_Delete_
+  commentId: Overload:ReGenSDK.Service.ReviewService.Delete
+  isSpec: "True"
+  fullName: ReGenSDK.Service.ReviewService.Delete
+  nameWithType: ReviewService.Delete
+- uid: ReGenSDK.Service.ReviewService.Get(System.String,System.String,System.Int32)
+  name: Get(String, String, Int32)
+  href: api/ReGenSDK.Service.ReviewService.html#ReGenSDK_Service_ReviewService_Get_System_String_System_String_System_Int32_
+  commentId: M:ReGenSDK.Service.ReviewService.Get(System.String,System.String,System.Int32)
+  fullName: ReGenSDK.Service.ReviewService.Get(System.String, System.String, System.Int32)
+  nameWithType: ReviewService.Get(String, String, Int32)
+- uid: ReGenSDK.Service.ReviewService.Get*
+  name: Get
+  href: api/ReGenSDK.Service.ReviewService.html#ReGenSDK_Service_ReviewService_Get_
+  commentId: Overload:ReGenSDK.Service.ReviewService.Get
+  isSpec: "True"
+  fullName: ReGenSDK.Service.ReviewService.Get
+  nameWithType: ReviewService.Get
+- uid: ReGenSDK.Service.ReviewService.ReviewApiImplementation
+  name: ReviewApiImplementation
+  href: api/ReGenSDK.Service.ReviewService.html#ReGenSDK_Service_ReviewService_ReviewApiImplementation
+  commentId: F:ReGenSDK.Service.ReviewService.ReviewApiImplementation
+  fullName: ReGenSDK.Service.ReviewService.ReviewApiImplementation
+  nameWithType: ReviewService.ReviewApiImplementation
+- uid: ReGenSDK.Service.ReviewService.Update(System.String,ReGenSDK.Model.Review)
+  name: Update(String, Review)
+  href: api/ReGenSDK.Service.ReviewService.html#ReGenSDK_Service_ReviewService_Update_System_String_ReGenSDK_Model_Review_
+  commentId: M:ReGenSDK.Service.ReviewService.Update(System.String,ReGenSDK.Model.Review)
+  fullName: ReGenSDK.Service.ReviewService.Update(System.String, ReGenSDK.Model.Review)
+  nameWithType: ReviewService.Update(String, Review)
+- uid: ReGenSDK.Service.ReviewService.Update*
+  name: Update
+  href: api/ReGenSDK.Service.ReviewService.html#ReGenSDK_Service_ReviewService_Update_
+  commentId: Overload:ReGenSDK.Service.ReviewService.Update
+  isSpec: "True"
+  fullName: ReGenSDK.Service.ReviewService.Update
+  nameWithType: ReviewService.Update
+- uid: ReGenSDK.Service.SearchQueryBuilder
+  name: SearchQueryBuilder
+  href: api/ReGenSDK.Service.SearchQueryBuilder.html
+  commentId: T:ReGenSDK.Service.SearchQueryBuilder
+  fullName: ReGenSDK.Service.SearchQueryBuilder
+  nameWithType: SearchQueryBuilder
+- uid: ReGenSDK.Service.SearchQueryBuilder.Add(System.String)
+  name: Add(String)
+  href: api/ReGenSDK.Service.SearchQueryBuilder.html#ReGenSDK_Service_SearchQueryBuilder_Add_System_String_
+  commentId: M:ReGenSDK.Service.SearchQueryBuilder.Add(System.String)
+  fullName: ReGenSDK.Service.SearchQueryBuilder.Add(System.String)
+  nameWithType: SearchQueryBuilder.Add(String)
+- uid: ReGenSDK.Service.SearchQueryBuilder.Add*
+  name: Add
+  href: api/ReGenSDK.Service.SearchQueryBuilder.html#ReGenSDK_Service_SearchQueryBuilder_Add_
+  commentId: Overload:ReGenSDK.Service.SearchQueryBuilder.Add
+  isSpec: "True"
+  fullName: ReGenSDK.Service.SearchQueryBuilder.Add
+  nameWithType: SearchQueryBuilder.Add
+- uid: ReGenSDK.Service.SearchQueryBuilder.ClearExcludeTags
+  name: ClearExcludeTags()
+  href: api/ReGenSDK.Service.SearchQueryBuilder.html#ReGenSDK_Service_SearchQueryBuilder_ClearExcludeTags
+  commentId: M:ReGenSDK.Service.SearchQueryBuilder.ClearExcludeTags
+  fullName: ReGenSDK.Service.SearchQueryBuilder.ClearExcludeTags()
+  nameWithType: SearchQueryBuilder.ClearExcludeTags()
+- uid: ReGenSDK.Service.SearchQueryBuilder.ClearExcludeTags*
+  name: ClearExcludeTags
+  href: api/ReGenSDK.Service.SearchQueryBuilder.html#ReGenSDK_Service_SearchQueryBuilder_ClearExcludeTags_
+  commentId: Overload:ReGenSDK.Service.SearchQueryBuilder.ClearExcludeTags
+  isSpec: "True"
+  fullName: ReGenSDK.Service.SearchQueryBuilder.ClearExcludeTags
+  nameWithType: SearchQueryBuilder.ClearExcludeTags
+- uid: ReGenSDK.Service.SearchQueryBuilder.ClearIncludeTags
+  name: ClearIncludeTags()
+  href: api/ReGenSDK.Service.SearchQueryBuilder.html#ReGenSDK_Service_SearchQueryBuilder_ClearIncludeTags
+  commentId: M:ReGenSDK.Service.SearchQueryBuilder.ClearIncludeTags
+  fullName: ReGenSDK.Service.SearchQueryBuilder.ClearIncludeTags()
+  nameWithType: SearchQueryBuilder.ClearIncludeTags()
+- uid: ReGenSDK.Service.SearchQueryBuilder.ClearIncludeTags*
+  name: ClearIncludeTags
+  href: api/ReGenSDK.Service.SearchQueryBuilder.html#ReGenSDK_Service_SearchQueryBuilder_ClearIncludeTags_
+  commentId: Overload:ReGenSDK.Service.SearchQueryBuilder.ClearIncludeTags
+  isSpec: "True"
+  fullName: ReGenSDK.Service.SearchQueryBuilder.ClearIncludeTags
+  nameWithType: SearchQueryBuilder.ClearIncludeTags
+- uid: ReGenSDK.Service.SearchQueryBuilder.ClearQuery
+  name: ClearQuery()
+  href: api/ReGenSDK.Service.SearchQueryBuilder.html#ReGenSDK_Service_SearchQueryBuilder_ClearQuery
+  commentId: M:ReGenSDK.Service.SearchQueryBuilder.ClearQuery
+  fullName: ReGenSDK.Service.SearchQueryBuilder.ClearQuery()
+  nameWithType: SearchQueryBuilder.ClearQuery()
+- uid: ReGenSDK.Service.SearchQueryBuilder.ClearQuery*
+  name: ClearQuery
+  href: api/ReGenSDK.Service.SearchQueryBuilder.html#ReGenSDK_Service_SearchQueryBuilder_ClearQuery_
+  commentId: Overload:ReGenSDK.Service.SearchQueryBuilder.ClearQuery
+  isSpec: "True"
+  fullName: ReGenSDK.Service.SearchQueryBuilder.ClearQuery
+  nameWithType: SearchQueryBuilder.ClearQuery
+- uid: ReGenSDK.Service.SearchQueryBuilder.ExcludeTag(System.Collections.Generic.IEnumerable{System.String})
+  name: ExcludeTag(IEnumerable<String>)
+  href: api/ReGenSDK.Service.SearchQueryBuilder.html#ReGenSDK_Service_SearchQueryBuilder_ExcludeTag_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:ReGenSDK.Service.SearchQueryBuilder.ExcludeTag(System.Collections.Generic.IEnumerable{System.String})
+  name.vb: ExcludeTag(IEnumerable(Of String))
+  fullName: ReGenSDK.Service.SearchQueryBuilder.ExcludeTag(System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: ReGenSDK.Service.SearchQueryBuilder.ExcludeTag(System.Collections.Generic.IEnumerable(Of System.String))
+  nameWithType: SearchQueryBuilder.ExcludeTag(IEnumerable<String>)
+  nameWithType.vb: SearchQueryBuilder.ExcludeTag(IEnumerable(Of String))
+- uid: ReGenSDK.Service.SearchQueryBuilder.ExcludeTag(System.String)
+  name: ExcludeTag(String)
+  href: api/ReGenSDK.Service.SearchQueryBuilder.html#ReGenSDK_Service_SearchQueryBuilder_ExcludeTag_System_String_
+  commentId: M:ReGenSDK.Service.SearchQueryBuilder.ExcludeTag(System.String)
+  fullName: ReGenSDK.Service.SearchQueryBuilder.ExcludeTag(System.String)
+  nameWithType: SearchQueryBuilder.ExcludeTag(String)
+- uid: ReGenSDK.Service.SearchQueryBuilder.ExcludeTag*
+  name: ExcludeTag
+  href: api/ReGenSDK.Service.SearchQueryBuilder.html#ReGenSDK_Service_SearchQueryBuilder_ExcludeTag_
+  commentId: Overload:ReGenSDK.Service.SearchQueryBuilder.ExcludeTag
+  isSpec: "True"
+  fullName: ReGenSDK.Service.SearchQueryBuilder.ExcludeTag
+  nameWithType: SearchQueryBuilder.ExcludeTag
+- uid: ReGenSDK.Service.SearchQueryBuilder.Execute
+  name: Execute()
+  href: api/ReGenSDK.Service.SearchQueryBuilder.html#ReGenSDK_Service_SearchQueryBuilder_Execute
+  commentId: M:ReGenSDK.Service.SearchQueryBuilder.Execute
+  fullName: ReGenSDK.Service.SearchQueryBuilder.Execute()
+  nameWithType: SearchQueryBuilder.Execute()
+- uid: ReGenSDK.Service.SearchQueryBuilder.Execute*
+  name: Execute
+  href: api/ReGenSDK.Service.SearchQueryBuilder.html#ReGenSDK_Service_SearchQueryBuilder_Execute_
+  commentId: Overload:ReGenSDK.Service.SearchQueryBuilder.Execute
+  isSpec: "True"
+  fullName: ReGenSDK.Service.SearchQueryBuilder.Execute
+  nameWithType: SearchQueryBuilder.Execute
+- uid: ReGenSDK.Service.SearchQueryBuilder.IncludeTag(System.Collections.Generic.IEnumerable{System.String})
+  name: IncludeTag(IEnumerable<String>)
+  href: api/ReGenSDK.Service.SearchQueryBuilder.html#ReGenSDK_Service_SearchQueryBuilder_IncludeTag_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:ReGenSDK.Service.SearchQueryBuilder.IncludeTag(System.Collections.Generic.IEnumerable{System.String})
+  name.vb: IncludeTag(IEnumerable(Of String))
+  fullName: ReGenSDK.Service.SearchQueryBuilder.IncludeTag(System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: ReGenSDK.Service.SearchQueryBuilder.IncludeTag(System.Collections.Generic.IEnumerable(Of System.String))
+  nameWithType: SearchQueryBuilder.IncludeTag(IEnumerable<String>)
+  nameWithType.vb: SearchQueryBuilder.IncludeTag(IEnumerable(Of String))
+- uid: ReGenSDK.Service.SearchQueryBuilder.IncludeTag(System.String)
+  name: IncludeTag(String)
+  href: api/ReGenSDK.Service.SearchQueryBuilder.html#ReGenSDK_Service_SearchQueryBuilder_IncludeTag_System_String_
+  commentId: M:ReGenSDK.Service.SearchQueryBuilder.IncludeTag(System.String)
+  fullName: ReGenSDK.Service.SearchQueryBuilder.IncludeTag(System.String)
+  nameWithType: SearchQueryBuilder.IncludeTag(String)
+- uid: ReGenSDK.Service.SearchQueryBuilder.IncludeTag*
+  name: IncludeTag
+  href: api/ReGenSDK.Service.SearchQueryBuilder.html#ReGenSDK_Service_SearchQueryBuilder_IncludeTag_
+  commentId: Overload:ReGenSDK.Service.SearchQueryBuilder.IncludeTag
+  isSpec: "True"
+  fullName: ReGenSDK.Service.SearchQueryBuilder.IncludeTag
+  nameWithType: SearchQueryBuilder.IncludeTag
+- uid: ReGenSDK.Service.SearchService
+  name: SearchService
+  href: api/ReGenSDK.Service.SearchService.html
+  commentId: T:ReGenSDK.Service.SearchService
+  fullName: ReGenSDK.Service.SearchService
+  nameWithType: SearchService
+- uid: ReGenSDK.Service.SearchService.#ctor(ReGenSDK.Service.Api.ISearchApi)
+  name: SearchService(ISearchApi)
+  href: api/ReGenSDK.Service.SearchService.html#ReGenSDK_Service_SearchService__ctor_ReGenSDK_Service_Api_ISearchApi_
+  commentId: M:ReGenSDK.Service.SearchService.#ctor(ReGenSDK.Service.Api.ISearchApi)
+  fullName: ReGenSDK.Service.SearchService.SearchService(ReGenSDK.Service.Api.ISearchApi)
+  nameWithType: SearchService.SearchService(ISearchApi)
+- uid: ReGenSDK.Service.SearchService.#ctor*
+  name: SearchService
+  href: api/ReGenSDK.Service.SearchService.html#ReGenSDK_Service_SearchService__ctor_
+  commentId: Overload:ReGenSDK.Service.SearchService.#ctor
+  isSpec: "True"
+  fullName: ReGenSDK.Service.SearchService.SearchService
+  nameWithType: SearchService.SearchService
+- uid: ReGenSDK.Service.SearchService.Builder
+  name: Builder()
+  href: api/ReGenSDK.Service.SearchService.html#ReGenSDK_Service_SearchService_Builder
+  commentId: M:ReGenSDK.Service.SearchService.Builder
+  fullName: ReGenSDK.Service.SearchService.Builder()
+  nameWithType: SearchService.Builder()
+- uid: ReGenSDK.Service.SearchService.Builder*
+  name: Builder
+  href: api/ReGenSDK.Service.SearchService.html#ReGenSDK_Service_SearchService_Builder_
+  commentId: Overload:ReGenSDK.Service.SearchService.Builder
+  isSpec: "True"
+  fullName: ReGenSDK.Service.SearchService.Builder
+  nameWithType: SearchService.Builder
+- uid: ReGenSDK.Service.SearchService.Search(System.String,ReGenSDK.Service.TagFilter)
+  name: Search(String, TagFilter)
+  href: api/ReGenSDK.Service.SearchService.html#ReGenSDK_Service_SearchService_Search_System_String_ReGenSDK_Service_TagFilter_
+  commentId: M:ReGenSDK.Service.SearchService.Search(System.String,ReGenSDK.Service.TagFilter)
+  fullName: ReGenSDK.Service.SearchService.Search(System.String, ReGenSDK.Service.TagFilter)
+  nameWithType: SearchService.Search(String, TagFilter)
+- uid: ReGenSDK.Service.SearchService.Search(System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  name: Search(String, IEnumerable<String>, IEnumerable<String>)
+  href: api/ReGenSDK.Service.SearchService.html#ReGenSDK_Service_SearchService_Search_System_String_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:ReGenSDK.Service.SearchService.Search(System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  name.vb: Search(String, IEnumerable(Of String), IEnumerable(Of String))
+  fullName: ReGenSDK.Service.SearchService.Search(System.String, System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: ReGenSDK.Service.SearchService.Search(System.String, System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String))
+  nameWithType: SearchService.Search(String, IEnumerable<String>, IEnumerable<String>)
+  nameWithType.vb: SearchService.Search(String, IEnumerable(Of String), IEnumerable(Of String))
+- uid: ReGenSDK.Service.SearchService.Search*
+  name: Search
+  href: api/ReGenSDK.Service.SearchService.html#ReGenSDK_Service_SearchService_Search_
+  commentId: Overload:ReGenSDK.Service.SearchService.Search
+  isSpec: "True"
+  fullName: ReGenSDK.Service.SearchService.Search
+  nameWithType: SearchService.Search
+- uid: ReGenSDK.Service.SearchService.SearchApiImplementation
+  name: SearchApiImplementation
+  href: api/ReGenSDK.Service.SearchService.html#ReGenSDK_Service_SearchService_SearchApiImplementation
+  commentId: F:ReGenSDK.Service.SearchService.SearchApiImplementation
+  fullName: ReGenSDK.Service.SearchService.SearchApiImplementation
+  nameWithType: SearchService.SearchApiImplementation
+- uid: ReGenSDK.Service.TagFilter
+  name: TagFilter
+  href: api/ReGenSDK.Service.TagFilter.html
+  commentId: T:ReGenSDK.Service.TagFilter
+  fullName: ReGenSDK.Service.TagFilter
+  nameWithType: TagFilter
+- uid: ReGenSDK.Service.TagFilter.ExcludeTags
+  name: ExcludeTags
+  href: api/ReGenSDK.Service.TagFilter.html#ReGenSDK_Service_TagFilter_ExcludeTags
+  commentId: F:ReGenSDK.Service.TagFilter.ExcludeTags
+  fullName: ReGenSDK.Service.TagFilter.ExcludeTags
+  nameWithType: TagFilter.ExcludeTags
+- uid: ReGenSDK.Service.TagFilter.IncludeTags
+  name: IncludeTags
+  href: api/ReGenSDK.Service.TagFilter.html#ReGenSDK_Service_TagFilter_IncludeTags
+  commentId: F:ReGenSDK.Service.TagFilter.IncludeTags
+  fullName: ReGenSDK.Service.TagFilter.IncludeTags
+  nameWithType: TagFilter.IncludeTags
+- uid: ReGenSDK.Tasks
+  name: ReGenSDK.Tasks
+  href: api/ReGenSDK.Tasks.html
+  commentId: N:ReGenSDK.Tasks
+  fullName: ReGenSDK.Tasks
+  nameWithType: ReGenSDK.Tasks
+- uid: ReGenSDK.Tasks.ICallbackHandler`1
+  name: ICallbackHandler<E>
+  href: api/ReGenSDK.Tasks.ICallbackHandler-1.html
+  commentId: T:ReGenSDK.Tasks.ICallbackHandler`1
+  name.vb: ICallbackHandler(Of E)
+  fullName: ReGenSDK.Tasks.ICallbackHandler<E>
+  fullName.vb: ReGenSDK.Tasks.ICallbackHandler(Of E)
+  nameWithType: ICallbackHandler<E>
+  nameWithType.vb: ICallbackHandler(Of E)
+- uid: ReGenSDK.Tasks.ICallbackHandler`1.OnFailure(`0)
+  name: OnFailure(E)
+  href: api/ReGenSDK.Tasks.ICallbackHandler-1.html#ReGenSDK_Tasks_ICallbackHandler_1_OnFailure__0_
+  commentId: M:ReGenSDK.Tasks.ICallbackHandler`1.OnFailure(`0)
+  fullName: ReGenSDK.Tasks.ICallbackHandler<E>.OnFailure(E)
+  fullName.vb: ReGenSDK.Tasks.ICallbackHandler(Of E).OnFailure(E)
+  nameWithType: ICallbackHandler<E>.OnFailure(E)
+  nameWithType.vb: ICallbackHandler(Of E).OnFailure(E)
+- uid: ReGenSDK.Tasks.ICallbackHandler`1.OnFailure*
+  name: OnFailure
+  href: api/ReGenSDK.Tasks.ICallbackHandler-1.html#ReGenSDK_Tasks_ICallbackHandler_1_OnFailure_
+  commentId: Overload:ReGenSDK.Tasks.ICallbackHandler`1.OnFailure
+  isSpec: "True"
+  fullName: ReGenSDK.Tasks.ICallbackHandler<E>.OnFailure
+  fullName.vb: ReGenSDK.Tasks.ICallbackHandler(Of E).OnFailure
+  nameWithType: ICallbackHandler<E>.OnFailure
+  nameWithType.vb: ICallbackHandler(Of E).OnFailure
+- uid: ReGenSDK.Tasks.ICallbackHandler`1.OnSuccess
+  name: OnSuccess()
+  href: api/ReGenSDK.Tasks.ICallbackHandler-1.html#ReGenSDK_Tasks_ICallbackHandler_1_OnSuccess
+  commentId: M:ReGenSDK.Tasks.ICallbackHandler`1.OnSuccess
+  fullName: ReGenSDK.Tasks.ICallbackHandler<E>.OnSuccess()
+  fullName.vb: ReGenSDK.Tasks.ICallbackHandler(Of E).OnSuccess()
+  nameWithType: ICallbackHandler<E>.OnSuccess()
+  nameWithType.vb: ICallbackHandler(Of E).OnSuccess()
+- uid: ReGenSDK.Tasks.ICallbackHandler`1.OnSuccess*
+  name: OnSuccess
+  href: api/ReGenSDK.Tasks.ICallbackHandler-1.html#ReGenSDK_Tasks_ICallbackHandler_1_OnSuccess_
+  commentId: Overload:ReGenSDK.Tasks.ICallbackHandler`1.OnSuccess
+  isSpec: "True"
+  fullName: ReGenSDK.Tasks.ICallbackHandler<E>.OnSuccess
+  fullName.vb: ReGenSDK.Tasks.ICallbackHandler(Of E).OnSuccess
+  nameWithType: ICallbackHandler<E>.OnSuccess
+  nameWithType.vb: ICallbackHandler(Of E).OnSuccess
+- uid: ReGenSDK.Tasks.ICallbackHandler`2
+  name: ICallbackHandler<T, E>
+  href: api/ReGenSDK.Tasks.ICallbackHandler-2.html
+  commentId: T:ReGenSDK.Tasks.ICallbackHandler`2
+  name.vb: ICallbackHandler(Of T, E)
+  fullName: ReGenSDK.Tasks.ICallbackHandler<T, E>
+  fullName.vb: ReGenSDK.Tasks.ICallbackHandler(Of T, E)
+  nameWithType: ICallbackHandler<T, E>
+  nameWithType.vb: ICallbackHandler(Of T, E)
+- uid: ReGenSDK.Tasks.ICallbackHandler`2.OnFailure(`1)
+  name: OnFailure(E)
+  href: api/ReGenSDK.Tasks.ICallbackHandler-2.html#ReGenSDK_Tasks_ICallbackHandler_2_OnFailure__1_
+  commentId: M:ReGenSDK.Tasks.ICallbackHandler`2.OnFailure(`1)
+  fullName: ReGenSDK.Tasks.ICallbackHandler<T, E>.OnFailure(E)
+  fullName.vb: ReGenSDK.Tasks.ICallbackHandler(Of T, E).OnFailure(E)
+  nameWithType: ICallbackHandler<T, E>.OnFailure(E)
+  nameWithType.vb: ICallbackHandler(Of T, E).OnFailure(E)
+- uid: ReGenSDK.Tasks.ICallbackHandler`2.OnFailure*
+  name: OnFailure
+  href: api/ReGenSDK.Tasks.ICallbackHandler-2.html#ReGenSDK_Tasks_ICallbackHandler_2_OnFailure_
+  commentId: Overload:ReGenSDK.Tasks.ICallbackHandler`2.OnFailure
+  isSpec: "True"
+  fullName: ReGenSDK.Tasks.ICallbackHandler<T, E>.OnFailure
+  fullName.vb: ReGenSDK.Tasks.ICallbackHandler(Of T, E).OnFailure
+  nameWithType: ICallbackHandler<T, E>.OnFailure
+  nameWithType.vb: ICallbackHandler(Of T, E).OnFailure
+- uid: ReGenSDK.Tasks.ICallbackHandler`2.OnSuccess(`0)
+  name: OnSuccess(T)
+  href: api/ReGenSDK.Tasks.ICallbackHandler-2.html#ReGenSDK_Tasks_ICallbackHandler_2_OnSuccess__0_
+  commentId: M:ReGenSDK.Tasks.ICallbackHandler`2.OnSuccess(`0)
+  fullName: ReGenSDK.Tasks.ICallbackHandler<T, E>.OnSuccess(T)
+  fullName.vb: ReGenSDK.Tasks.ICallbackHandler(Of T, E).OnSuccess(T)
+  nameWithType: ICallbackHandler<T, E>.OnSuccess(T)
+  nameWithType.vb: ICallbackHandler(Of T, E).OnSuccess(T)
+- uid: ReGenSDK.Tasks.ICallbackHandler`2.OnSuccess*
+  name: OnSuccess
+  href: api/ReGenSDK.Tasks.ICallbackHandler-2.html#ReGenSDK_Tasks_ICallbackHandler_2_OnSuccess_
+  commentId: Overload:ReGenSDK.Tasks.ICallbackHandler`2.OnSuccess
+  isSpec: "True"
+  fullName: ReGenSDK.Tasks.ICallbackHandler<T, E>.OnSuccess
+  fullName.vb: ReGenSDK.Tasks.ICallbackHandler(Of T, E).OnSuccess
+  nameWithType: ICallbackHandler<T, E>.OnSuccess
+  nameWithType.vb: ICallbackHandler(Of T, E).OnSuccess
+- uid: ReGenSDK.Tasks.MainThreadTask
+  name: MainThreadTask
+  href: api/ReGenSDK.Tasks.MainThreadTask.html
+  commentId: T:ReGenSDK.Tasks.MainThreadTask
+  fullName: ReGenSDK.Tasks.MainThreadTask
+  nameWithType: MainThreadTask
+- uid: ReGenSDK.Tasks.MainThreadTask.Run(System.Func{System.Threading.Tasks.Task})
+  name: Run(Func<Task>)
+  href: api/ReGenSDK.Tasks.MainThreadTask.html#ReGenSDK_Tasks_MainThreadTask_Run_System_Func_System_Threading_Tasks_Task__
+  commentId: M:ReGenSDK.Tasks.MainThreadTask.Run(System.Func{System.Threading.Tasks.Task})
+  name.vb: Run(Func(Of Task))
+  fullName: ReGenSDK.Tasks.MainThreadTask.Run(System.Func<System.Threading.Tasks.Task>)
+  fullName.vb: ReGenSDK.Tasks.MainThreadTask.Run(System.Func(Of System.Threading.Tasks.Task))
+  nameWithType: MainThreadTask.Run(Func<Task>)
+  nameWithType.vb: MainThreadTask.Run(Func(Of Task))
+- uid: ReGenSDK.Tasks.MainThreadTask.Run(UnityEngine.MonoBehaviour,System.Func{System.Threading.Tasks.Task})
+  name: Run(MonoBehaviour, Func<Task>)
+  href: api/ReGenSDK.Tasks.MainThreadTask.html#ReGenSDK_Tasks_MainThreadTask_Run_UnityEngine_MonoBehaviour_System_Func_System_Threading_Tasks_Task__
+  commentId: M:ReGenSDK.Tasks.MainThreadTask.Run(UnityEngine.MonoBehaviour,System.Func{System.Threading.Tasks.Task})
+  name.vb: Run(MonoBehaviour, Func(Of Task))
+  fullName: ReGenSDK.Tasks.MainThreadTask.Run(UnityEngine.MonoBehaviour, System.Func<System.Threading.Tasks.Task>)
+  fullName.vb: ReGenSDK.Tasks.MainThreadTask.Run(UnityEngine.MonoBehaviour, System.Func(Of System.Threading.Tasks.Task))
+  nameWithType: MainThreadTask.Run(MonoBehaviour, Func<Task>)
+  nameWithType.vb: MainThreadTask.Run(MonoBehaviour, Func(Of Task))
+- uid: ReGenSDK.Tasks.MainThreadTask.Run*
+  name: Run
+  href: api/ReGenSDK.Tasks.MainThreadTask.html#ReGenSDK_Tasks_MainThreadTask_Run_
+  commentId: Overload:ReGenSDK.Tasks.MainThreadTask.Run
+  isSpec: "True"
+  fullName: ReGenSDK.Tasks.MainThreadTask.Run
+  nameWithType: MainThreadTask.Run
+- uid: ReGenSDK.Tasks.TaskCallbackExtensions
+  name: TaskCallbackExtensions
+  href: api/ReGenSDK.Tasks.TaskCallbackExtensions.html
+  commentId: T:ReGenSDK.Tasks.TaskCallbackExtensions
+  fullName: ReGenSDK.Tasks.TaskCallbackExtensions
+  nameWithType: TaskCallbackExtensions
+- uid: ReGenSDK.Tasks.TaskCallbackExtensions.Callback*
+  name: Callback
+  href: api/ReGenSDK.Tasks.TaskCallbackExtensions.html#ReGenSDK_Tasks_TaskCallbackExtensions_Callback_
+  commentId: Overload:ReGenSDK.Tasks.TaskCallbackExtensions.Callback
+  isSpec: "True"
+  fullName: ReGenSDK.Tasks.TaskCallbackExtensions.Callback
+  nameWithType: TaskCallbackExtensions.Callback
+- uid: ReGenSDK.Tasks.TaskCallbackExtensions.Callback``1(System.Threading.Tasks.Task,ReGenSDK.Tasks.ICallbackHandler{``0})
+  name: Callback<E>(Task, ICallbackHandler<E>)
+  href: api/ReGenSDK.Tasks.TaskCallbackExtensions.html#ReGenSDK_Tasks_TaskCallbackExtensions_Callback__1_System_Threading_Tasks_Task_ReGenSDK_Tasks_ICallbackHandler___0__
+  commentId: M:ReGenSDK.Tasks.TaskCallbackExtensions.Callback``1(System.Threading.Tasks.Task,ReGenSDK.Tasks.ICallbackHandler{``0})
+  name.vb: Callback(Of E)(Task, ICallbackHandler(Of E))
+  fullName: ReGenSDK.Tasks.TaskCallbackExtensions.Callback<E>(System.Threading.Tasks.Task, ReGenSDK.Tasks.ICallbackHandler<E>)
+  fullName.vb: ReGenSDK.Tasks.TaskCallbackExtensions.Callback(Of E)(System.Threading.Tasks.Task, ReGenSDK.Tasks.ICallbackHandler(Of E))
+  nameWithType: TaskCallbackExtensions.Callback<E>(Task, ICallbackHandler<E>)
+  nameWithType.vb: TaskCallbackExtensions.Callback(Of E)(Task, ICallbackHandler(Of E))
+- uid: ReGenSDK.Tasks.TaskCallbackExtensions.Callback``1(System.Threading.Tasks.Task,System.Action,System.Action{``0})
+  name: Callback<E>(Task, Action, Action<E>)
+  href: api/ReGenSDK.Tasks.TaskCallbackExtensions.html#ReGenSDK_Tasks_TaskCallbackExtensions_Callback__1_System_Threading_Tasks_Task_System_Action_System_Action___0__
+  commentId: M:ReGenSDK.Tasks.TaskCallbackExtensions.Callback``1(System.Threading.Tasks.Task,System.Action,System.Action{``0})
+  name.vb: Callback(Of E)(Task, Action, Action(Of E))
+  fullName: ReGenSDK.Tasks.TaskCallbackExtensions.Callback<E>(System.Threading.Tasks.Task, System.Action, System.Action<E>)
+  fullName.vb: ReGenSDK.Tasks.TaskCallbackExtensions.Callback(Of E)(System.Threading.Tasks.Task, System.Action, System.Action(Of E))
+  nameWithType: TaskCallbackExtensions.Callback<E>(Task, Action, Action<E>)
+  nameWithType.vb: TaskCallbackExtensions.Callback(Of E)(Task, Action, Action(Of E))
+- uid: ReGenSDK.Tasks.TaskCallbackExtensions.Callback``2(System.Threading.Tasks.Task{``0},ReGenSDK.Tasks.ICallbackHandler{``0,``1})
+  name: Callback<T, E>(Task<T>, ICallbackHandler<T, E>)
+  href: api/ReGenSDK.Tasks.TaskCallbackExtensions.html#ReGenSDK_Tasks_TaskCallbackExtensions_Callback__2_System_Threading_Tasks_Task___0__ReGenSDK_Tasks_ICallbackHandler___0___1__
+  commentId: M:ReGenSDK.Tasks.TaskCallbackExtensions.Callback``2(System.Threading.Tasks.Task{``0},ReGenSDK.Tasks.ICallbackHandler{``0,``1})
+  name.vb: Callback(Of T, E)(Task(Of T), ICallbackHandler(Of T, E))
+  fullName: ReGenSDK.Tasks.TaskCallbackExtensions.Callback<T, E>(System.Threading.Tasks.Task<T>, ReGenSDK.Tasks.ICallbackHandler<T, E>)
+  fullName.vb: ReGenSDK.Tasks.TaskCallbackExtensions.Callback(Of T, E)(System.Threading.Tasks.Task(Of T), ReGenSDK.Tasks.ICallbackHandler(Of T, E))
+  nameWithType: TaskCallbackExtensions.Callback<T, E>(Task<T>, ICallbackHandler<T, E>)
+  nameWithType.vb: TaskCallbackExtensions.Callback(Of T, E)(Task(Of T), ICallbackHandler(Of T, E))
+- uid: ReGenSDK.Tasks.TaskCallbackExtensions.Callback``2(System.Threading.Tasks.Task{``0},System.Action{``0},System.Action{``1})
+  name: Callback<T, E>(Task<T>, Action<T>, Action<E>)
+  href: api/ReGenSDK.Tasks.TaskCallbackExtensions.html#ReGenSDK_Tasks_TaskCallbackExtensions_Callback__2_System_Threading_Tasks_Task___0__System_Action___0__System_Action___1__
+  commentId: M:ReGenSDK.Tasks.TaskCallbackExtensions.Callback``2(System.Threading.Tasks.Task{``0},System.Action{``0},System.Action{``1})
+  name.vb: Callback(Of T, E)(Task(Of T), Action(Of T), Action(Of E))
+  fullName: ReGenSDK.Tasks.TaskCallbackExtensions.Callback<T, E>(System.Threading.Tasks.Task<T>, System.Action<T>, System.Action<E>)
+  fullName.vb: ReGenSDK.Tasks.TaskCallbackExtensions.Callback(Of T, E)(System.Threading.Tasks.Task(Of T), System.Action(Of T), System.Action(Of E))
+  nameWithType: TaskCallbackExtensions.Callback<T, E>(Task<T>, Action<T>, Action<E>)
+  nameWithType.vb: TaskCallbackExtensions.Callback(Of T, E)(Task(Of T), Action(Of T), Action(Of E))
+- uid: ReGenSDK.Tasks.TaskCallbackExtensions.Callback``3(System.Threading.Tasks.Task{``0},System.Func{``0,``1},System.Action{``2})
+  name: Callback<T, R, E>(Task<T>, Func<T, R>, Action<E>)
+  href: api/ReGenSDK.Tasks.TaskCallbackExtensions.html#ReGenSDK_Tasks_TaskCallbackExtensions_Callback__3_System_Threading_Tasks_Task___0__System_Func___0___1__System_Action___2__
+  commentId: M:ReGenSDK.Tasks.TaskCallbackExtensions.Callback``3(System.Threading.Tasks.Task{``0},System.Func{``0,``1},System.Action{``2})
+  name.vb: Callback(Of T, R, E)(Task(Of T), Func(Of T, R), Action(Of E))
+  fullName: ReGenSDK.Tasks.TaskCallbackExtensions.Callback<T, R, E>(System.Threading.Tasks.Task<T>, System.Func<T, R>, System.Action<E>)
+  fullName.vb: ReGenSDK.Tasks.TaskCallbackExtensions.Callback(Of T, R, E)(System.Threading.Tasks.Task(Of T), System.Func(Of T, R), System.Action(Of E))
+  nameWithType: TaskCallbackExtensions.Callback<T, R, E>(Task<T>, Func<T, R>, Action<E>)
+  nameWithType.vb: TaskCallbackExtensions.Callback(Of T, R, E)(Task(Of T), Func(Of T, R), Action(Of E))
+- uid: ReGenSDK.Tasks.TaskCallbackExtensions.Failure(System.Threading.Tasks.Task,System.Action{System.Exception})
+  name: Failure(Task, Action<Exception>)
+  href: api/ReGenSDK.Tasks.TaskCallbackExtensions.html#ReGenSDK_Tasks_TaskCallbackExtensions_Failure_System_Threading_Tasks_Task_System_Action_System_Exception__
+  commentId: M:ReGenSDK.Tasks.TaskCallbackExtensions.Failure(System.Threading.Tasks.Task,System.Action{System.Exception})
+  name.vb: Failure(Task, Action(Of Exception))
+  fullName: ReGenSDK.Tasks.TaskCallbackExtensions.Failure(System.Threading.Tasks.Task, System.Action<System.Exception>)
+  fullName.vb: ReGenSDK.Tasks.TaskCallbackExtensions.Failure(System.Threading.Tasks.Task, System.Action(Of System.Exception))
+  nameWithType: TaskCallbackExtensions.Failure(Task, Action<Exception>)
+  nameWithType.vb: TaskCallbackExtensions.Failure(Task, Action(Of Exception))
+- uid: ReGenSDK.Tasks.TaskCallbackExtensions.Failure*
+  name: Failure
+  href: api/ReGenSDK.Tasks.TaskCallbackExtensions.html#ReGenSDK_Tasks_TaskCallbackExtensions_Failure_
+  commentId: Overload:ReGenSDK.Tasks.TaskCallbackExtensions.Failure
+  isSpec: "True"
+  fullName: ReGenSDK.Tasks.TaskCallbackExtensions.Failure
+  nameWithType: TaskCallbackExtensions.Failure
+- uid: ReGenSDK.Tasks.TaskCallbackExtensions.Failure``1(System.Threading.Tasks.Task,System.Action{``0})
+  name: Failure<E>(Task, Action<E>)
+  href: api/ReGenSDK.Tasks.TaskCallbackExtensions.html#ReGenSDK_Tasks_TaskCallbackExtensions_Failure__1_System_Threading_Tasks_Task_System_Action___0__
+  commentId: M:ReGenSDK.Tasks.TaskCallbackExtensions.Failure``1(System.Threading.Tasks.Task,System.Action{``0})
+  name.vb: Failure(Of E)(Task, Action(Of E))
+  fullName: ReGenSDK.Tasks.TaskCallbackExtensions.Failure<E>(System.Threading.Tasks.Task, System.Action<E>)
+  fullName.vb: ReGenSDK.Tasks.TaskCallbackExtensions.Failure(Of E)(System.Threading.Tasks.Task, System.Action(Of E))
+  nameWithType: TaskCallbackExtensions.Failure<E>(Task, Action<E>)
+  nameWithType.vb: TaskCallbackExtensions.Failure(Of E)(Task, Action(Of E))
+- uid: ReGenSDK.Tasks.TaskCallbackExtensions.Failure``1(System.Threading.Tasks.Task{``0},System.Action{System.Exception})
+  name: Failure<R>(Task<R>, Action<Exception>)
+  href: api/ReGenSDK.Tasks.TaskCallbackExtensions.html#ReGenSDK_Tasks_TaskCallbackExtensions_Failure__1_System_Threading_Tasks_Task___0__System_Action_System_Exception__
+  commentId: M:ReGenSDK.Tasks.TaskCallbackExtensions.Failure``1(System.Threading.Tasks.Task{``0},System.Action{System.Exception})
+  name.vb: Failure(Of R)(Task(Of R), Action(Of Exception))
+  fullName: ReGenSDK.Tasks.TaskCallbackExtensions.Failure<R>(System.Threading.Tasks.Task<R>, System.Action<System.Exception>)
+  fullName.vb: ReGenSDK.Tasks.TaskCallbackExtensions.Failure(Of R)(System.Threading.Tasks.Task(Of R), System.Action(Of System.Exception))
+  nameWithType: TaskCallbackExtensions.Failure<R>(Task<R>, Action<Exception>)
+  nameWithType.vb: TaskCallbackExtensions.Failure(Of R)(Task(Of R), Action(Of Exception))
+- uid: ReGenSDK.Tasks.TaskCallbackExtensions.Failure``2(System.Threading.Tasks.Task{``0},System.Action{``1})
+  name: Failure<R, E>(Task<R>, Action<E>)
+  href: api/ReGenSDK.Tasks.TaskCallbackExtensions.html#ReGenSDK_Tasks_TaskCallbackExtensions_Failure__2_System_Threading_Tasks_Task___0__System_Action___1__
+  commentId: M:ReGenSDK.Tasks.TaskCallbackExtensions.Failure``2(System.Threading.Tasks.Task{``0},System.Action{``1})
+  name.vb: Failure(Of R, E)(Task(Of R), Action(Of E))
+  fullName: ReGenSDK.Tasks.TaskCallbackExtensions.Failure<R, E>(System.Threading.Tasks.Task<R>, System.Action<E>)
+  fullName.vb: ReGenSDK.Tasks.TaskCallbackExtensions.Failure(Of R, E)(System.Threading.Tasks.Task(Of R), System.Action(Of E))
+  nameWithType: TaskCallbackExtensions.Failure<R, E>(Task<R>, Action<E>)
+  nameWithType.vb: TaskCallbackExtensions.Failure(Of R, E)(Task(Of R), Action(Of E))
+- uid: ReGenSDK.Tasks.TaskCallbackExtensions.Success(System.Threading.Tasks.Task,System.Action)
+  name: Success(Task, Action)
+  href: api/ReGenSDK.Tasks.TaskCallbackExtensions.html#ReGenSDK_Tasks_TaskCallbackExtensions_Success_System_Threading_Tasks_Task_System_Action_
+  commentId: M:ReGenSDK.Tasks.TaskCallbackExtensions.Success(System.Threading.Tasks.Task,System.Action)
+  fullName: ReGenSDK.Tasks.TaskCallbackExtensions.Success(System.Threading.Tasks.Task, System.Action)
+  nameWithType: TaskCallbackExtensions.Success(Task, Action)
+- uid: ReGenSDK.Tasks.TaskCallbackExtensions.Success*
+  name: Success
+  href: api/ReGenSDK.Tasks.TaskCallbackExtensions.html#ReGenSDK_Tasks_TaskCallbackExtensions_Success_
+  commentId: Overload:ReGenSDK.Tasks.TaskCallbackExtensions.Success
+  isSpec: "True"
+  fullName: ReGenSDK.Tasks.TaskCallbackExtensions.Success
+  nameWithType: TaskCallbackExtensions.Success
+- uid: ReGenSDK.Tasks.TaskCallbackExtensions.Success``1(System.Threading.Tasks.Task{``0},System.Action{``0})
+  name: Success<T>(Task<T>, Action<T>)
+  href: api/ReGenSDK.Tasks.TaskCallbackExtensions.html#ReGenSDK_Tasks_TaskCallbackExtensions_Success__1_System_Threading_Tasks_Task___0__System_Action___0__
+  commentId: M:ReGenSDK.Tasks.TaskCallbackExtensions.Success``1(System.Threading.Tasks.Task{``0},System.Action{``0})
+  name.vb: Success(Of T)(Task(Of T), Action(Of T))
+  fullName: ReGenSDK.Tasks.TaskCallbackExtensions.Success<T>(System.Threading.Tasks.Task<T>, System.Action<T>)
+  fullName.vb: ReGenSDK.Tasks.TaskCallbackExtensions.Success(Of T)(System.Threading.Tasks.Task(Of T), System.Action(Of T))
+  nameWithType: TaskCallbackExtensions.Success<T>(Task<T>, Action<T>)
+  nameWithType.vb: TaskCallbackExtensions.Success(Of T)(Task(Of T), Action(Of T))
+- uid: ReGenSDK.Tasks.TaskCallbackExtensions.Success``2(System.Threading.Tasks.Task{``0},System.Func{``0,``1})
+  name: Success<T, R>(Task<T>, Func<T, R>)
+  href: api/ReGenSDK.Tasks.TaskCallbackExtensions.html#ReGenSDK_Tasks_TaskCallbackExtensions_Success__2_System_Threading_Tasks_Task___0__System_Func___0___1__
+  commentId: M:ReGenSDK.Tasks.TaskCallbackExtensions.Success``2(System.Threading.Tasks.Task{``0},System.Func{``0,``1})
+  name.vb: Success(Of T, R)(Task(Of T), Func(Of T, R))
+  fullName: ReGenSDK.Tasks.TaskCallbackExtensions.Success<T, R>(System.Threading.Tasks.Task<T>, System.Func<T, R>)
+  fullName.vb: ReGenSDK.Tasks.TaskCallbackExtensions.Success(Of T, R)(System.Threading.Tasks.Task(Of T), System.Func(Of T, R))
+  nameWithType: TaskCallbackExtensions.Success<T, R>(Task<T>, Func<T, R>)
+  nameWithType.vb: TaskCallbackExtensions.Success(Of T, R)(Task(Of T), Func(Of T, R))
+- uid: ReGenSDK.Unity
+  name: ReGenSDK.Unity
+  href: api/ReGenSDK.Unity.html
+  commentId: N:ReGenSDK.Unity
+  fullName: ReGenSDK.Unity
+  nameWithType: ReGenSDK.Unity
+- uid: ReGenSDK.Unity.UnityMainThreadDispatcher
+  name: UnityMainThreadDispatcher
+  href: api/ReGenSDK.Unity.UnityMainThreadDispatcher.html
+  commentId: T:ReGenSDK.Unity.UnityMainThreadDispatcher
+  fullName: ReGenSDK.Unity.UnityMainThreadDispatcher
+  nameWithType: UnityMainThreadDispatcher
+- uid: ReGenSDK.Unity.UnityMainThreadDispatcher.Enqueue(System.Action)
+  name: Enqueue(Action)
+  href: api/ReGenSDK.Unity.UnityMainThreadDispatcher.html#ReGenSDK_Unity_UnityMainThreadDispatcher_Enqueue_System_Action_
+  commentId: M:ReGenSDK.Unity.UnityMainThreadDispatcher.Enqueue(System.Action)
+  fullName: ReGenSDK.Unity.UnityMainThreadDispatcher.Enqueue(System.Action)
+  nameWithType: UnityMainThreadDispatcher.Enqueue(Action)
+- uid: ReGenSDK.Unity.UnityMainThreadDispatcher.Enqueue(System.Collections.IEnumerator)
+  name: Enqueue(IEnumerator)
+  href: api/ReGenSDK.Unity.UnityMainThreadDispatcher.html#ReGenSDK_Unity_UnityMainThreadDispatcher_Enqueue_System_Collections_IEnumerator_
+  commentId: M:ReGenSDK.Unity.UnityMainThreadDispatcher.Enqueue(System.Collections.IEnumerator)
+  fullName: ReGenSDK.Unity.UnityMainThreadDispatcher.Enqueue(System.Collections.IEnumerator)
+  nameWithType: UnityMainThreadDispatcher.Enqueue(IEnumerator)
+- uid: ReGenSDK.Unity.UnityMainThreadDispatcher.Enqueue*
+  name: Enqueue
+  href: api/ReGenSDK.Unity.UnityMainThreadDispatcher.html#ReGenSDK_Unity_UnityMainThreadDispatcher_Enqueue_
+  commentId: Overload:ReGenSDK.Unity.UnityMainThreadDispatcher.Enqueue
+  isSpec: "True"
+  fullName: ReGenSDK.Unity.UnityMainThreadDispatcher.Enqueue
+  nameWithType: UnityMainThreadDispatcher.Enqueue
+- uid: ReGenSDK.Unity.UnityMainThreadDispatcher.Exists
+  name: Exists()
+  href: api/ReGenSDK.Unity.UnityMainThreadDispatcher.html#ReGenSDK_Unity_UnityMainThreadDispatcher_Exists
+  commentId: M:ReGenSDK.Unity.UnityMainThreadDispatcher.Exists
+  fullName: ReGenSDK.Unity.UnityMainThreadDispatcher.Exists()
+  nameWithType: UnityMainThreadDispatcher.Exists()
+- uid: ReGenSDK.Unity.UnityMainThreadDispatcher.Exists*
+  name: Exists
+  href: api/ReGenSDK.Unity.UnityMainThreadDispatcher.html#ReGenSDK_Unity_UnityMainThreadDispatcher_Exists_
+  commentId: Overload:ReGenSDK.Unity.UnityMainThreadDispatcher.Exists
+  isSpec: "True"
+  fullName: ReGenSDK.Unity.UnityMainThreadDispatcher.Exists
+  nameWithType: UnityMainThreadDispatcher.Exists
+- uid: ReGenSDK.Unity.UnityMainThreadDispatcher.Instance
+  name: Instance()
+  href: api/ReGenSDK.Unity.UnityMainThreadDispatcher.html#ReGenSDK_Unity_UnityMainThreadDispatcher_Instance
+  commentId: M:ReGenSDK.Unity.UnityMainThreadDispatcher.Instance
+  fullName: ReGenSDK.Unity.UnityMainThreadDispatcher.Instance()
+  nameWithType: UnityMainThreadDispatcher.Instance()
+- uid: ReGenSDK.Unity.UnityMainThreadDispatcher.Instance*
+  name: Instance
+  href: api/ReGenSDK.Unity.UnityMainThreadDispatcher.html#ReGenSDK_Unity_UnityMainThreadDispatcher_Instance_
+  commentId: Overload:ReGenSDK.Unity.UnityMainThreadDispatcher.Instance
+  isSpec: "True"
+  fullName: ReGenSDK.Unity.UnityMainThreadDispatcher.Instance
+  nameWithType: UnityMainThreadDispatcher.Instance
+- uid: ReGenSDK.Unity.UnityMainThreadDispatcher.Update
+  name: Update()
+  href: api/ReGenSDK.Unity.UnityMainThreadDispatcher.html#ReGenSDK_Unity_UnityMainThreadDispatcher_Update
+  commentId: M:ReGenSDK.Unity.UnityMainThreadDispatcher.Update
+  fullName: ReGenSDK.Unity.UnityMainThreadDispatcher.Update()
+  nameWithType: UnityMainThreadDispatcher.Update()
+- uid: ReGenSDK.Unity.UnityMainThreadDispatcher.Update*
+  name: Update
+  href: api/ReGenSDK.Unity.UnityMainThreadDispatcher.html#ReGenSDK_Unity_UnityMainThreadDispatcher_Update_
+  commentId: Overload:ReGenSDK.Unity.UnityMainThreadDispatcher.Update
+  isSpec: "True"
+  fullName: ReGenSDK.Unity.UnityMainThreadDispatcher.Update
+  nameWithType: UnityMainThreadDispatcher.Update

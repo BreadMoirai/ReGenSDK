@@ -1,0 +1,596 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/TonTL/repo/RegenSDK/ReGenSDK",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "tvAoU/niseq08tYkH5PgMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "Ai+Yhn47lHqUe0B/4vni6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "EPA+9RVkeyfNEyr2TKgDDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Exceptions.RegenApiException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Exceptions.RegenApiException.html",
+          "hash": "6RbjAFAgrCoHmhhhU6wqLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Exceptions.RegenAuthenticationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Exceptions.RegenAuthenticationException.html",
+          "hash": "TwpBBXCKeGCWu/85g4A6+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Exceptions.RegenException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Exceptions.RegenException.html",
+          "hash": "GhMHAuSGcXuZFUDBadqOZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Exceptions.html",
+          "hash": "F1NnLXFOUWVnmZXw8TI7pg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Firebase.AuthenticationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Firebase.AuthenticationService.html",
+          "hash": "LXEiEXThwfg2FSE16KdRHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Firebase.IAuthenticationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Firebase.IAuthenticationService.html",
+          "hash": "trRweTPoumJHFj723dp/Ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Firebase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Firebase.html",
+          "hash": "s9+2cJIlzZofA2N4a87h2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Model.Ingredient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Model.Ingredient.html",
+          "hash": "xW5jYUp1XjYntmVD8UWC0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Model.Rating.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Model.Rating.html",
+          "hash": "Hgh3JNf/2Jy0xzYzzUKpnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Model.Recipe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Model.Recipe.html",
+          "hash": "G4kUGfHTHrpMUS4clAfB+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Model.RecipeLite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Model.RecipeLite.html",
+          "hash": "NvFndedn4JMYVgxWKdEvKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Model.Review.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Model.Review.html",
+          "hash": "BQ6jc7iKh++4lNiXAqthdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Model.ReviewsPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Model.ReviewsPage.html",
+          "hash": "+vV/Can0kREMMh5EAKOzQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Model.html",
+          "hash": "JNpYnHUQh4+gW+65pTxFyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.ModelExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.ModelExtensions.html",
+          "hash": "kOMEff6Nvn7i7KUtI25xDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.MonoBehaviorAsync.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.MonoBehaviorAsync.html",
+          "hash": "F+Rch4pPMPZZE9MzStBBYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.ReGenClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.ReGenClient.html",
+          "hash": "z+uwYATj8UM/iJV4VE9nkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Service.Api.IFavoriteApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Service.Api.IFavoriteApi.html",
+          "hash": "KRS142DXY36gOoPEUu9k7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Service.Api.IRatingApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Service.Api.IRatingApi.html",
+          "hash": "euvDzl76mC52R+uTxzLzPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Service.Api.IRecipeApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Service.Api.IRecipeApi.html",
+          "hash": "t2o9DBb3ieL0dDxJp5NjaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Service.Api.IReviewApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Service.Api.IReviewApi.html",
+          "hash": "10n1A9gsMpqJn4B+9ewvTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Service.Api.ISearchApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Service.Api.ISearchApi.html",
+          "hash": "OizrGzJ+WDHEVn970sj3Tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Service.Api.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Service.Api.html",
+          "hash": "v02UcHc/dGfCJ6dZmn31sQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Service.FavoriteService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Service.FavoriteService.html",
+          "hash": "9xrrXbTmW1m82sqpphKfFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Service.RatingService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Service.RatingService.html",
+          "hash": "ZHisH0h/OnzzIVS2PAx2xg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Service.RecipeService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Service.RecipeService.html",
+          "hash": "m6VpTHYyfkrkjYEGUF/ThQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Service.ReviewService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Service.ReviewService.html",
+          "hash": "j3RkofqGgtPbkJMLi/KkaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Service.SearchQueryBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Service.SearchQueryBuilder.html",
+          "hash": "SSOcUaT7A7IFnyvDHFFMRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Service.SearchService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Service.SearchService.html",
+          "hash": "LwfZ6aiV8E1jWZMmnIsnRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Service.TagFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Service.TagFilter.html",
+          "hash": "fTWwK0k95l417rtYPVmkFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Service.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Service.html",
+          "hash": "UeDPvVKUgqluYpnmhikEaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Tasks.ICallbackHandler-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Tasks.ICallbackHandler-1.html",
+          "hash": "f3R43oZ6Bug8rz35BR1anw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Tasks.ICallbackHandler-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Tasks.ICallbackHandler-2.html",
+          "hash": "1TbS8doXLrpgL9dOCkSqpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Tasks.MainThreadTask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Tasks.MainThreadTask.html",
+          "hash": "yZJ11tk7kYqobeyPOiNkOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Tasks.TaskCallbackExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Tasks.TaskCallbackExtensions.html",
+          "hash": "OhLOJnfDhffCcfw5fYGE8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Tasks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Tasks.html",
+          "hash": "i1xLPK2QLbAvJaUf5R+7Dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Unity.UnityMainThreadDispatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Unity.UnityMainThreadDispatcher.html",
+          "hash": "Pa/OgQOl+sn3UsW1zDRH0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Unity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Unity.html",
+          "hash": "ZKNIc4ggHET5aic3jk3tZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.html",
+          "hash": "V83dzWstt0joS3PLC11kCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "blqtZdnPsbNhA+bm1FvSKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "G2AoE5T/2VarbHvzLEo4TQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 39,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
