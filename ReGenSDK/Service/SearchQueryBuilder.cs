@@ -55,7 +55,7 @@ namespace ReGenSDK.Service
         public abstract SearchQueryBuilder ClearExcludeTags();
 
         /// <inheritdoc cref="ISearchApi.Search"/>
-        public abstract Task<List<Recipe>> Execute();
+        public abstract Task<List<RecipeLite>> Execute();
 
 
     }

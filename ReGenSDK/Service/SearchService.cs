@@ -22,7 +22,7 @@ namespace ReGenSDK.Service
         /// <param name="includeTags">A list of tags to include.</param>
         /// <param name="excludeTags">A list of tags to exclude.</param>
         /// <returns>A List of recipes that may be empty but not null</returns>
-        public abstract Task<List<Recipe>> Search([NotNull] string query, [NotNull] IEnumerable<string> includeTags,
+        public abstract Task<List<RecipeLite>> Search([NotNull] string query, [NotNull] IEnumerable<string> includeTags,
             [NotNull] IEnumerable<string> excludeTags);
     }
 }

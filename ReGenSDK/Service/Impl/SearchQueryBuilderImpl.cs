@@ -75,7 +75,7 @@ namespace ReGenSDK.Service.Impl
             return this;
         }
 
-        public override Task<List<Recipe>> Execute()
+        public override Task<List<RecipeLite>> Execute()
         {
             return _searchService.Search(_query, _include, _exclude);
         }

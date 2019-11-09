@@ -16,7 +16,7 @@ namespace ReGenSDK.Service
             SearchApiImplementation = searchApiImplementation ?? throw new ArgumentNullException(nameof(searchApiImplementation));
         }
 
-        public Task<List<Recipe>> Search(string query, TagFilter tags)
+        public Task<List<RecipeLite>> Search(string query, TagFilter tags)
         {
             if (query == null) throw new ArgumentNullException(nameof(query));
             return SearchApiImplementation.Search(query, tags);

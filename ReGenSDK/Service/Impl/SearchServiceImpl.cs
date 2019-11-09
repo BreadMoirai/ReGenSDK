@@ -18,7 +18,7 @@ namespace ReGenSDK.Service.Impl
             return new SearchQueryBuilderImpl(this);
         }
 
-        public override Task<List<Recipe>> Search(string query, IEnumerable<string> includeTags,
+        public override Task<List<RecipeLite>> Search(string query, IEnumerable<string> includeTags,
             IEnumerable<string> excludeTags)
         {
             if (query == null) throw new ArgumentNullException(nameof(query));
