@@ -62,30 +62,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/ReGenSDK.Attributes.Internal.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ReGenSDK.Attributes.Internal.html",
-          "hash": "WPp6GAr8Uhq5RIEBE7EZng=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/ReGenSDK.Attributes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ReGenSDK.Attributes.html",
-          "hash": "lCUr+Ps5kwKZwUgMxQ7XnA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/api/ReGenSDK.Exceptions.RegenApiException.yml",
       "output": {
         ".html": {
@@ -266,18 +242,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/ReGenSDK.MonoBehaviorAsync.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ReGenSDK.MonoBehaviorAsync.html",
-          "hash": "p1qTEE4/ph6IY3vlq+fpTw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/api/ReGenSDK.ReGenClient.yml",
       "output": {
         ".html": {
@@ -378,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Service.RatingService.html",
-          "hash": "DUisRyQtLMK+2Kf79ixrtg=="
+          "hash": "qWnJgpmfXBI8yf2gaZ3thg=="
         }
       },
       "is_incremental": false,
@@ -390,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Service.RecipeService.html",
-          "hash": "y/mRp9pC/srHNWaUy+SviQ=="
+          "hash": "SoZkbCVtyLA2NBE5zDFZIw=="
         }
       },
       "is_incremental": false,
@@ -522,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Unity.UnityMainThreadDispatcher.html",
-          "hash": "mOm4nqKLbJLq6Kw1/hbfnA=="
+          "hash": "h3rVWEP9+bY2UrDBEunrew=="
         }
       },
       "is_incremental": false,
@@ -546,7 +510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.html",
-          "hash": "Ceym0eVr/yBzyAL/A/hV1w=="
+          "hash": "iby3MLGi8p0E3smFUoaBkQ=="
         }
       },
       "is_incremental": false,
@@ -558,7 +522,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "4DsTuLzFutKiUQ6O5gy52w=="
+          "hash": "qa0ycsvtmHUINJI5/qr0bw=="
         }
       },
       "is_incremental": false,
@@ -586,12 +550,11 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
+          "total_file_count": 38,
+          "skipped_file_count": 33
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
@@ -599,11 +562,12 @@
           "total_file_count": 3,
           "skipped_file_count": 3
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 41,
-          "skipped_file_count": 41
+          "total_file_count": 0,
+          "skipped_file_count": 0
         }
       }
     },

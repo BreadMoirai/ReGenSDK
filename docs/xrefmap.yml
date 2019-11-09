@@ -7,18 +7,6 @@ references:
   commentId: N:ReGenSDK
   fullName: ReGenSDK
   nameWithType: ReGenSDK
-- uid: ReGenSDK.Attributes
-  name: ReGenSDK.Attributes
-  href: api/ReGenSDK.Attributes.html
-  commentId: N:ReGenSDK.Attributes
-  fullName: ReGenSDK.Attributes
-  nameWithType: ReGenSDK.Attributes
-- uid: ReGenSDK.Attributes.Internal
-  name: Internal
-  href: api/ReGenSDK.Attributes.Internal.html
-  commentId: T:ReGenSDK.Attributes.Internal
-  fullName: ReGenSDK.Attributes.Internal
-  nameWithType: Internal
 - uid: ReGenSDK.Exceptions
   name: ReGenSDK.Exceptions
   href: api/ReGenSDK.Exceptions.html
@@ -822,28 +810,6 @@ references:
   isSpec: "True"
   fullName: ReGenSDK.ModelExtensions.Reviews
   nameWithType: ModelExtensions.Reviews
-- uid: ReGenSDK.MonoBehaviorAsync
-  name: MonoBehaviorAsync
-  href: api/ReGenSDK.MonoBehaviorAsync.html
-  commentId: T:ReGenSDK.MonoBehaviorAsync
-  fullName: ReGenSDK.MonoBehaviorAsync
-  nameWithType: MonoBehaviorAsync
-- uid: ReGenSDK.MonoBehaviorAsync.Run(UnityEngine.MonoBehaviour,System.Func{System.Threading.Tasks.Task})
-  name: Run(MonoBehaviour, Func<Task>)
-  href: api/ReGenSDK.MonoBehaviorAsync.html#ReGenSDK_MonoBehaviorAsync_Run_UnityEngine_MonoBehaviour_System_Func_System_Threading_Tasks_Task__
-  commentId: M:ReGenSDK.MonoBehaviorAsync.Run(UnityEngine.MonoBehaviour,System.Func{System.Threading.Tasks.Task})
-  name.vb: Run(MonoBehaviour, Func(Of Task))
-  fullName: ReGenSDK.MonoBehaviorAsync.Run(UnityEngine.MonoBehaviour, System.Func<System.Threading.Tasks.Task>)
-  fullName.vb: ReGenSDK.MonoBehaviorAsync.Run(UnityEngine.MonoBehaviour, System.Func(Of System.Threading.Tasks.Task))
-  nameWithType: MonoBehaviorAsync.Run(MonoBehaviour, Func<Task>)
-  nameWithType.vb: MonoBehaviorAsync.Run(MonoBehaviour, Func(Of Task))
-- uid: ReGenSDK.MonoBehaviorAsync.Run*
-  name: Run
-  href: api/ReGenSDK.MonoBehaviorAsync.html#ReGenSDK_MonoBehaviorAsync_Run_
-  commentId: Overload:ReGenSDK.MonoBehaviorAsync.Run
-  isSpec: "True"
-  fullName: ReGenSDK.MonoBehaviorAsync.Run
-  nameWithType: MonoBehaviorAsync.Run
 - uid: ReGenSDK.ReGenClient
   name: ReGenClient
   href: api/ReGenSDK.ReGenClient.html
