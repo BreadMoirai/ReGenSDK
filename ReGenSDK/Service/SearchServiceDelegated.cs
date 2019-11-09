@@ -11,11 +11,13 @@ namespace ReGenSDK.Service
     {
         protected readonly ISearchApi SearchApiImplementation;
 
-        protected SearchService([NotNull] ISearchApi searchApiImplementation)
+        internal SearchService([NotNull] ISearchApi searchApiImplementation)
         {
-            SearchApiImplementation = searchApiImplementation ?? throw new ArgumentNullException(nameof(searchApiImplementation));
+            SearchApiImplementation = searchApiImplementation ??
+                                      throw new ArgumentNullException(nameof(searchApiImplementation));
         }
 
+        /// <inheritdoc />
         public Task<List<RecipeLite>> Search(string query, TagFilter tags)
         {
             if (query == null) throw new ArgumentNullException(nameof(query));

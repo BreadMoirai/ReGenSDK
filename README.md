@@ -1,5 +1,4 @@
-﻿# ReGen SDK
-This is a sdk for the ReGen App
+﻿This is a sdk for the ReGen App
 
 ## Usage
 

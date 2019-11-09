@@ -9,23 +9,27 @@ namespace ReGenSDK.Service
     {
         protected readonly IRatingApi RatingApiImplementation;
 
-        protected RatingService([NotNull] IRatingApi ratingApiImplementation)
+        internal RatingService([NotNull] IRatingApi ratingApiImplementation)
         {
-            RatingApiImplementation = ratingApiImplementation ?? throw new ArgumentNullException(nameof(ratingApiImplementation));
+            RatingApiImplementation = ratingApiImplementation ??
+                                      throw new ArgumentNullException(nameof(ratingApiImplementation));
         }
 
+        /// <inheritdoc />
         public Task<double> GetAverage(string recipeId)
         {
             if (recipeId == null) throw new ArgumentNullException(nameof(recipeId));
             return RatingApiImplementation.GetAverage(recipeId);
         }
 
+        /// <inheritdoc />
         public Task<int> Get(string recipeId)
         {
             if (recipeId == null) throw new ArgumentNullException(nameof(recipeId));
             return RatingApiImplementation.Get(recipeId);
         }
 
+        /// <inheritdoc />
         public Task Create(string recipeId, int rating)
         {
             if (recipeId == null) throw new ArgumentNullException(nameof(recipeId));
@@ -33,6 +37,7 @@ namespace ReGenSDK.Service
             return RatingApiImplementation.Create(recipeId, rating);
         }
 
+        /// <inheritdoc />
         public Task Update(string recipeId, int rating)
         {
             if (recipeId == null) throw new ArgumentNullException(nameof(recipeId));

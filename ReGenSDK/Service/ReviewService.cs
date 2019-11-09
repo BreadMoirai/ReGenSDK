@@ -6,6 +6,8 @@ using ReGenSDK.Service.Api;
 
 namespace ReGenSDK.Service
 {
+    
+    /// <inheritdoc />
     public abstract partial class ReviewService : IReviewApi
     {
         

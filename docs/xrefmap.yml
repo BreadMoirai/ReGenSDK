@@ -7,6 +7,18 @@ references:
   commentId: N:ReGenSDK
   fullName: ReGenSDK
   nameWithType: ReGenSDK
+- uid: ReGenSDK.Attributes
+  name: ReGenSDK.Attributes
+  href: api/ReGenSDK.Attributes.html
+  commentId: N:ReGenSDK.Attributes
+  fullName: ReGenSDK.Attributes
+  nameWithType: ReGenSDK.Attributes
+- uid: ReGenSDK.Attributes.Internal
+  name: Internal
+  href: api/ReGenSDK.Attributes.Internal.html
+  commentId: T:ReGenSDK.Attributes.Internal
+  fullName: ReGenSDK.Attributes.Internal
+  nameWithType: Internal
 - uid: ReGenSDK.Exceptions
   name: ReGenSDK.Exceptions
   href: api/ReGenSDK.Exceptions.html
@@ -1223,19 +1235,6 @@ references:
   commentId: T:ReGenSDK.Service.FavoriteService
   fullName: ReGenSDK.Service.FavoriteService
   nameWithType: FavoriteService
-- uid: ReGenSDK.Service.FavoriteService.#ctor(ReGenSDK.Service.Api.IFavoriteApi)
-  name: FavoriteService(IFavoriteApi)
-  href: api/ReGenSDK.Service.FavoriteService.html#ReGenSDK_Service_FavoriteService__ctor_ReGenSDK_Service_Api_IFavoriteApi_
-  commentId: M:ReGenSDK.Service.FavoriteService.#ctor(ReGenSDK.Service.Api.IFavoriteApi)
-  fullName: ReGenSDK.Service.FavoriteService.FavoriteService(ReGenSDK.Service.Api.IFavoriteApi)
-  nameWithType: FavoriteService.FavoriteService(IFavoriteApi)
-- uid: ReGenSDK.Service.FavoriteService.#ctor*
-  name: FavoriteService
-  href: api/ReGenSDK.Service.FavoriteService.html#ReGenSDK_Service_FavoriteService__ctor_
-  commentId: Overload:ReGenSDK.Service.FavoriteService.#ctor
-  isSpec: "True"
-  fullName: ReGenSDK.Service.FavoriteService.FavoriteService
-  nameWithType: FavoriteService.FavoriteService
 - uid: ReGenSDK.Service.FavoriteService.Create(System.String)
   name: Create(String)
   href: api/ReGenSDK.Service.FavoriteService.html#ReGenSDK_Service_FavoriteService_Create_System_String_
@@ -1262,12 +1261,6 @@ references:
   isSpec: "True"
   fullName: ReGenSDK.Service.FavoriteService.Delete
   nameWithType: FavoriteService.Delete
-- uid: ReGenSDK.Service.FavoriteService.FavoriteApiImplementation
-  name: FavoriteApiImplementation
-  href: api/ReGenSDK.Service.FavoriteService.html#ReGenSDK_Service_FavoriteService_FavoriteApiImplementation
-  commentId: F:ReGenSDK.Service.FavoriteService.FavoriteApiImplementation
-  fullName: ReGenSDK.Service.FavoriteService.FavoriteApiImplementation
-  nameWithType: FavoriteService.FavoriteApiImplementation
 - uid: ReGenSDK.Service.FavoriteService.Get
   name: Get()
   href: api/ReGenSDK.Service.FavoriteService.html#ReGenSDK_Service_FavoriteService_Get
@@ -1300,19 +1293,6 @@ references:
   commentId: T:ReGenSDK.Service.RatingService
   fullName: ReGenSDK.Service.RatingService
   nameWithType: RatingService
-- uid: ReGenSDK.Service.RatingService.#ctor(ReGenSDK.Service.Api.IRatingApi)
-  name: RatingService(IRatingApi)
-  href: api/ReGenSDK.Service.RatingService.html#ReGenSDK_Service_RatingService__ctor_ReGenSDK_Service_Api_IRatingApi_
-  commentId: M:ReGenSDK.Service.RatingService.#ctor(ReGenSDK.Service.Api.IRatingApi)
-  fullName: ReGenSDK.Service.RatingService.RatingService(ReGenSDK.Service.Api.IRatingApi)
-  nameWithType: RatingService.RatingService(IRatingApi)
-- uid: ReGenSDK.Service.RatingService.#ctor*
-  name: RatingService
-  href: api/ReGenSDK.Service.RatingService.html#ReGenSDK_Service_RatingService__ctor_
-  commentId: Overload:ReGenSDK.Service.RatingService.#ctor
-  isSpec: "True"
-  fullName: ReGenSDK.Service.RatingService.RatingService
-  nameWithType: RatingService.RatingService
 - uid: ReGenSDK.Service.RatingService.Create(System.String,System.Int32)
   name: Create(String, Int32)
   href: api/ReGenSDK.Service.RatingService.html#ReGenSDK_Service_RatingService_Create_System_String_System_Int32_
@@ -1352,12 +1332,6 @@ references:
   isSpec: "True"
   fullName: ReGenSDK.Service.RatingService.GetAverage
   nameWithType: RatingService.GetAverage
-- uid: ReGenSDK.Service.RatingService.RatingApiImplementation
-  name: RatingApiImplementation
-  href: api/ReGenSDK.Service.RatingService.html#ReGenSDK_Service_RatingService_RatingApiImplementation
-  commentId: F:ReGenSDK.Service.RatingService.RatingApiImplementation
-  fullName: ReGenSDK.Service.RatingService.RatingApiImplementation
-  nameWithType: RatingService.RatingApiImplementation
 - uid: ReGenSDK.Service.RatingService.Update(System.String,System.Int32)
   name: Update(String, Int32)
   href: api/ReGenSDK.Service.RatingService.html#ReGenSDK_Service_RatingService_Update_System_String_System_Int32_
@@ -1377,19 +1351,6 @@ references:
   commentId: T:ReGenSDK.Service.RecipeService
   fullName: ReGenSDK.Service.RecipeService
   nameWithType: RecipeService
-- uid: ReGenSDK.Service.RecipeService.#ctor(ReGenSDK.Service.Api.IRecipeApi)
-  name: RecipeService(IRecipeApi)
-  href: api/ReGenSDK.Service.RecipeService.html#ReGenSDK_Service_RecipeService__ctor_ReGenSDK_Service_Api_IRecipeApi_
-  commentId: M:ReGenSDK.Service.RecipeService.#ctor(ReGenSDK.Service.Api.IRecipeApi)
-  fullName: ReGenSDK.Service.RecipeService.RecipeService(ReGenSDK.Service.Api.IRecipeApi)
-  nameWithType: RecipeService.RecipeService(IRecipeApi)
-- uid: ReGenSDK.Service.RecipeService.#ctor*
-  name: RecipeService
-  href: api/ReGenSDK.Service.RecipeService.html#ReGenSDK_Service_RecipeService__ctor_
-  commentId: Overload:ReGenSDK.Service.RecipeService.#ctor
-  isSpec: "True"
-  fullName: ReGenSDK.Service.RecipeService.RecipeService
-  nameWithType: RecipeService.RecipeService
 - uid: ReGenSDK.Service.RecipeService.Create(ReGenSDK.Model.Recipe)
   name: Create(Recipe)
   href: api/ReGenSDK.Service.RecipeService.html#ReGenSDK_Service_RecipeService_Create_ReGenSDK_Model_Recipe_
@@ -1429,12 +1390,6 @@ references:
   isSpec: "True"
   fullName: ReGenSDK.Service.RecipeService.Get
   nameWithType: RecipeService.Get
-- uid: ReGenSDK.Service.RecipeService.RecipeApiImplementation
-  name: RecipeApiImplementation
-  href: api/ReGenSDK.Service.RecipeService.html#ReGenSDK_Service_RecipeService_RecipeApiImplementation
-  commentId: F:ReGenSDK.Service.RecipeService.RecipeApiImplementation
-  fullName: ReGenSDK.Service.RecipeService.RecipeApiImplementation
-  nameWithType: RecipeService.RecipeApiImplementation
 - uid: ReGenSDK.Service.RecipeService.Update(System.String,ReGenSDK.Model.Recipe)
   name: Update(String, Recipe)
   href: api/ReGenSDK.Service.RecipeService.html#ReGenSDK_Service_RecipeService_Update_System_String_ReGenSDK_Model_Recipe_
@@ -1454,19 +1409,6 @@ references:
   commentId: T:ReGenSDK.Service.ReviewService
   fullName: ReGenSDK.Service.ReviewService
   nameWithType: ReviewService
-- uid: ReGenSDK.Service.ReviewService.#ctor(ReGenSDK.Service.Api.IReviewApi)
-  name: ReviewService(IReviewApi)
-  href: api/ReGenSDK.Service.ReviewService.html#ReGenSDK_Service_ReviewService__ctor_ReGenSDK_Service_Api_IReviewApi_
-  commentId: M:ReGenSDK.Service.ReviewService.#ctor(ReGenSDK.Service.Api.IReviewApi)
-  fullName: ReGenSDK.Service.ReviewService.ReviewService(ReGenSDK.Service.Api.IReviewApi)
-  nameWithType: ReviewService.ReviewService(IReviewApi)
-- uid: ReGenSDK.Service.ReviewService.#ctor*
-  name: ReviewService
-  href: api/ReGenSDK.Service.ReviewService.html#ReGenSDK_Service_ReviewService__ctor_
-  commentId: Overload:ReGenSDK.Service.ReviewService.#ctor
-  isSpec: "True"
-  fullName: ReGenSDK.Service.ReviewService.ReviewService
-  nameWithType: ReviewService.ReviewService
 - uid: ReGenSDK.Service.ReviewService.Create(System.String,ReGenSDK.Model.Review)
   name: Create(String, Review)
   href: api/ReGenSDK.Service.ReviewService.html#ReGenSDK_Service_ReviewService_Create_System_String_ReGenSDK_Model_Review_
@@ -1506,12 +1448,6 @@ references:
   isSpec: "True"
   fullName: ReGenSDK.Service.ReviewService.Get
   nameWithType: ReviewService.Get
-- uid: ReGenSDK.Service.ReviewService.ReviewApiImplementation
-  name: ReviewApiImplementation
-  href: api/ReGenSDK.Service.ReviewService.html#ReGenSDK_Service_ReviewService_ReviewApiImplementation
-  commentId: F:ReGenSDK.Service.ReviewService.ReviewApiImplementation
-  fullName: ReGenSDK.Service.ReviewService.ReviewApiImplementation
-  nameWithType: ReviewService.ReviewApiImplementation
 - uid: ReGenSDK.Service.ReviewService.Update(System.String,ReGenSDK.Model.Review)
   name: Update(String, Review)
   href: api/ReGenSDK.Service.ReviewService.html#ReGenSDK_Service_ReviewService_Update_System_String_ReGenSDK_Model_Review_
@@ -1646,19 +1582,6 @@ references:
   commentId: T:ReGenSDK.Service.SearchService
   fullName: ReGenSDK.Service.SearchService
   nameWithType: SearchService
-- uid: ReGenSDK.Service.SearchService.#ctor(ReGenSDK.Service.Api.ISearchApi)
-  name: SearchService(ISearchApi)
-  href: api/ReGenSDK.Service.SearchService.html#ReGenSDK_Service_SearchService__ctor_ReGenSDK_Service_Api_ISearchApi_
-  commentId: M:ReGenSDK.Service.SearchService.#ctor(ReGenSDK.Service.Api.ISearchApi)
-  fullName: ReGenSDK.Service.SearchService.SearchService(ReGenSDK.Service.Api.ISearchApi)
-  nameWithType: SearchService.SearchService(ISearchApi)
-- uid: ReGenSDK.Service.SearchService.#ctor*
-  name: SearchService
-  href: api/ReGenSDK.Service.SearchService.html#ReGenSDK_Service_SearchService__ctor_
-  commentId: Overload:ReGenSDK.Service.SearchService.#ctor
-  isSpec: "True"
-  fullName: ReGenSDK.Service.SearchService.SearchService
-  nameWithType: SearchService.SearchService
 - uid: ReGenSDK.Service.SearchService.Builder
   name: Builder()
   href: api/ReGenSDK.Service.SearchService.html#ReGenSDK_Service_SearchService_Builder
@@ -1694,12 +1617,6 @@ references:
   isSpec: "True"
   fullName: ReGenSDK.Service.SearchService.Search
   nameWithType: SearchService.Search
-- uid: ReGenSDK.Service.SearchService.SearchApiImplementation
-  name: SearchApiImplementation
-  href: api/ReGenSDK.Service.SearchService.html#ReGenSDK_Service_SearchService_SearchApiImplementation
-  commentId: F:ReGenSDK.Service.SearchService.SearchApiImplementation
-  fullName: ReGenSDK.Service.SearchService.SearchApiImplementation
-  nameWithType: SearchService.SearchApiImplementation
 - uid: ReGenSDK.Service.TagFilter
   name: TagFilter
   href: api/ReGenSDK.Service.TagFilter.html

@@ -12,11 +12,13 @@ namespace ReGenSDK.Service
     {
         protected readonly IReviewApi ReviewApiImplementation;
 
-        protected ReviewService([NotNull] IReviewApi reviewApiImplementation)
+        internal ReviewService([NotNull] IReviewApi reviewApiImplementation)
         {
-            ReviewApiImplementation = reviewApiImplementation ?? throw new ArgumentNullException(nameof(reviewApiImplementation));
+            ReviewApiImplementation = reviewApiImplementation ??
+                                      throw new ArgumentNullException(nameof(reviewApiImplementation));
         }
 
+        /// <inheritdoc />
         public Task<ReviewsPage> Get(string recipeId, string start, int size)
         {
             if (recipeId == null) throw new ArgumentNullException(nameof(recipeId));
@@ -29,6 +31,7 @@ namespace ReGenSDK.Service
             });
         }
 
+        /// <inheritdoc />
         public Task Create(string recipeId, Review review)
         {
             if (recipeId == null) throw new ArgumentNullException(nameof(recipeId));
@@ -36,6 +39,7 @@ namespace ReGenSDK.Service
             return ReviewApiImplementation.Create(recipeId, review);
         }
 
+        /// <inheritdoc />
         public Task Update(string recipeId, Review review)
         {
             if (recipeId == null) throw new ArgumentNullException(nameof(recipeId));
@@ -43,6 +47,7 @@ namespace ReGenSDK.Service
             return ReviewApiImplementation.Update(recipeId, review);
         }
 
+        /// <inheritdoc />
         public Task Delete(string recipeId)
         {
             if (recipeId == null) throw new ArgumentNullException(nameof(recipeId));

@@ -10,22 +10,26 @@ namespace ReGenSDK.Service
     {
         protected readonly IFavoriteApi FavoriteApiImplementation;
 
-        protected FavoriteService([NotNull] IFavoriteApi favoriteApiImplementation)
+        internal FavoriteService([NotNull] IFavoriteApi favoriteApiImplementation)
         {
-            FavoriteApiImplementation = favoriteApiImplementation ?? throw new ArgumentNullException(nameof(favoriteApiImplementation));
+            FavoriteApiImplementation = favoriteApiImplementation ??
+                                        throw new ArgumentNullException(nameof(favoriteApiImplementation));
         }
 
+        /// <inheritdoc />
         public Task<Dictionary<string, bool>> Get()
         {
             return FavoriteApiImplementation.Get();
         }
 
+        /// <inheritdoc />
         public Task Create(string recipeId)
         {
             if (recipeId == null) throw new ArgumentNullException(nameof(recipeId));
             return FavoriteApiImplementation.Create(recipeId);
         }
 
+        /// <inheritdoc />
         public Task Delete(string recipeId)
         {
             if (recipeId == null) throw new ArgumentNullException(nameof(recipeId));

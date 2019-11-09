@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Class SearchQueryBuilder
-   </title>
+   | ReGen SDK </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class SearchQueryBuilder
-   ">
+   | ReGen SDK ">
     <meta name="generator" content="docfx 2.47.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -19,7 +19,7 @@
     <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
-    
+    <meta property="docfx:rel" content="../">
     
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
@@ -58,6 +58,16 @@
           </div>
         </div>
       </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
       <div role="main" class="container body-content hide-when-search">
         
         <div class="sidenav hide-when-search">
@@ -69,17 +79,18 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="ReGenSDK.Service.SearchQueryBuilder">
-  
-  
-  <h1 id="ReGenSDK_Service_SearchQueryBuilder" data-uid="ReGenSDK.Service.SearchQueryBuilder" class="text-break">Class SearchQueryBuilder
+  <h1 id="ReGenSDK_Service_SearchQueryBuilder" data-uid="ReGenSDK.Service.SearchQueryBuilder">Class SearchQueryBuilder
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
+
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">SearchQueryBuilder</span></div>
   </div>
+  
+  
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -104,407 +115,491 @@
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="ReGenSDK.Service.html">ReGenSDK.Service</a></h6>
+  
+  <h6><strong>Namespace</strong>: System.Dynamic.ExpandoObject</h6>
   <h6><strong>Assembly</strong>: ReGenSDK.dll</h6>
+  
   <h5 id="ReGenSDK_Service_SearchQueryBuilder_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract class SearchQueryBuilder</code></pre>
   </div>
+
+  
+  
+  
+  
   <h3 id="methods">Methods
   </h3>
+  
   <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_SearchQueryBuilder_Add_System_String_.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.SearchQueryBuilder.Add(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <span class="divider"> </span>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_SearchQueryBuilder_Add_System_String_.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.SearchQueryBuilder.Add(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/SearchQueryBuilder.cs/#L16">View Source</a>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/SearchQueryBuilder.cs/#L16" title="View Source"><i class="fa fa-code"></i></a>
   </span>
+  
   <a id="ReGenSDK_Service_SearchQueryBuilder_Add_" data-uid="ReGenSDK.Service.SearchQueryBuilder.Add*"></a>
-  <h4 id="ReGenSDK_Service_SearchQueryBuilder_Add_System_String_" data-uid="ReGenSDK.Service.SearchQueryBuilder.Add(System.String)">Add(String)</h4>
+  
+  <h4 id="ReGenSDK_Service_SearchQueryBuilder_Add_System_String_" data-uid="ReGenSDK.Service.SearchQueryBuilder.Add(System.String)"><a href="#collapsible-ReGenSDK_Service_SearchQueryBuilder_Add_System_String_" class="expander" data-toggle="collapse">Add(String)</a></h4>
+  
+  <div id="collapsible-ReGenSDK_Service_SearchQueryBuilder_Add_System_String_" class="collapse in">
   <div class="markdown level1 summary"><p>Adds a term to the query.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract SearchQueryBuilder Add(string term)</code></pre>
   </div>
+
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">term</span></td>
-        <td><p>the term to search for</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">term</span>
+        <p><p>the term to search for</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ReGenSDK.Service.SearchQueryBuilder.html">SearchQueryBuilder</a></td>
-        <td><p>this</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ReGenSDK.Service.SearchQueryBuilder.html">SearchQueryBuilder</a>
+        <p><p>this</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
   <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_SearchQueryBuilder_ClearExcludeTags.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.SearchQueryBuilder.ClearExcludeTags%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <span class="divider"> </span>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_SearchQueryBuilder_ClearExcludeTags.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.SearchQueryBuilder.ClearExcludeTags%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/SearchQueryBuilder.cs/#L55">View Source</a>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/SearchQueryBuilder.cs/#L55" title="View Source"><i class="fa fa-code"></i></a>
   </span>
+  
   <a id="ReGenSDK_Service_SearchQueryBuilder_ClearExcludeTags_" data-uid="ReGenSDK.Service.SearchQueryBuilder.ClearExcludeTags*"></a>
-  <h4 id="ReGenSDK_Service_SearchQueryBuilder_ClearExcludeTags" data-uid="ReGenSDK.Service.SearchQueryBuilder.ClearExcludeTags">ClearExcludeTags()</h4>
+  
+  <h4 id="ReGenSDK_Service_SearchQueryBuilder_ClearExcludeTags" data-uid="ReGenSDK.Service.SearchQueryBuilder.ClearExcludeTags"><a href="#collapsible-ReGenSDK_Service_SearchQueryBuilder_ClearExcludeTags" class="expander" data-toggle="collapse">ClearExcludeTags()</a></h4>
+  
+  <div id="collapsible-ReGenSDK_Service_SearchQueryBuilder_ClearExcludeTags" class="collapse in">
   <div class="markdown level1 summary"><p>Removes all previously excluded tags</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract SearchQueryBuilder ClearExcludeTags()</code></pre>
   </div>
+
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ReGenSDK.Service.SearchQueryBuilder.html">SearchQueryBuilder</a></td>
-        <td><p>this</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ReGenSDK.Service.SearchQueryBuilder.html">SearchQueryBuilder</a>
+        <p><p>this</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
   <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_SearchQueryBuilder_ClearIncludeTags.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.SearchQueryBuilder.ClearIncludeTags%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <span class="divider"> </span>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_SearchQueryBuilder_ClearIncludeTags.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.SearchQueryBuilder.ClearIncludeTags%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/SearchQueryBuilder.cs/#L38">View Source</a>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/SearchQueryBuilder.cs/#L38" title="View Source"><i class="fa fa-code"></i></a>
   </span>
+  
   <a id="ReGenSDK_Service_SearchQueryBuilder_ClearIncludeTags_" data-uid="ReGenSDK.Service.SearchQueryBuilder.ClearIncludeTags*"></a>
-  <h4 id="ReGenSDK_Service_SearchQueryBuilder_ClearIncludeTags" data-uid="ReGenSDK.Service.SearchQueryBuilder.ClearIncludeTags">ClearIncludeTags()</h4>
+  
+  <h4 id="ReGenSDK_Service_SearchQueryBuilder_ClearIncludeTags" data-uid="ReGenSDK.Service.SearchQueryBuilder.ClearIncludeTags"><a href="#collapsible-ReGenSDK_Service_SearchQueryBuilder_ClearIncludeTags" class="expander" data-toggle="collapse">ClearIncludeTags()</a></h4>
+  
+  <div id="collapsible-ReGenSDK_Service_SearchQueryBuilder_ClearIncludeTags" class="collapse in">
   <div class="markdown level1 summary"><p>Removes all previously included tags</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract SearchQueryBuilder ClearIncludeTags()</code></pre>
   </div>
+
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ReGenSDK.Service.SearchQueryBuilder.html">SearchQueryBuilder</a></td>
-        <td><p>this</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ReGenSDK.Service.SearchQueryBuilder.html">SearchQueryBuilder</a>
+        <p><p>this</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
   <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_SearchQueryBuilder_ClearQuery.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.SearchQueryBuilder.ClearQuery%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <span class="divider"> </span>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_SearchQueryBuilder_ClearQuery.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.SearchQueryBuilder.ClearQuery%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/SearchQueryBuilder.cs/#L21">View Source</a>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/SearchQueryBuilder.cs/#L21" title="View Source"><i class="fa fa-code"></i></a>
   </span>
+  
   <a id="ReGenSDK_Service_SearchQueryBuilder_ClearQuery_" data-uid="ReGenSDK.Service.SearchQueryBuilder.ClearQuery*"></a>
-  <h4 id="ReGenSDK_Service_SearchQueryBuilder_ClearQuery" data-uid="ReGenSDK.Service.SearchQueryBuilder.ClearQuery">ClearQuery()</h4>
+  
+  <h4 id="ReGenSDK_Service_SearchQueryBuilder_ClearQuery" data-uid="ReGenSDK.Service.SearchQueryBuilder.ClearQuery"><a href="#collapsible-ReGenSDK_Service_SearchQueryBuilder_ClearQuery" class="expander" data-toggle="collapse">ClearQuery()</a></h4>
+  
+  <div id="collapsible-ReGenSDK_Service_SearchQueryBuilder_ClearQuery" class="collapse in">
   <div class="markdown level1 summary"><p>Clears the query.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract SearchQueryBuilder ClearQuery()</code></pre>
   </div>
+
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ReGenSDK.Service.SearchQueryBuilder.html">SearchQueryBuilder</a></td>
-        <td><p>this</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ReGenSDK.Service.SearchQueryBuilder.html">SearchQueryBuilder</a>
+        <p><p>this</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
   <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_SearchQueryBuilder_ExcludeTag_System_Collections_Generic_IEnumerable_System_String__.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.SearchQueryBuilder.ExcludeTag(System.Collections.Generic.IEnumerable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <span class="divider"> </span>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_SearchQueryBuilder_ExcludeTag_System_Collections_Generic_IEnumerable_System_String__.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.SearchQueryBuilder.ExcludeTag(System.Collections.Generic.IEnumerable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/SearchQueryBuilder.cs/#L50">View Source</a>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/SearchQueryBuilder.cs/#L50" title="View Source"><i class="fa fa-code"></i></a>
   </span>
+  
   <a id="ReGenSDK_Service_SearchQueryBuilder_ExcludeTag_" data-uid="ReGenSDK.Service.SearchQueryBuilder.ExcludeTag*"></a>
-  <h4 id="ReGenSDK_Service_SearchQueryBuilder_ExcludeTag_System_Collections_Generic_IEnumerable_System_String__" data-uid="ReGenSDK.Service.SearchQueryBuilder.ExcludeTag(System.Collections.Generic.IEnumerable{System.String})">ExcludeTag(IEnumerable&lt;String&gt;)</h4>
+  
+  <h4 id="ReGenSDK_Service_SearchQueryBuilder_ExcludeTag_System_Collections_Generic_IEnumerable_System_String__" data-uid="ReGenSDK.Service.SearchQueryBuilder.ExcludeTag(System.Collections.Generic.IEnumerable{System.String})"><a href="#collapsible-ReGenSDK_Service_SearchQueryBuilder_ExcludeTag_System_Collections_Generic_IEnumerable_System_String__" class="expander" data-toggle="collapse">ExcludeTag(IEnumerable&lt;String&gt;)</a></h4>
+  
+  <div id="collapsible-ReGenSDK_Service_SearchQueryBuilder_ExcludeTag_System_Collections_Generic_IEnumerable_System_String__" class="collapse in">
   <div class="markdown level1 summary"><p>Adds multiple tags to a list of tags that must not be included.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract SearchQueryBuilder ExcludeTag([NotNull] IEnumerable&lt;string&gt; tag)</code></pre>
   </div>
+
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td><span class="parametername">tag</span></td>
-        <td><p>the tags to include</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</span>
+        <span class="parametername">tag</span>
+        <p><p>the tags to include</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ReGenSDK.Service.SearchQueryBuilder.html">SearchQueryBuilder</a></td>
-        <td><p>this</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ReGenSDK.Service.SearchQueryBuilder.html">SearchQueryBuilder</a>
+        <p><p>this</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
   <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_SearchQueryBuilder_ExcludeTag_System_String_.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.SearchQueryBuilder.ExcludeTag(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <span class="divider"> </span>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_SearchQueryBuilder_ExcludeTag_System_String_.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.SearchQueryBuilder.ExcludeTag(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/SearchQueryBuilder.cs/#L44">View Source</a>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/SearchQueryBuilder.cs/#L44" title="View Source"><i class="fa fa-code"></i></a>
   </span>
+  
   <a id="ReGenSDK_Service_SearchQueryBuilder_ExcludeTag_" data-uid="ReGenSDK.Service.SearchQueryBuilder.ExcludeTag*"></a>
-  <h4 id="ReGenSDK_Service_SearchQueryBuilder_ExcludeTag_System_String_" data-uid="ReGenSDK.Service.SearchQueryBuilder.ExcludeTag(System.String)">ExcludeTag(String)</h4>
+  
+  <h4 id="ReGenSDK_Service_SearchQueryBuilder_ExcludeTag_System_String_" data-uid="ReGenSDK.Service.SearchQueryBuilder.ExcludeTag(System.String)"><a href="#collapsible-ReGenSDK_Service_SearchQueryBuilder_ExcludeTag_System_String_" class="expander" data-toggle="collapse">ExcludeTag(String)</a></h4>
+  
+  <div id="collapsible-ReGenSDK_Service_SearchQueryBuilder_ExcludeTag_System_String_" class="collapse in">
   <div class="markdown level1 summary"><p>Adds a tag to a list of tags that must be not be included.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract SearchQueryBuilder ExcludeTag([NotNull] string tag)</code></pre>
   </div>
+
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">tag</span></td>
-        <td><p>the tag to include</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">tag</span>
+        <p><p>the tag to include</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ReGenSDK.Service.SearchQueryBuilder.html">SearchQueryBuilder</a></td>
-        <td><p>this</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ReGenSDK.Service.SearchQueryBuilder.html">SearchQueryBuilder</a>
+        <p><p>this</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
   <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_SearchQueryBuilder_Execute.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.SearchQueryBuilder.Execute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <span class="divider"> </span>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_SearchQueryBuilder_Execute.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.SearchQueryBuilder.Execute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/SearchQueryBuilder.cs/#L58">View Source</a>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/SearchQueryBuilder.cs/#L58" title="View Source"><i class="fa fa-code"></i></a>
   </span>
+  
   <a id="ReGenSDK_Service_SearchQueryBuilder_Execute_" data-uid="ReGenSDK.Service.SearchQueryBuilder.Execute*"></a>
-  <h4 id="ReGenSDK_Service_SearchQueryBuilder_Execute" data-uid="ReGenSDK.Service.SearchQueryBuilder.Execute">Execute()</h4>
+  
+  <h4 id="ReGenSDK_Service_SearchQueryBuilder_Execute" data-uid="ReGenSDK.Service.SearchQueryBuilder.Execute"><a href="#collapsible-ReGenSDK_Service_SearchQueryBuilder_Execute" class="expander" data-toggle="collapse">Execute()</a></h4>
+  
+  <div id="collapsible-ReGenSDK_Service_SearchQueryBuilder_Execute" class="collapse in">
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract Task&lt;List&lt;RecipeLite&gt;&gt; Execute()</code></pre>
   </div>
+
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="ReGenSDK.Model.RecipeLite.html">RecipeLite</a>&gt;&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="ReGenSDK.Model.RecipeLite.html">RecipeLite</a>&gt;&gt;
+        <p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
   <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_SearchQueryBuilder_IncludeTag_System_Collections_Generic_IEnumerable_System_String__.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.SearchQueryBuilder.IncludeTag(System.Collections.Generic.IEnumerable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <span class="divider"> </span>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_SearchQueryBuilder_IncludeTag_System_Collections_Generic_IEnumerable_System_String__.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.SearchQueryBuilder.IncludeTag(System.Collections.Generic.IEnumerable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/SearchQueryBuilder.cs/#L33">View Source</a>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/SearchQueryBuilder.cs/#L33" title="View Source"><i class="fa fa-code"></i></a>
   </span>
+  
   <a id="ReGenSDK_Service_SearchQueryBuilder_IncludeTag_" data-uid="ReGenSDK.Service.SearchQueryBuilder.IncludeTag*"></a>
-  <h4 id="ReGenSDK_Service_SearchQueryBuilder_IncludeTag_System_Collections_Generic_IEnumerable_System_String__" data-uid="ReGenSDK.Service.SearchQueryBuilder.IncludeTag(System.Collections.Generic.IEnumerable{System.String})">IncludeTag(IEnumerable&lt;String&gt;)</h4>
+  
+  <h4 id="ReGenSDK_Service_SearchQueryBuilder_IncludeTag_System_Collections_Generic_IEnumerable_System_String__" data-uid="ReGenSDK.Service.SearchQueryBuilder.IncludeTag(System.Collections.Generic.IEnumerable{System.String})"><a href="#collapsible-ReGenSDK_Service_SearchQueryBuilder_IncludeTag_System_Collections_Generic_IEnumerable_System_String__" class="expander" data-toggle="collapse">IncludeTag(IEnumerable&lt;String&gt;)</a></h4>
+  
+  <div id="collapsible-ReGenSDK_Service_SearchQueryBuilder_IncludeTag_System_Collections_Generic_IEnumerable_System_String__" class="collapse in">
   <div class="markdown level1 summary"><p>Adds multiple tags to a list of tags that must be included.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract SearchQueryBuilder IncludeTag([NotNull] IEnumerable&lt;string&gt; tag)</code></pre>
   </div>
+
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td><span class="parametername">tag</span></td>
-        <td><p>the tags to include</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</span>
+        <span class="parametername">tag</span>
+        <p><p>the tags to include</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ReGenSDK.Service.SearchQueryBuilder.html">SearchQueryBuilder</a></td>
-        <td><p>this</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ReGenSDK.Service.SearchQueryBuilder.html">SearchQueryBuilder</a>
+        <p><p>this</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
   <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_SearchQueryBuilder_IncludeTag_System_String_.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.SearchQueryBuilder.IncludeTag(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <span class="divider"> </span>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_SearchQueryBuilder_IncludeTag_System_String_.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.SearchQueryBuilder.IncludeTag(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/SearchQueryBuilder.cs/#L27">View Source</a>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/SearchQueryBuilder.cs/#L27" title="View Source"><i class="fa fa-code"></i></a>
   </span>
+  
   <a id="ReGenSDK_Service_SearchQueryBuilder_IncludeTag_" data-uid="ReGenSDK.Service.SearchQueryBuilder.IncludeTag*"></a>
-  <h4 id="ReGenSDK_Service_SearchQueryBuilder_IncludeTag_System_String_" data-uid="ReGenSDK.Service.SearchQueryBuilder.IncludeTag(System.String)">IncludeTag(String)</h4>
+  
+  <h4 id="ReGenSDK_Service_SearchQueryBuilder_IncludeTag_System_String_" data-uid="ReGenSDK.Service.SearchQueryBuilder.IncludeTag(System.String)"><a href="#collapsible-ReGenSDK_Service_SearchQueryBuilder_IncludeTag_System_String_" class="expander" data-toggle="collapse">IncludeTag(String)</a></h4>
+  
+  <div id="collapsible-ReGenSDK_Service_SearchQueryBuilder_IncludeTag_System_String_" class="collapse in">
   <div class="markdown level1 summary"><p>Adds a tag to a list of tags that must be included.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
+
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract SearchQueryBuilder IncludeTag([NotNull] string tag)</code></pre>
   </div>
+
   <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">tag</span></td>
-        <td><p>the tag to include</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">tag</span>
+        <p><p>the tag to include</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
   <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="ReGenSDK.Service.SearchQueryBuilder.html">SearchQueryBuilder</a></td>
-        <td><p>this</p>
-</td>
-      </tr>
-    </tbody>
+  <table>
+    <tr>
+      <td>
+        <a class="xref" href="ReGenSDK.Service.SearchQueryBuilder.html">SearchQueryBuilder</a>
+        <p><p>this</p>
+</p>
+      </td>
+    </tr>
   </table>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
 </article>
+          </div>
+          <div class="contribution-panel mobile-hide">
+              <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_SearchQueryBuilder.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.SearchQueryBuilder%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
+              <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/SearchQueryBuilder.cs/#L9" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_SearchQueryBuilder.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.SearchQueryBuilder%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/SearchQueryBuilder.cs/#L9" class="contribution-link">View Source</a>
-                  </li>
-                </ul>
-              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
               </nav>
             </div>
           </div>

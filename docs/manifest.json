@@ -4,12 +4,21 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
       "type": "Conceptual",
-      "source_relative_path": "api/index.md",
+      "source_relative_path": "articles/setup.md",
       "output": {
         ".html": {
-          "relative_path": "api/index.html",
-          "hash": "tvAoU/niseq08tYkH5PgMg=="
+          "relative_path": "articles/setup.html",
+          "hash": "ShgRwOShKV0eu9nX9pkXTQ=="
         }
       },
       "is_incremental": false,
@@ -17,11 +26,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/intro.md",
+      "source_relative_path": "articles/tasks.md",
       "output": {
         ".html": {
-          "relative_path": "articles/intro.html",
-          "hash": "Ai+Yhn47lHqUe0B/4vni6g=="
+          "relative_path": "articles/tasks.html",
+          "hash": "hIh1hLRwwEos98IVPmn+2A=="
         }
       },
       "is_incremental": false,
@@ -33,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "gB8AESyvNru97tzIZofEEg=="
+          "hash": "RiFQFGfVUSREH0/NfYZ3hA=="
         }
       },
       "is_incremental": false,
@@ -45,7 +54,31 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "EPA+9RVkeyfNEyr2TKgDDw=="
+          "hash": "gxH89fTHfnqXPnBJOLuE9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Attributes.Internal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Attributes.Internal.html",
+          "hash": "WPp6GAr8Uhq5RIEBE7EZng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Attributes.html",
+          "hash": "lCUr+Ps5kwKZwUgMxQ7XnA=="
         }
       },
       "is_incremental": false,
@@ -57,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Exceptions.RegenApiException.html",
-          "hash": "6RbjAFAgrCoHmhhhU6wqLg=="
+          "hash": "/oNxUBykuMykN8vLjwYFnw=="
         }
       },
       "is_incremental": false,
@@ -69,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Exceptions.RegenAuthenticationException.html",
-          "hash": "TwpBBXCKeGCWu/85g4A6+w=="
+          "hash": "xzLGjDZz7alcxuk2wISUSQ=="
         }
       },
       "is_incremental": false,
@@ -81,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Exceptions.RegenException.html",
-          "hash": "GhMHAuSGcXuZFUDBadqOZA=="
+          "hash": "HPp7FZf8VmuoLbAA/NCXjQ=="
         }
       },
       "is_incremental": false,
@@ -93,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Exceptions.html",
-          "hash": "F1NnLXFOUWVnmZXw8TI7pg=="
+          "hash": "oOQr3fXVJyGjd1oAE0F36A=="
         }
       },
       "is_incremental": false,
@@ -105,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Firebase.AuthenticationService.html",
-          "hash": "LXEiEXThwfg2FSE16KdRHg=="
+          "hash": "njepIEh2nDfSNl4jiC8cGg=="
         }
       },
       "is_incremental": false,
@@ -117,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Firebase.IAuthenticationService.html",
-          "hash": "trRweTPoumJHFj723dp/Ug=="
+          "hash": "spikTEqesH3hDfcOdl5+Ww=="
         }
       },
       "is_incremental": false,
@@ -129,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Firebase.html",
-          "hash": "s9+2cJIlzZofA2N4a87h2g=="
+          "hash": "eRlolJnvdp4sZ22jt6OqcQ=="
         }
       },
       "is_incremental": false,
@@ -141,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Model.Ingredient.html",
-          "hash": "xW5jYUp1XjYntmVD8UWC0g=="
+          "hash": "yxceAKKojZRy8rVNzl2tOA=="
         }
       },
       "is_incremental": false,
@@ -153,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Model.Rating.html",
-          "hash": "Hgh3JNf/2Jy0xzYzzUKpnQ=="
+          "hash": "u5NgwF93gvx5dNumJc+FoA=="
         }
       },
       "is_incremental": false,
@@ -165,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Model.Recipe.html",
-          "hash": "G4kUGfHTHrpMUS4clAfB+g=="
+          "hash": "ht7JdABtulFky39SAQoQMg=="
         }
       },
       "is_incremental": false,
@@ -177,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Model.RecipeLite.html",
-          "hash": "NvFndedn4JMYVgxWKdEvKQ=="
+          "hash": "rEavRjPqAearY+aDwcczzA=="
         }
       },
       "is_incremental": false,
@@ -189,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Model.Review.html",
-          "hash": "BQ6jc7iKh++4lNiXAqthdg=="
+          "hash": "QsZWXxEaZC6a2pUbuju9Ow=="
         }
       },
       "is_incremental": false,
@@ -201,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Model.ReviewsPage.html",
-          "hash": "+vV/Can0kREMMh5EAKOzQA=="
+          "hash": "6mS2qa7yLvr/vzk9QEfhhA=="
         }
       },
       "is_incremental": false,
@@ -213,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Model.html",
-          "hash": "JNpYnHUQh4+gW+65pTxFyQ=="
+          "hash": "O40yFH2hNuMprsLMF9UBNA=="
         }
       },
       "is_incremental": false,
@@ -225,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.ModelExtensions.html",
-          "hash": "kOMEff6Nvn7i7KUtI25xDQ=="
+          "hash": "e0gMefXcE/xbeamBO2HRDw=="
         }
       },
       "is_incremental": false,
@@ -237,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.MonoBehaviorAsync.html",
-          "hash": "F+Rch4pPMPZZE9MzStBBYA=="
+          "hash": "p1qTEE4/ph6IY3vlq+fpTw=="
         }
       },
       "is_incremental": false,
@@ -249,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.ReGenClient.html",
-          "hash": "z+uwYATj8UM/iJV4VE9nkA=="
+          "hash": "ppXOCnPf0+bTkcZQdA2tZw=="
         }
       },
       "is_incremental": false,
@@ -261,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Service.Api.IFavoriteApi.html",
-          "hash": "KRS142DXY36gOoPEUu9k7Q=="
+          "hash": "xWZuSm6J+qgAsNBEwEz3sg=="
         }
       },
       "is_incremental": false,
@@ -273,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Service.Api.IRatingApi.html",
-          "hash": "euvDzl76mC52R+uTxzLzPA=="
+          "hash": "KjXo9BdapNIv1yXVXg1c1w=="
         }
       },
       "is_incremental": false,
@@ -285,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Service.Api.IRecipeApi.html",
-          "hash": "t2o9DBb3ieL0dDxJp5NjaQ=="
+          "hash": "TSWihPqF+md2r8zDXGLXYA=="
         }
       },
       "is_incremental": false,
@@ -297,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Service.Api.IReviewApi.html",
-          "hash": "10n1A9gsMpqJn4B+9ewvTw=="
+          "hash": "V3MXk7iRyRDrwHnNBDQfHA=="
         }
       },
       "is_incremental": false,
@@ -309,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Service.Api.ISearchApi.html",
-          "hash": "OizrGzJ+WDHEVn970sj3Tw=="
+          "hash": "3WpS7nd/HTfhOxwM6m6EHA=="
         }
       },
       "is_incremental": false,
@@ -321,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Service.Api.html",
-          "hash": "v02UcHc/dGfCJ6dZmn31sQ=="
+          "hash": "cBptEPm7HjX8P3v4ZqqWgQ=="
         }
       },
       "is_incremental": false,
@@ -333,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Service.FavoriteService.html",
-          "hash": "9xrrXbTmW1m82sqpphKfFQ=="
+          "hash": "JuDoeMTV0M2vUozl1lrVdg=="
         }
       },
       "is_incremental": false,
@@ -345,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Service.RatingService.html",
-          "hash": "ZHisH0h/OnzzIVS2PAx2xg=="
+          "hash": "DUisRyQtLMK+2Kf79ixrtg=="
         }
       },
       "is_incremental": false,
@@ -357,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Service.RecipeService.html",
-          "hash": "m6VpTHYyfkrkjYEGUF/ThQ=="
+          "hash": "y/mRp9pC/srHNWaUy+SviQ=="
         }
       },
       "is_incremental": false,
@@ -369,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Service.ReviewService.html",
-          "hash": "j3RkofqGgtPbkJMLi/KkaQ=="
+          "hash": "fNDDIeEpSQ7teLOEbjsYFg=="
         }
       },
       "is_incremental": false,
@@ -381,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Service.SearchQueryBuilder.html",
-          "hash": "SSOcUaT7A7IFnyvDHFFMRw=="
+          "hash": "xucBZtoJ2upBwQS2WJ1UDA=="
         }
       },
       "is_incremental": false,
@@ -393,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Service.SearchService.html",
-          "hash": "LwfZ6aiV8E1jWZMmnIsnRQ=="
+          "hash": "MMyocDDJsHrSQF9FaCjAsA=="
         }
       },
       "is_incremental": false,
@@ -405,7 +438,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Service.TagFilter.html",
-          "hash": "fTWwK0k95l417rtYPVmkFg=="
+          "hash": "EOP5095ifq87qKQI4AQpOA=="
         }
       },
       "is_incremental": false,
@@ -417,7 +450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Service.html",
-          "hash": "UeDPvVKUgqluYpnmhikEaQ=="
+          "hash": "Wolz3ksVtgE5tvRD3iovrw=="
         }
       },
       "is_incremental": false,
@@ -429,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Tasks.ICallbackHandler-1.html",
-          "hash": "f3R43oZ6Bug8rz35BR1anw=="
+          "hash": "/k+dqlxdtBDo7+ZnSmSFiQ=="
         }
       },
       "is_incremental": false,
@@ -441,7 +474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Tasks.ICallbackHandler-2.html",
-          "hash": "1TbS8doXLrpgL9dOCkSqpg=="
+          "hash": "ISCeChtvL4jx0S4FLadChg=="
         }
       },
       "is_incremental": false,
@@ -453,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Tasks.MainThreadTask.html",
-          "hash": "yZJ11tk7kYqobeyPOiNkOw=="
+          "hash": "4stT1bWv1m5SNulHrBa8uQ=="
         }
       },
       "is_incremental": false,
@@ -465,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Tasks.TaskCallbackExtensions.html",
-          "hash": "OhLOJnfDhffCcfw5fYGE8w=="
+          "hash": "OUY5NYIVJvnfJ4Vm9hKAag=="
         }
       },
       "is_incremental": false,
@@ -477,7 +510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Tasks.html",
-          "hash": "i1xLPK2QLbAvJaUf5R+7Dg=="
+          "hash": "ly8IYJ5IAyT4Kj+1djrlLQ=="
         }
       },
       "is_incremental": false,
@@ -489,7 +522,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Unity.UnityMainThreadDispatcher.html",
-          "hash": "Pa/OgQOl+sn3UsW1zDRH0A=="
+          "hash": "mOm4nqKLbJLq6Kw1/hbfnA=="
         }
       },
       "is_incremental": false,
@@ -501,7 +534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Unity.html",
-          "hash": "ZKNIc4ggHET5aic3jk3tZA=="
+          "hash": "MZbshpXGUGVBdcUvt/Rz4Q=="
         }
       },
       "is_incremental": false,
@@ -513,7 +546,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.html",
-          "hash": "V83dzWstt0joS3PLC11kCA=="
+          "hash": "Ceym0eVr/yBzyAL/A/hV1w=="
         }
       },
       "is_incremental": false,
@@ -525,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "blqtZdnPsbNhA+bm1FvSKg=="
+          "hash": "4DsTuLzFutKiUQ6O5gy52w=="
         }
       },
       "is_incremental": false,
@@ -537,7 +570,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "G2AoE5T/2VarbHvzLEo4TQ=="
+          "hash": "Odc3UUOT9sFeN99ZvVUCmQ=="
         }
       },
       "is_incremental": false,
@@ -547,12 +580,10 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
+        "skipped_file_count": 0
       },
       "processors": {
         "TocDocumentProcessor": {
@@ -562,24 +593,24 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 39,
-          "skipped_file_count": 0
-        },
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 0
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 41,
+          "skipped_file_count": 41
         }
       }
     },
     {
       "status": {
         "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0
