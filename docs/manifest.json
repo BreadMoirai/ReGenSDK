@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/setup.html",
-          "hash": "ShgRwOShKV0eu9nX9pkXTQ=="
+          "hash": "lWq5zvw2TMDLrsvYjQ4hIg=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/tasks.html",
-          "hash": "hIh1hLRwwEos98IVPmn+2A=="
+          "hash": "tbvVVrRcU4t+4C/MZkX0yw=="
         }
       },
       "is_incremental": false,
@@ -103,42 +103,6 @@
         ".html": {
           "relative_path": "api/ReGenSDK.Exceptions.html",
           "hash": "oOQr3fXVJyGjd1oAE0F36A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/ReGenSDK.Firebase.AuthenticationService.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ReGenSDK.Firebase.AuthenticationService.html",
-          "hash": "njepIEh2nDfSNl4jiC8cGg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/ReGenSDK.Firebase.IAuthenticationService.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ReGenSDK.Firebase.IAuthenticationService.html",
-          "hash": "spikTEqesH3hDfcOdl5+Ww=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/ReGenSDK.Firebase.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ReGenSDK.Firebase.html",
-          "hash": "eRlolJnvdp4sZ22jt6OqcQ=="
         }
       },
       "is_incremental": false,
@@ -246,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.ReGenClient.html",
-          "hash": "ppXOCnPf0+bTkcZQdA2tZw=="
+          "hash": "q+SgrkgV2RvDVUr+W1C+XA=="
         }
       },
       "is_incremental": false,
@@ -319,6 +283,18 @@
         ".html": {
           "relative_path": "api/ReGenSDK.Service.Api.html",
           "hash": "cBptEPm7HjX8P3v4ZqqWgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/ReGenSDK.Service.AuthenticationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ReGenSDK.Service.AuthenticationService.html",
+          "hash": "VQv+ABAtEXCt451wUE/jew=="
         }
       },
       "is_incremental": false,
@@ -414,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ReGenSDK.Service.html",
-          "hash": "Wolz3ksVtgE5tvRD3iovrw=="
+          "hash": "K3uhpn81ZTTAH8z0IQuKPg=="
         }
       },
       "is_incremental": false,
@@ -482,30 +458,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/ReGenSDK.Unity.UnityMainThreadDispatcher.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ReGenSDK.Unity.UnityMainThreadDispatcher.html",
-          "hash": "h3rVWEP9+bY2UrDBEunrew=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/ReGenSDK.Unity.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ReGenSDK.Unity.html",
-          "hash": "MZbshpXGUGVBdcUvt/Rz4Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/api/ReGenSDK.yml",
       "output": {
         ".html": {
@@ -522,7 +474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "qa0ycsvtmHUINJI5/qr0bw=="
+          "hash": "eLHwZjTwPA1irgx3UyO1Uw=="
         }
       },
       "is_incremental": false,
@@ -550,11 +502,12 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 38,
-          "skipped_file_count": 33
+          "total_file_count": 0,
+          "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
@@ -562,12 +515,11 @@
           "total_file_count": 3,
           "skipped_file_count": 3
         },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
+          "total_file_count": 34,
+          "skipped_file_count": 34
         }
       }
     },

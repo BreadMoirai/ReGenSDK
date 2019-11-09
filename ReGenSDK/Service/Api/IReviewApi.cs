@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using System.Web;
 using JetBrains.Annotations;
 using Refit;
 using ReGenSDK.Model;
@@ -17,7 +18,26 @@ namespace ReGenSDK.Service.Api
         /// <returns>A Task representing the async execution of this operation</returns>
         [Get("/{recipeId}")]
         [Headers("Authorization")]
-        Task<ReviewsPage> Get([NotNull] string recipeId, [CanBeNull] string start, int size = 5);
+        Task<ReviewsPage> GetPage([NotNull] string recipeId, [CanBeNull] string start, int size = 5);
+
+        
+        /// <summary>
+        /// Returns the review for the current user.
+        /// </summary>
+        /// <param name="recipeId">The recipe ID.</param>
+        /// <returns>A Task representing the async execution of this operation</returns>
+        [Get("/{recipeId}/self")]
+        [Headers("Authorization")]
+        Task<Review> Get([NotNull] string recipeId);
+        
+//        /// <summary>
+//        /// Returns the review for the current user.
+//        /// </summary>
+//        /// <param name="recipeId">The recipe ID.</param>
+//        /// <returns>A Task representing the async execution of this operation</returns>
+//        [Get("/{recipeId}/self")]
+//        [Headers("Authorization")]
+//        Task<HttpResponse> GetHttp([NotNull] string recipeId);
 
         /// <summary>
         /// Adds the user's review for a recipe to ReGen.

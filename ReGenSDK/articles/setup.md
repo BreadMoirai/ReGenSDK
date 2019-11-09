@@ -17,4 +17,9 @@ var recipes = client.Recipes;
 ```
 
 View the API reference for more details.
-
+ - @ReGenSDK.Service.AuthenticationService
+ - @ReGenSDK.Service.FavoriteService 
+ - @ReGenSDK.Service.RatingService 
+ - @ReGenSDK.Service.RecipeService 
+ - @ReGenSDK.Service.ReviewService 
+ - @ReGenSDK.Service.SearchService 

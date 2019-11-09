@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using System.Web;
 using JetBrains.Annotations;
 using ReGenSDK.Model;
 using ReGenSDK.Service.Api;
@@ -19,17 +20,21 @@ namespace ReGenSDK.Service
         }
 
         /// <inheritdoc />
-        public Task<ReviewsPage> Get(string recipeId, string start, int size)
+        public Task<ReviewsPage> GetPage(string recipeId, string start, int size)
         {
             if (recipeId == null) throw new ArgumentNullException(nameof(recipeId));
-            if (start == null) throw new ArgumentNullException(nameof(start));
             if (size <= 0) throw new ArgumentOutOfRangeException(nameof(size));
-            return ReviewApiImplementation.Get(recipeId, start, size).Success(page =>
+            return ReviewApiImplementation.GetPage(recipeId, start, size).Success(page =>
             {
                 page.RecipeId = recipeId;
                 return page;
             });
         }
+//
+//        public Task<HttpResponse> GetHttp(string recipeId)
+//        {
+//            return ReviewApiImplementation.GetHttp(recipeId);
+//        }
 
         /// <inheritdoc />
         public Task Create(string recipeId, Review review)
@@ -52,6 +57,13 @@ namespace ReGenSDK.Service
         {
             if (recipeId == null) throw new ArgumentNullException(nameof(recipeId));
             return ReviewApiImplementation.Delete(recipeId);
+        }
+
+        /// <inheritdoc />
+        public Task<Review> Get(string recipeId)
+        {
+            if (recipeId == null) throw new ArgumentNullException(nameof(recipeId));
+            return ReviewApiImplementation.Get(recipeId);
         }
     }
 }

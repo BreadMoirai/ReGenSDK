@@ -19,10 +19,25 @@ namespace ReGenSDK
             {
                 throw new RegenException("There are no more reviews to fetch");
             }
-            return ReGenClient.Instance.Reviews.Get(page.RecipeId, page.NextKey, fetchSize);
+            return ReGenClient.Instance.Reviews.GetPage(page.RecipeId, page.NextKey, fetchSize);
         }
 
-        public static Task<ReviewsPage> Reviews(this RecipeLite recipe, int fetchSize = 5) =>
-            ReGenClient.Instance.Reviews.Get(recipe.Key, null, fetchSize);
+        /// <summary>
+        /// Fetches the first page of reviews for this recipe
+        /// </summary>
+        /// <param name="recipe"></param>
+        /// <param name="fetchSize"></param>
+        /// <returns></returns>
+        public static Task<ReviewsPage> TopReviews(this RecipeLite recipe, int fetchSize = 5) =>
+            ReGenClient.Instance.Reviews.GetPage(recipe.Key, null, fetchSize);
+        
+        /// <summary>
+        /// Fetches the current user's review for this recipe
+        /// </summary>
+        /// <param name="recipe"></param>
+        /// <param name="fetchSize"></param>
+        /// <returns></returns>
+        public static Task<Review> Review(this RecipeLite recipe) =>
+            ReGenClient.Instance.Reviews.Get(recipe.Key);
     }
 }
