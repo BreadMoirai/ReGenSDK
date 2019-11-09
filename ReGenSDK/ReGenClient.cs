@@ -15,24 +15,36 @@ namespace ReGenSDK
     [UsedImplicitly]
     public class ReGenClient
     {
-        private readonly string _endPoint;
+        public static ReGenClient Instance { get; private set; }
+
+        private readonly string _endpoint;
         private readonly RefitSettings _refitSettings;
 
-        public ReGenClient(string endPoint) : this(endPoint, () =>
+
+        public static ReGenClient Initialize([NotNull] string endpoint)
         {
-            var user = FirebaseAuth.DefaultInstance.CurrentUser;
-            if (user == null)
+            return Initialize(endpoint, () =>
             {
-                throw new ArgumentNullException($"FirebaseAuth.CurrentUser");
-            }
-            return user.TokenAsync(false);
-        })
-        {
+                var user = FirebaseAuth.DefaultInstance.CurrentUser;
+                if (user == null)
+                {
+                    throw new ArgumentNullException($"FirebaseAuth.CurrentUser");
+                }
+                return user.TokenAsync(false);
+            });
         }
 
-        public ReGenClient(string endPoint, Func<Task<string>> authorizationProvider)
+        public static ReGenClient Initialize([NotNull] string endpoint, [NotNull] Func<Task<string>> authorizationProvider)
         {
-            _endPoint = endPoint;
+            if (endpoint == null) throw new ArgumentNullException(nameof(endpoint));
+            if (authorizationProvider == null) throw new ArgumentNullException(nameof(authorizationProvider));
+            Instance = new ReGenClient(endpoint, authorizationProvider);
+            return Instance;
+        }
+        
+        public ReGenClient(string endpoint, Func<Task<string>> authorizationProvider)
+        {
+            _endpoint = endpoint;
             _refitSettings = new RefitSettings
             {
                 AuthorizationHeaderValueGetter = authorizationProvider,
@@ -47,19 +59,19 @@ namespace ReGenSDK
         public AuthenticationService Authentication => new AuthenticationService();
 
         public FavoriteService Favorites =>
-            new FavoriteServiceImpl(RestService.For<IFavoriteApi>(_endPoint + "/api/Favorites", _refitSettings));
+            new FavoriteServiceImpl(RestService.For<IFavoriteApi>(_endpoint + "/api/Favorites", _refitSettings));
 
         public RatingService Ratings =>
-            new RatingServiceImpl(RestService.For<IRatingApi>(_endPoint + "/api/Ratings", _refitSettings));
+            new RatingServiceImpl(RestService.For<IRatingApi>(_endpoint + "/api/Ratings", _refitSettings));
         
         public RecipeService Recipes =>
-            new RecipeServiceImpl(RestService.For<IRecipeApi>(_endPoint + "/api/Recipes", _refitSettings));
+            new RecipeServiceImpl(RestService.For<IRecipeApi>(_endpoint + "/api/Recipes", _refitSettings));
 
         public ReviewService Reviews =>
-            new ReviewServiceImpl(RestService.For<IReviewApi>(_endPoint + "/api/Reviews", _refitSettings));
+            new ReviewServiceImpl(RestService.For<IReviewApi>(_endpoint + "/api/Reviews", _refitSettings));
 
         public SearchService Search =>
-            new SearchServiceImpl(RestService.For<ISearchApi>(_endPoint + "/api/Search", _refitSettings));
+            new SearchServiceImpl(RestService.For<ISearchApi>(_endpoint + "/api/Search", _refitSettings));
 
         
     }

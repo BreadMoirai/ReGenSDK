@@ -17,7 +17,7 @@ namespace ReGenSDK.Service.Api
         /// <returns>A Task representing the async execution of this operation</returns>
         [Get("/{recipeId}")]
         [Headers("Authorization")]
-        Task<List<Review>> Get([NotNull] string recipeId, [CanBeNull] string start, int size = 5);
+        Task<ReviewsPage> Get([NotNull] string recipeId, [CanBeNull] string start, int size = 5);
 
         /// <summary>
         /// Adds the user's review for a recipe to ReGen.

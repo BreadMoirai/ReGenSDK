@@ -3,52 +3,22 @@ using System.Collections.Generic;
 
 namespace ReGenSDK.Model
 {
-    public class Recipe
+    public class Recipe : RecipeLite
     {
         #region Properties
 
-//        [Required]
-        public string Key
-        { get; set; }
-
-//        [Required]
-        public string AuthorId
-        { get; set; }
-
-//        [Required]
-        public string Name
-        { get; set; }
-
-//        [Required]
-        public int? Calories
-        { get; set; }
-
-//        [Required]
-        public int? PrepTimeMinutes
-        { get; set; }
-
-//        [Required]
-        public IEnumerable<Ingredient> Ingredients
-        { get; set; }
-
-//        [Required]
-        public IEnumerable<string> Steps
-        { get; set; }
-
-        public IEnumerable<string> Tags
-        { get; set; }
-
-        public string ImageReferencePath
-        { get; set; }
-
-        //public Sprite ImageSprite;
-
-        public string RootImagePath
-        { get; set; }
+        public string AuthorId { get; set; }
+        public int? Calories { get; set; }
+        public int? PrepTimeMinutes { get; set; }
+        public IEnumerable<string> Steps { get; set; }
+        public string ImageReferencePath { get; set; }
+        public string RootImagePath { get; set; }
 
         #endregion
 
-        public Recipe(string key, string authorId, string name, int? calories, int? prepTimeMinutes, IEnumerable<Ingredient> ingredients, IEnumerable<string> steps, IEnumerable<string> tags, string imageReferencePath, string rootImagePath)
+        public Recipe(string key, string authorId, string name, int? calories, int? prepTimeMinutes,
+            IEnumerable<Ingredient> ingredients, IEnumerable<string> steps, IEnumerable<string> tags,
+            string imageReferencePath, string rootImagePath)
         {
             Key = key;
             AuthorId = authorId;
@@ -84,6 +54,5 @@ namespace ReGenSDK.Model
 
             return recipeString;
         }
-
     }
 }

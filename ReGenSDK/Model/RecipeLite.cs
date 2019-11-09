@@ -2,21 +2,11 @@
 
 namespace ReGenSDK.Model
 {
-    //[ElasticsearchType(RelationName = "recipes")]
     public class RecipeLite
     {
-//        [Text(Name = "name")]
-        public string Name
-        { get; set; }
-
-        //[Nested]
-        //[PropertyName("ingredients")]
-//        [Object]
-        public IEnumerable<Ingredient> Ingredients
-        { get; set; }
-
-//        [PropertyName("tags")]
-        public IEnumerable<string> Tags
-        { get; set; }
+        public string Key { get; set; }
+        public string Name { get; set; }
+        public IEnumerable<Ingredient> Ingredients { get; set; }
+        public IEnumerable<string> Tags { get; set; }
     }
 }

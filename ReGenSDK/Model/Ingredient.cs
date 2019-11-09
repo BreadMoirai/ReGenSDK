@@ -6,13 +6,11 @@
 
 //        [Required]
 //        [StringLength(30, MinimumLength = 1)]
-        public string IngredientName
-        { get; set; }
+        public string IngredientName { get; set; }
 
 //        [Required]
 //        [StringLength(30, MinimumLength = 1)]
-        public string IngredientAmount
-        { get; set; }
+        public string IngredientAmount { get; set; }
 
         #endregion
 

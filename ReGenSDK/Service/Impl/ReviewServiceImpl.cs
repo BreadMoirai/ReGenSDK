@@ -11,12 +11,6 @@ namespace ReGenSDK.Service.Impl
         public ReviewServiceImpl(IReviewApi reviewApiImplementation) : base(reviewApiImplementation)
         {
         }
-
-        public override IPaginator<Review, string> Paginated([NotNull] string recipeId, int fetchSize)
-        {
-            if (recipeId == null) throw new ArgumentNullException(nameof(recipeId));
-            if (fetchSize <= 0) throw new ArgumentOutOfRangeException(nameof(fetchSize));
-            return new Paginator<Review, string>(list => list.Last().ReviewId, id => Get(recipeId, id, fetchSize));
-        }
+        
     }
 }
