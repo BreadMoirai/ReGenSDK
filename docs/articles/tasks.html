@@ -79,9 +79,32 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="callbacks">Callbacks</h1>
 
-<p>This SDK includes extension methods on tasks for callbacks.
- @</p>
-</article>
+<p>This SDK includes extension methods on tasks for callbacks.</p>
+<ul>
+<li><a class="xref" href="../api/ReGenSDK.Tasks.TaskCallbackExtensions.html">TaskCallbackExtensions</a></li>
+</ul>
+<p> These callbacks are always called on the main thread and can be used as such</p>
+<pre><code class="lang-c#">ReGenClient.Instance.Recipes.Get(&quot;recipeId&quot;).Success(async recipe =&gt; {
+   var name = recipe.Name;
+   var reviews = await recipe.Reviews();
+   // etc...
+});
+</code></pre><p>or it can be used async await style with </p>
+<ul>
+<li><a class="xref" href="../api/ReGenSDK.Tasks.MainThreadTask.html#ReGenSDK_Tasks_MainThreadTask_Run_System_Func_System_Threading_Tasks_Task__">Run(Func&lt;Task&gt;)</a></li>
+</ul>
+<pre><code class="lang-c#">using static ReGenSDK.Tasks.MainThreadTask;
+
+public async Task DoOperation(Recipe recipe) {
+    return Run(async () =&gt; {
+        // code in here is executed on the main thread
+
+        // for example
+        var rating = await client.Reviews.Get(recipe.Key);
+        await client.Reviews.Update(recipe.Key, 1);
+    });
+}
+</code></pre></article>
           </div>
           <div class="contribution-panel mobile-hide">
               <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/articles/tasks.md/#L1" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>

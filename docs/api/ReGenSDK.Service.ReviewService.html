@@ -136,7 +136,7 @@
     <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_ReviewService_Create_System_String_ReGenSDK_Model_Review_.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.ReviewService.Create(System.String%2CReGenSDK.Model.Review)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/ReviewServiceDelegated.cs/#L35" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/src/Service/ReviewServiceDelegated.cs/#L40" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="ReGenSDK_Service_ReviewService_Create_" data-uid="ReGenSDK.Service.ReviewService.Create*"></a>
@@ -202,7 +202,7 @@
     <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_ReviewService_Delete_System_String_.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.ReviewService.Delete(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/ReviewServiceDelegated.cs/#L51" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/src/Service/ReviewServiceDelegated.cs/#L56" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="ReGenSDK_Service_ReviewService_Delete_" data-uid="ReGenSDK.Service.ReviewService.Delete*"></a>
@@ -257,24 +257,83 @@
   
   <span class="small pull-right mobile-hide">
     <span class="divider"> </span>
-    <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_ReviewService_Get_System_String_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.ReviewService.Get(System.String%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_ReviewService_Get_System_String_.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.ReviewService.Get(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/ReviewServiceDelegated.cs/#L22" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/src/Service/ReviewServiceDelegated.cs/#L63" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="ReGenSDK_Service_ReviewService_Get_" data-uid="ReGenSDK.Service.ReviewService.Get*"></a>
   
-  <h4 id="ReGenSDK_Service_ReviewService_Get_System_String_System_String_System_Int32_" data-uid="ReGenSDK.Service.ReviewService.Get(System.String,System.String,System.Int32)"><a href="#collapsible-ReGenSDK_Service_ReviewService_Get_System_String_System_String_System_Int32_" class="expander" data-toggle="collapse">Get(String, String, Int32)</a></h4>
+  <h4 id="ReGenSDK_Service_ReviewService_Get_System_String_" data-uid="ReGenSDK.Service.ReviewService.Get(System.String)"><a href="#collapsible-ReGenSDK_Service_ReviewService_Get_System_String_" class="expander" data-toggle="collapse">Get(String)</a></h4>
   
-  <div id="collapsible-ReGenSDK_Service_ReviewService_Get_System_String_System_String_System_Int32_" class="collapse in">
+  <div id="collapsible-ReGenSDK_Service_ReviewService_Get_System_String_" class="collapse in">
+  <div class="markdown level1 summary"><p>Returns the review for the current user. </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Review&gt; Get(string recipeId)</code></pre>
+  </div>
+
+  <h5 class="parameters">Parameters</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="pull-right"><span class="xref">System.String</span></span>
+        <span class="parametername">recipeId</span>
+        <p><p>The recipe ID.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  <h5 class="returns">Returns</h5>
+  <table>
+    <tr>
+      <td>
+        <span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="ReGenSDK.Model.Review.html">Review</a>&gt;
+        <p><p>A Task representing the async execution of this operation.
+The result will be null if the user does not have a review.</p>
+</p>
+      </td>
+    </tr>
+  </table>
+  
+  
+  
+  
+  
+  
+  <h5 class="implements">Implements</h5>
+      <div><a class="xref" href="ReGenSDK.Service.Api.IReviewApi.html#ReGenSDK_Service_Api_IReviewApi_Get_System_String_">IReviewApi.Get(String)</a></div>
+  
+  
+  
+  
+  </div>
+  
+  <span class="small pull-right mobile-hide">
+    <span class="divider"> </span>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_ReviewService_GetPage_System_String_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.ReviewService.GetPage(System.String%2CSystem.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/src/Service/ReviewServiceDelegated.cs/#L23" title="View Source"><i class="fa fa-code"></i></a>
+  </span>
+  
+  <a id="ReGenSDK_Service_ReviewService_GetPage_" data-uid="ReGenSDK.Service.ReviewService.GetPage*"></a>
+  
+  <h4 id="ReGenSDK_Service_ReviewService_GetPage_System_String_System_String_System_Int32_" data-uid="ReGenSDK.Service.ReviewService.GetPage(System.String,System.String,System.Int32)"><a href="#collapsible-ReGenSDK_Service_ReviewService_GetPage_System_String_System_String_System_Int32_" class="expander" data-toggle="collapse">GetPage(String, String, Int32)</a></h4>
+  
+  <div id="collapsible-ReGenSDK_Service_ReviewService_GetPage_System_String_System_String_System_Int32_" class="collapse in">
   <div class="markdown level1 summary"><p>Returns a single page of reviews for a recipe.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;ReviewsPage&gt; Get(string recipeId, string start, int size)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;ReviewsPage&gt; GetPage(string recipeId, string start, int size)</code></pre>
   </div>
 
   <h5 class="parameters">Parameters</h5>
@@ -322,7 +381,7 @@
   
   
   <h5 class="implements">Implements</h5>
-      <div><a class="xref" href="ReGenSDK.Service.Api.IReviewApi.html#ReGenSDK_Service_Api_IReviewApi_Get_System_String_System_String_System_Int32_">IReviewApi.Get(String, String, Int32)</a></div>
+      <div><a class="xref" href="ReGenSDK.Service.Api.IReviewApi.html#ReGenSDK_Service_Api_IReviewApi_GetPage_System_String_System_String_System_Int32_">IReviewApi.GetPage(String, String, Int32)</a></div>
   
   
   
@@ -334,7 +393,7 @@
     <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_ReviewService_Update_System_String_ReGenSDK_Model_Review_.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.ReviewService.Update(System.String%2CReGenSDK.Model.Review)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/ReviewServiceDelegated.cs/#L43" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/src/Service/ReviewServiceDelegated.cs/#L48" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="ReGenSDK_Service_ReviewService_Update_" data-uid="ReGenSDK.Service.ReviewService.Update*"></a>
@@ -400,7 +459,7 @@
           </div>
           <div class="contribution-panel mobile-hide">
               <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_ReviewService.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.ReviewService%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
-              <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/ReviewServiceDelegated.cs/#L11" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
+              <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/src/Service/ReviewServiceDelegated.cs/#L12" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">

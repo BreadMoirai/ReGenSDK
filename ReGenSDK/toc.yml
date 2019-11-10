@@ -1,5 +1,5 @@
 - name: Home
-  href: index.md
+  href: articles/setup.md
 - name: Articles
   href: articles/
   homepage: articles/setup.md

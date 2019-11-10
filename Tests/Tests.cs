@@ -4,7 +4,9 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using NUnit.Framework;
 using Refit;
+using ReGenSDK.Tasks;
 using ReGenSDK.Tests.Auth;
+using static ReGenSDK.Tasks.MainThreadTask;
 
 namespace ReGenSDK.Tests
 {
@@ -25,21 +27,32 @@ namespace ReGenSDK.Tests
             var apiKey = Environment.GetEnvironmentVariable("FIREBASE_API_KEY");
 //            Console.WriteLine(apiKey);
             var emailPasswordCredentials = new EmailPasswordCredentials("user@email.com", "password");
-            var response = await authProvider.SignIn(apiKey,
-                emailPasswordCredentials);
-//            Console.WriteLine(response.IdToken);
-            var token = response.IdToken;
-            var client = new ReGenClient("https://regenapi.azurewebsites.net", () => Task.FromResult($"Bearer {token}"));
+            var client = new ReGenClient("https://regenapi.azurewebsites.net", async () =>
+            {
+                var response = await authProvider.SignIn(apiKey,
+                    emailPasswordCredentials);
+//                Console.WriteLine(response.IdToken);
+                return response.IdToken;
+            });
             try
             {
                 var recipe = await client.Recipes.Get("-LdC5Prcr9aussFzdYYs");
-                Console.WriteLine(recipe);
+                Console.WriteLine(recipe.Key);
+                var myreview = await client.Reviews.Get(recipe.Key);
+                if (myreview == null)
+                {
+                    Console.WriteLine("null");
+                }
+                Console.WriteLine(myreview);
             }
             catch (ApiException e)
-            {
+            {    
+                Console.WriteLine(e.StatusCode);
                 Console.WriteLine(e.RequestMessage.RequestUri);
                 throw;
             }
+
+//            Run(async () => { await Task.CompletedTask; });
 
         }
     }

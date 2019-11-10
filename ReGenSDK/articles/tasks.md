@@ -3,6 +3,7 @@
 This SDK includes extension methods on tasks for callbacks.
  - @ReGenSDK.Tasks.TaskCallbackExtensions
  
+ 
  These callbacks are always called on the main thread and can be used as such
  ```c#
 ReGenClient.Instance.Recipes.Get("recipeId").Success(async recipe => {
@@ -11,7 +12,11 @@ ReGenClient.Instance.Recipes.Get("recipeId").Success(async recipe => {
     // etc...
 });
 ```
-or it can be used async await style with @ReGenSDK.Tasks.MainThreadTask.Run
+
+or it can be used async await style with 
+ - @ReGenSDK.Tasks.MainThreadTask.Run(System.Func{System.Threading.Tasks.Task})
+ 
+ 
 ```c#
 using static ReGenSDK.Tasks.MainThreadTask;
 

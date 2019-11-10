@@ -610,19 +610,73 @@ references:
   isSpec: "True"
   fullName: ReGenSDK.ModelExtensions.Recipe
   nameWithType: ModelExtensions.Recipe
-- uid: ReGenSDK.ModelExtensions.Reviews(ReGenSDK.Model.RecipeLite,System.Int32)
-  name: Reviews(RecipeLite, Int32)
-  href: api/ReGenSDK.ModelExtensions.html#ReGenSDK_ModelExtensions_Reviews_ReGenSDK_Model_RecipeLite_System_Int32_
-  commentId: M:ReGenSDK.ModelExtensions.Reviews(ReGenSDK.Model.RecipeLite,System.Int32)
-  fullName: ReGenSDK.ModelExtensions.Reviews(ReGenSDK.Model.RecipeLite, System.Int32)
-  nameWithType: ModelExtensions.Reviews(RecipeLite, Int32)
-- uid: ReGenSDK.ModelExtensions.Reviews*
-  name: Reviews
-  href: api/ReGenSDK.ModelExtensions.html#ReGenSDK_ModelExtensions_Reviews_
-  commentId: Overload:ReGenSDK.ModelExtensions.Reviews
+- uid: ReGenSDK.ModelExtensions.Review(ReGenSDK.Model.RecipeLite)
+  name: Review(RecipeLite)
+  href: api/ReGenSDK.ModelExtensions.html#ReGenSDK_ModelExtensions_Review_ReGenSDK_Model_RecipeLite_
+  commentId: M:ReGenSDK.ModelExtensions.Review(ReGenSDK.Model.RecipeLite)
+  fullName: ReGenSDK.ModelExtensions.Review(ReGenSDK.Model.RecipeLite)
+  nameWithType: ModelExtensions.Review(RecipeLite)
+- uid: ReGenSDK.ModelExtensions.Review*
+  name: Review
+  href: api/ReGenSDK.ModelExtensions.html#ReGenSDK_ModelExtensions_Review_
+  commentId: Overload:ReGenSDK.ModelExtensions.Review
   isSpec: "True"
-  fullName: ReGenSDK.ModelExtensions.Reviews
-  nameWithType: ModelExtensions.Reviews
+  fullName: ReGenSDK.ModelExtensions.Review
+  nameWithType: ModelExtensions.Review
+- uid: ReGenSDK.ModelExtensions.TopReviews(ReGenSDK.Model.RecipeLite,System.Int32)
+  name: TopReviews(RecipeLite, Int32)
+  href: api/ReGenSDK.ModelExtensions.html#ReGenSDK_ModelExtensions_TopReviews_ReGenSDK_Model_RecipeLite_System_Int32_
+  commentId: M:ReGenSDK.ModelExtensions.TopReviews(ReGenSDK.Model.RecipeLite,System.Int32)
+  fullName: ReGenSDK.ModelExtensions.TopReviews(ReGenSDK.Model.RecipeLite, System.Int32)
+  nameWithType: ModelExtensions.TopReviews(RecipeLite, Int32)
+- uid: ReGenSDK.ModelExtensions.TopReviews*
+  name: TopReviews
+  href: api/ReGenSDK.ModelExtensions.html#ReGenSDK_ModelExtensions_TopReviews_
+  commentId: Overload:ReGenSDK.ModelExtensions.TopReviews
+  isSpec: "True"
+  fullName: ReGenSDK.ModelExtensions.TopReviews
+  nameWithType: ModelExtensions.TopReviews
+- uid: ReGenSDK.NullableJsonContentSerializer
+  name: NullableJsonContentSerializer
+  href: api/ReGenSDK.NullableJsonContentSerializer.html
+  commentId: T:ReGenSDK.NullableJsonContentSerializer
+  fullName: ReGenSDK.NullableJsonContentSerializer
+  nameWithType: NullableJsonContentSerializer
+- uid: ReGenSDK.NullableJsonContentSerializer.#ctor
+  name: NullableJsonContentSerializer()
+  href: api/ReGenSDK.NullableJsonContentSerializer.html#ReGenSDK_NullableJsonContentSerializer__ctor
+  commentId: M:ReGenSDK.NullableJsonContentSerializer.#ctor
+  fullName: ReGenSDK.NullableJsonContentSerializer.NullableJsonContentSerializer()
+  nameWithType: NullableJsonContentSerializer.NullableJsonContentSerializer()
+- uid: ReGenSDK.NullableJsonContentSerializer.#ctor(Newtonsoft.Json.JsonSerializerSettings)
+  name: NullableJsonContentSerializer(JsonSerializerSettings)
+  href: api/ReGenSDK.NullableJsonContentSerializer.html#ReGenSDK_NullableJsonContentSerializer__ctor_Newtonsoft_Json_JsonSerializerSettings_
+  commentId: M:ReGenSDK.NullableJsonContentSerializer.#ctor(Newtonsoft.Json.JsonSerializerSettings)
+  fullName: ReGenSDK.NullableJsonContentSerializer.NullableJsonContentSerializer(Newtonsoft.Json.JsonSerializerSettings)
+  nameWithType: NullableJsonContentSerializer.NullableJsonContentSerializer(JsonSerializerSettings)
+- uid: ReGenSDK.NullableJsonContentSerializer.#ctor*
+  name: NullableJsonContentSerializer
+  href: api/ReGenSDK.NullableJsonContentSerializer.html#ReGenSDK_NullableJsonContentSerializer__ctor_
+  commentId: Overload:ReGenSDK.NullableJsonContentSerializer.#ctor
+  isSpec: "True"
+  fullName: ReGenSDK.NullableJsonContentSerializer.NullableJsonContentSerializer
+  nameWithType: NullableJsonContentSerializer.NullableJsonContentSerializer
+- uid: ReGenSDK.NullableJsonContentSerializer.DeserializeAsync*
+  name: DeserializeAsync
+  href: api/ReGenSDK.NullableJsonContentSerializer.html#ReGenSDK_NullableJsonContentSerializer_DeserializeAsync_
+  commentId: Overload:ReGenSDK.NullableJsonContentSerializer.DeserializeAsync
+  isSpec: "True"
+  fullName: ReGenSDK.NullableJsonContentSerializer.DeserializeAsync
+  nameWithType: NullableJsonContentSerializer.DeserializeAsync
+- uid: ReGenSDK.NullableJsonContentSerializer.DeserializeAsync``1(System.Net.Http.HttpContent)
+  name: DeserializeAsync<T>(HttpContent)
+  href: api/ReGenSDK.NullableJsonContentSerializer.html#ReGenSDK_NullableJsonContentSerializer_DeserializeAsync__1_System_Net_Http_HttpContent_
+  commentId: M:ReGenSDK.NullableJsonContentSerializer.DeserializeAsync``1(System.Net.Http.HttpContent)
+  name.vb: DeserializeAsync(Of T)(HttpContent)
+  fullName: ReGenSDK.NullableJsonContentSerializer.DeserializeAsync<T>(System.Net.Http.HttpContent)
+  fullName.vb: ReGenSDK.NullableJsonContentSerializer.DeserializeAsync(Of T)(System.Net.Http.HttpContent)
+  nameWithType: NullableJsonContentSerializer.DeserializeAsync<T>(HttpContent)
+  nameWithType.vb: NullableJsonContentSerializer.DeserializeAsync(Of T)(HttpContent)
 - uid: ReGenSDK.ReGenClient
   name: ReGenClient
   href: api/ReGenSDK.ReGenClient.html
@@ -963,12 +1017,12 @@ references:
   isSpec: "True"
   fullName: ReGenSDK.Service.Api.IReviewApi.Delete
   nameWithType: IReviewApi.Delete
-- uid: ReGenSDK.Service.Api.IReviewApi.Get(System.String,System.String,System.Int32)
-  name: Get(String, String, Int32)
-  href: api/ReGenSDK.Service.Api.IReviewApi.html#ReGenSDK_Service_Api_IReviewApi_Get_System_String_System_String_System_Int32_
-  commentId: M:ReGenSDK.Service.Api.IReviewApi.Get(System.String,System.String,System.Int32)
-  fullName: ReGenSDK.Service.Api.IReviewApi.Get(System.String, System.String, System.Int32)
-  nameWithType: IReviewApi.Get(String, String, Int32)
+- uid: ReGenSDK.Service.Api.IReviewApi.Get(System.String)
+  name: Get(String)
+  href: api/ReGenSDK.Service.Api.IReviewApi.html#ReGenSDK_Service_Api_IReviewApi_Get_System_String_
+  commentId: M:ReGenSDK.Service.Api.IReviewApi.Get(System.String)
+  fullName: ReGenSDK.Service.Api.IReviewApi.Get(System.String)
+  nameWithType: IReviewApi.Get(String)
 - uid: ReGenSDK.Service.Api.IReviewApi.Get*
   name: Get
   href: api/ReGenSDK.Service.Api.IReviewApi.html#ReGenSDK_Service_Api_IReviewApi_Get_
@@ -976,6 +1030,19 @@ references:
   isSpec: "True"
   fullName: ReGenSDK.Service.Api.IReviewApi.Get
   nameWithType: IReviewApi.Get
+- uid: ReGenSDK.Service.Api.IReviewApi.GetPage(System.String,System.String,System.Int32)
+  name: GetPage(String, String, Int32)
+  href: api/ReGenSDK.Service.Api.IReviewApi.html#ReGenSDK_Service_Api_IReviewApi_GetPage_System_String_System_String_System_Int32_
+  commentId: M:ReGenSDK.Service.Api.IReviewApi.GetPage(System.String,System.String,System.Int32)
+  fullName: ReGenSDK.Service.Api.IReviewApi.GetPage(System.String, System.String, System.Int32)
+  nameWithType: IReviewApi.GetPage(String, String, Int32)
+- uid: ReGenSDK.Service.Api.IReviewApi.GetPage*
+  name: GetPage
+  href: api/ReGenSDK.Service.Api.IReviewApi.html#ReGenSDK_Service_Api_IReviewApi_GetPage_
+  commentId: Overload:ReGenSDK.Service.Api.IReviewApi.GetPage
+  isSpec: "True"
+  fullName: ReGenSDK.Service.Api.IReviewApi.GetPage
+  nameWithType: IReviewApi.GetPage
 - uid: ReGenSDK.Service.Api.IReviewApi.Update(System.String,ReGenSDK.Model.Review)
   name: Update(String, Review)
   href: api/ReGenSDK.Service.Api.IReviewApi.html#ReGenSDK_Service_Api_IReviewApi_Update_System_String_ReGenSDK_Model_Review_
@@ -1298,12 +1365,12 @@ references:
   isSpec: "True"
   fullName: ReGenSDK.Service.ReviewService.Delete
   nameWithType: ReviewService.Delete
-- uid: ReGenSDK.Service.ReviewService.Get(System.String,System.String,System.Int32)
-  name: Get(String, String, Int32)
-  href: api/ReGenSDK.Service.ReviewService.html#ReGenSDK_Service_ReviewService_Get_System_String_System_String_System_Int32_
-  commentId: M:ReGenSDK.Service.ReviewService.Get(System.String,System.String,System.Int32)
-  fullName: ReGenSDK.Service.ReviewService.Get(System.String, System.String, System.Int32)
-  nameWithType: ReviewService.Get(String, String, Int32)
+- uid: ReGenSDK.Service.ReviewService.Get(System.String)
+  name: Get(String)
+  href: api/ReGenSDK.Service.ReviewService.html#ReGenSDK_Service_ReviewService_Get_System_String_
+  commentId: M:ReGenSDK.Service.ReviewService.Get(System.String)
+  fullName: ReGenSDK.Service.ReviewService.Get(System.String)
+  nameWithType: ReviewService.Get(String)
 - uid: ReGenSDK.Service.ReviewService.Get*
   name: Get
   href: api/ReGenSDK.Service.ReviewService.html#ReGenSDK_Service_ReviewService_Get_
@@ -1311,6 +1378,19 @@ references:
   isSpec: "True"
   fullName: ReGenSDK.Service.ReviewService.Get
   nameWithType: ReviewService.Get
+- uid: ReGenSDK.Service.ReviewService.GetPage(System.String,System.String,System.Int32)
+  name: GetPage(String, String, Int32)
+  href: api/ReGenSDK.Service.ReviewService.html#ReGenSDK_Service_ReviewService_GetPage_System_String_System_String_System_Int32_
+  commentId: M:ReGenSDK.Service.ReviewService.GetPage(System.String,System.String,System.Int32)
+  fullName: ReGenSDK.Service.ReviewService.GetPage(System.String, System.String, System.Int32)
+  nameWithType: ReviewService.GetPage(String, String, Int32)
+- uid: ReGenSDK.Service.ReviewService.GetPage*
+  name: GetPage
+  href: api/ReGenSDK.Service.ReviewService.html#ReGenSDK_Service_ReviewService_GetPage_
+  commentId: Overload:ReGenSDK.Service.ReviewService.GetPage
+  isSpec: "True"
+  fullName: ReGenSDK.Service.ReviewService.GetPage
+  nameWithType: ReviewService.GetPage
 - uid: ReGenSDK.Service.ReviewService.Update(System.String,ReGenSDK.Model.Review)
   name: Update(String, Review)
   href: api/ReGenSDK.Service.ReviewService.html#ReGenSDK_Service_ReviewService_Update_System_String_ReGenSDK_Model_Review_

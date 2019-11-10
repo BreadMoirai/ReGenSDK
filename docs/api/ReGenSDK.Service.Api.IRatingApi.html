@@ -107,7 +107,7 @@
     <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_Api_IRatingApi_Create_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.Api.IRatingApi.Create(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/Api/IRatingApi.cs/#L16" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/src/Service/Api/IRatingApi.cs/#L16" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="ReGenSDK_Service_Api_IRatingApi_Create_" data-uid="ReGenSDK.Service.Api.IRatingApi.Create*"></a>
@@ -121,7 +121,7 @@
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Put(&quot;/{recipeId}&quot;)]
-[Headers(new string[]{&quot;Authorization&quot;})]
+[Headers(new string[]{&quot;Authorization: Bearer&quot;})]
 Task Create([NotNull] string recipeId, [Body(BodySerializationMethod.Serialized), AliasAs(&quot;Rating&quot;)] int rating)</code></pre>
   </div>
 
@@ -169,7 +169,7 @@ Task Create([NotNull] string recipeId, [Body(BodySerializationMethod.Serialized)
     <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_Api_IRatingApi_Get_System_String_.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.Api.IRatingApi.Get(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/Api/IRatingApi.cs/#L12" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/src/Service/Api/IRatingApi.cs/#L12" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="ReGenSDK_Service_Api_IRatingApi_Get_" data-uid="ReGenSDK.Service.Api.IRatingApi.Get*"></a>
@@ -183,7 +183,7 @@ Task Create([NotNull] string recipeId, [Body(BodySerializationMethod.Serialized)
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Get(&quot;/{recipeId}&quot;)]
-[Headers(new string[]{&quot;Authorization&quot;})]
+[Headers(new string[]{&quot;Authorization: Bearer&quot;})]
 Task&lt;int&gt; Get([NotNull] string recipeId)</code></pre>
   </div>
 
@@ -224,7 +224,7 @@ Task&lt;int&gt; Get([NotNull] string recipeId)</code></pre>
     <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_Api_IRatingApi_GetAverage_System_String_.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.Api.IRatingApi.GetAverage(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/Api/IRatingApi.cs/#L9" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/src/Service/Api/IRatingApi.cs/#L9" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="ReGenSDK_Service_Api_IRatingApi_GetAverage_" data-uid="ReGenSDK.Service.Api.IRatingApi.GetAverage*"></a>
@@ -278,7 +278,7 @@ Task&lt;double&gt; GetAverage([NotNull] string recipeId)</code></pre>
     <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_Api_IRatingApi_Update_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.Api.IRatingApi.Update(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc"><i class="fa fa-pencil"></i></a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/Api/IRatingApi.cs/#L21" title="View Source"><i class="fa fa-code"></i></a>
+    <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/src/Service/Api/IRatingApi.cs/#L21" title="View Source"><i class="fa fa-code"></i></a>
   </span>
   
   <a id="ReGenSDK_Service_Api_IRatingApi_Update_" data-uid="ReGenSDK.Service.Api.IRatingApi.Update*"></a>
@@ -292,7 +292,7 @@ Task&lt;double&gt; GetAverage([NotNull] string recipeId)</code></pre>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Post(&quot;/{recipeId}&quot;)]
-[Headers(new string[]{&quot;Authorization&quot;})]
+[Headers(new string[]{&quot;Authorization: Bearer&quot;})]
 Task Update([NotNull] string recipeId, [Body(BodySerializationMethod.Serialized), AliasAs(&quot;Rating&quot;)] int rating)</code></pre>
   </div>
 
@@ -340,7 +340,7 @@ Task Update([NotNull] string recipeId, [Body(BodySerializationMethod.Serialized)
           </div>
           <div class="contribution-panel mobile-hide">
               <a href="https://github.com/BreadMoirai/ReGenSDK/new/master/apiSpec/new?filename=ReGenSDK_Service_Api_IRatingApi.md&amp;value=---%0Auid%3A%20ReGenSDK.Service.Api.IRatingApi%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" title="Improve this Doc" class="fab btn-warning pull-right"><i class="glyphicon glyphicon-pencil"></i></a>
-              <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/Service/Api/IRatingApi.cs/#L7" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
+              <a href="https://github.com/BreadMoirai/ReGenSDK/blob/master/ReGenSDK/src/Service/Api/IRatingApi.cs/#L7" title="View Source" class="fab btn-info pull-right"><i class="fa fa-code"></i></a>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
