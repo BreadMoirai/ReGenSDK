@@ -27,7 +27,7 @@ namespace ReGenSDK.Tests
             var apiKey = Environment.GetEnvironmentVariable("FIREBASE_API_KEY");
 //            Console.WriteLine(apiKey);
             var emailPasswordCredentials = new EmailPasswordCredentials("user@email.com", "password");
-            var client = new ReGenClient("https://regenapi.azurewebsites.net", async () =>
+            var client = new ReGenClient(Environment.GetEnvironmentVariable("TEST_API_ENDPOINT"), async () =>
             {
                 var response = await authProvider.SignIn(apiKey,
                     emailPasswordCredentials);
@@ -36,7 +36,7 @@ namespace ReGenSDK.Tests
             });
             try
             {
-                var recipe = await client.Recipes.Get("-LdC5Prcr9aussFzdYYs");
+                var recipe = await client.Recipes.Get("");
                 Console.WriteLine(recipe.Key);
                 var myreview = await client.Reviews.Get(recipe.Key);
                 if (myreview == null)
@@ -51,9 +51,6 @@ namespace ReGenSDK.Tests
                 Console.WriteLine(e.RequestMessage.RequestUri);
                 throw;
             }
-
-//            Run(async () => { await Task.CompletedTask; });
-
         }
     }
 }
