@@ -1,3 +1,3 @@
-﻿# (Documentation)[https://breadmoirai.github.io/ReGenSDK/]
+﻿# [Documentation](https://breadmoirai.github.io/ReGenSDK/)
 
 
